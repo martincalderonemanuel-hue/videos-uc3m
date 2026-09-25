@@ -16,9 +16,15 @@ def _comprobar(respuesta):
         motivos = [e.get("reason") for e in respuesta.json()["error"].get("errors", [])]
     except (ValueError, KeyError, AttributeError):
         motivos = []
-    if "quotaExceeded" in motivos or "dailyLimitExceeded" in motivos:
+    mensaje = mensaje_de_error(respuesta)
+    if (
+        respuesta.status_code == 429
+        or "quotaExceeded" in motivos
+        or "dailyLimitExceeded" in motivos
+        or "quota exceeded" in mensaje.lower()
+    ):
         raise CuotaAgotada("YouTube: cuota diaria agotada")
-    raise ErrorAPI(f"YouTube ({respuesta.status_code}): {mensaje_de_error(respuesta)}")
+    raise ErrorAPI(f"YouTube ({respuesta.status_code}): {mensaje}")
 
 
 def buscar(sesion, clave, consulta, idioma, max_resultados):

@@ -102,7 +102,6 @@ def evaluar(sesion, clave, estado, preguntas):
             "model": config.JEV_MODELO,
             "state": estado,
             "questions": preguntas,
-            "providerOptions": {"gateway": {"zeroDataRetention": True}},
         },
         timeout=30,
     )
