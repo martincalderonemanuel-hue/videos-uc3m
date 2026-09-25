@@ -8,7 +8,7 @@ import pytest
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from src import gemini_client, jev_client, youtube_client
-from src.errores import CuotaAgotada, ErrorAPI
+from src.errores import CuotaAgotada, ErrorAPI, JevNoDisponible
 from src.transcripciones import Transcriptor
 from tests.falsos import RespuestaFalsa, SesionFalsa
 
@@ -125,6 +125,33 @@ def test_evaluar_acepta_formato_nativo_de_typesafe():
     s = SesionFalsa({"ai-gateway": RespuestaFalsa(200, nativo)})
     r = jev_client.evaluar(s, "CLAVE", {}, {})
     assert r["cubre_tema"] == 0.9 and r["nivel"] == "posgrado"
+
+
+def test_evaluar_reintenta_si_jev_esta_saturado():
+    esperas = []
+    s = SesionFalsa({"ai-gateway": [
+        RespuestaFalsa(503, {"error": {"message": "Service temporarily unavailable"}}),
+        RespuestaFalsa(503, {"error": {"message": "Service temporarily unavailable"}}),
+        RespuestaFalsa(200, RESPUESTA_JEV),
+    ]})
+    r = jev_client.evaluar(s, "CLAVE", {}, {}, dormir=esperas.append)
+    assert r["nivel"] == "universitario"
+    assert esperas == [2, 5]
+
+
+def test_evaluar_se_rinde_tras_reintentos_con_error_transitorio():
+    s = SesionFalsa({"ai-gateway": RespuestaFalsa(503, {"error": {"message": "unavailable"}})})
+    with pytest.raises(JevNoDisponible):
+        jev_client.evaluar(s, "CLAVE", {}, {}, dormir=lambda _: None)
+    assert len(s.llamadas) == 4  # 1 intento + 3 reintentos
+
+
+def test_evaluar_no_reintenta_errores_de_clave():
+    s = SesionFalsa({"ai-gateway": RespuestaFalsa(401, {"error": {"message": "Invalid API key"}})})
+    with pytest.raises(ErrorAPI) as e:
+        jev_client.evaluar(s, "CLAVE", {}, {}, dormir=lambda _: None)
+    assert not isinstance(e.value, JevNoDisponible)
+    assert len(s.llamadas) == 1
 
 
 def test_evaluar_error_da_mensaje_claro():

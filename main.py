@@ -20,7 +20,7 @@ import time
 
 import config
 from src import gemini_client, jev_client, youtube_client
-from src.errores import CuotaAgotada, ErrorAPI
+from src.errores import CuotaAgotada, ErrorAPI, JevNoDisponible
 from src.planificador import marcar_hecha, planificar
 from src.puntuacion import puntuar
 from src.transcripciones import Transcriptor
@@ -119,21 +119,24 @@ def _ficha(video, candidato, respuestas, nota, transcripcion, hoy):
     }
 
 
-def _evaluar(validos, sesion, clave, transcriptor, evaluados, hoy, informe):
+def _evaluar(validos, sesion, clave, transcriptor, evaluados, hoy, informe, dormir):
     aceptados, sin_evaluar = [], []
-    fallos_seguidos, ultimo_error = 0, None
+    fallos_seguidos, ultimo_error, transitorio = 0, None, True
     for i, (c, video) in enumerate(validos):
         if i >= config.MAX_VIDEOS_JEV_POR_NOCHE or fallos_seguidos >= MAX_FALLOS_JEV_SEGUIDOS:
             sin_evaluar.append(c)
             continue
+        if i > 0:
+            dormir(config.JEV_PAUSA_SEGUNDOS)  # no saturar a Jev
         texto = transcriptor.obtener(c["video_id"], config.MAX_PALABRAS_TRANSCRIPCION)
         estado = jev_client.construir_estado(video, texto, c["tema_titulo"], c["asignatura"])
         preguntas = jev_client.construir_preguntas(c["tema_titulo"], c["asignatura"])
         try:
-            respuestas = jev_client.evaluar(sesion, clave, estado, preguntas)
+            respuestas = jev_client.evaluar(sesion, clave, estado, preguntas, dormir=dormir)
         except ErrorAPI as e:
             fallos_seguidos += 1
             ultimo_error = str(e)
+            transitorio = isinstance(e, JevNoDisponible)
             sin_evaluar.append(c)
             continue
         fallos_seguidos = 0
@@ -144,8 +147,9 @@ def _evaluar(validos, sesion, clave, transcriptor, evaluados, hoy, informe):
         if not resultado["descartado"]:
             aceptados.append(_ficha(video, c, respuestas, resultado["nota"], texto, hoy))
     if fallos_seguidos >= MAX_FALLOS_JEV_SEGUIDOS:
-        informe["errores"].append(
-            f"{ultimo_error}. Se han guardado {len(sin_evaluar)} vídeos para reintentar mañana.")
+        mensaje = f"{ultimo_error}. Se han guardado {len(sin_evaluar)} vídeos para reintentar mañana."
+        # Jev saturado es temporal (aviso); una clave mala o sin permisos es un error de verdad
+        informe["avisos" if transitorio else "errores"].append(mensaje)
     elif ultimo_error:
         informe["avisos"].append(f"Algún fallo puntual de Jev: {ultimo_error}")
     if len(validos) > config.MAX_VIDEOS_JEV_POR_NOCHE:
@@ -260,7 +264,7 @@ def ejecutar(opciones, rutas, sesion, claves, hoy, dormir=time.sleep, ahora=None
     # 4 y 5. Jev + puntuación
     obtener = getattr(sesion, "obtener_transcripcion", None)
     transcriptor = Transcriptor(obtener=obtener) if obtener else Transcriptor()
-    aceptados, no_evaluados = _evaluar(validos, sesion, claves["jev"], transcriptor, evaluados, hoy, informe)
+    aceptados, no_evaluados = _evaluar(validos, sesion, claves["jev"], transcriptor, evaluados, hoy, informe, dormir)
     sin_evaluar += no_evaluados
 
     # 6. Top por tema + verificación final (control 2)

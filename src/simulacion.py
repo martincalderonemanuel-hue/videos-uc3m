@@ -34,9 +34,11 @@ CANALES = ["Profe de Ingeniería", "UniTutor", "Engineering Explained ES", "Clas
 
 
 class SesionSimulada:
-    def __init__(self, cuota_busquedas=None, jev_roto=False, borrados=None, oembed_falla=False):
+    def __init__(self, cuota_busquedas=None, jev_roto=False, borrados=None, oembed_falla=False,
+                 jev_sin_permiso=False):
         self.cuota_busquedas = cuota_busquedas
         self.jev_roto = jev_roto
+        self.jev_sin_permiso = jev_sin_permiso
         self.borrados = set(borrados or [])
         self.oembed_falla = oembed_falla
         self.busquedas = 0
@@ -109,6 +111,8 @@ class SesionSimulada:
 
     # --- Jev -------------------------------------------------------------------
     def _jev(self, cuerpo):
+        if self.jev_sin_permiso:
+            return _Respuesta(401, {"error": {"message": "Invalid API key (simulado)"}})
         if self.jev_roto:
             return _Respuesta(503, {"error": {"message": "Servicio no disponible (simulado)"}})
         titulo = str(cuerpo.get("state", {}).get("titulo", ""))

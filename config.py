@@ -61,6 +61,7 @@ DIA_REVERIFICACION = 0              # 0 = lunes: se comprueba que los vídeos pu
 # ---------------------------------------------------------------------------
 JEV_MODELO = "typesafe-ai/jev"
 JEV_URL = "https://ai-gateway.vercel.sh/v1/evaluate"
+JEV_PAUSA_SEGUNDOS = 0.3            # pausa entre vídeos para no saturar a Jev (~6 min para 1.200 vídeos)
 GEMINI_MODELO_PREFERIDO = ""        # vacío = se elige solo el Flash-Lite disponible más reciente
 GEMINI_VIDEOS_POR_PETICION = 10
 GEMINI_PAUSA_SEGUNDOS = 7           # la capa gratuita admite pocas peticiones por minuto

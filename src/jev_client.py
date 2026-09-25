@@ -5,8 +5,14 @@ Jev no escribe texto: recibe un "estado" (los datos del vídeo) y preguntas con
 respuestas cerradas, y devuelve probabilidades. Este módulo está aislado del resto
 porque la API es nueva y puede cambiar: si cambia, solo hay que tocar aquí.
 """
+import time
+
 import config
-from src.errores import ErrorAPI, mensaje_de_error
+from src.errores import ErrorAPI, JevNoDisponible, mensaje_de_error
+
+# Códigos que indican saturación temporal: merece la pena esperar y reintentar
+CODIGOS_TRANSITORIOS = {408, 429, 500, 502, 503, 504}
+ESPERAS_REINTENTO = (2, 5, 15)  # segundos
 
 NIVELES = {
     "divulgativo": "Para público general, sin base técnica",
@@ -93,20 +99,32 @@ def _eleccion(respuesta):
     raise KeyError("choice")
 
 
-def evaluar(sesion, clave, estado, preguntas):
+def _llamar(sesion, clave, estado, preguntas, dormir):
+    """Hace la petición, esperando y reintentando si Jev está saturado."""
+    for intento in range(len(ESPERAS_REINTENTO) + 1):
+        if intento > 0:
+            dormir(ESPERAS_REINTENTO[intento - 1])
+        try:
+            respuesta = sesion.post(
+                config.JEV_URL,
+                headers={"Authorization": f"Bearer {clave}", "Content-Type": "application/json"},
+                json={"model": config.JEV_MODELO, "state": estado, "questions": preguntas},
+                timeout=30,
+            )
+        except Exception as e:  # corte de red o tiempo agotado: también es transitorio
+            ultimo = f"Jev (sin respuesta): {e}"
+            continue
+        if respuesta.status_code == 200:
+            return respuesta
+        ultimo = f"Jev ({respuesta.status_code}): {mensaje_de_error(respuesta)}"
+        if respuesta.status_code not in CODIGOS_TRANSITORIOS:
+            raise ErrorAPI(ultimo)  # clave mala, permisos…: reintentar no sirve
+    raise JevNoDisponible(ultimo)
+
+
+def evaluar(sesion, clave, estado, preguntas, dormir=time.sleep):
     """Llama a Jev y devuelve las respuestas en un diccionario simple."""
-    respuesta = sesion.post(
-        config.JEV_URL,
-        headers={"Authorization": f"Bearer {clave}", "Content-Type": "application/json"},
-        json={
-            "model": config.JEV_MODELO,
-            "state": estado,
-            "questions": preguntas,
-        },
-        timeout=30,
-    )
-    if respuesta.status_code != 200:
-        raise ErrorAPI(f"Jev ({respuesta.status_code}): {mensaje_de_error(respuesta)}")
+    respuesta = _llamar(sesion, clave, estado, preguntas, dormir)
     try:
         a = respuesta.json()["answers"]
         return {

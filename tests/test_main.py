@@ -66,11 +66,18 @@ def test_cuota_agotada_no_rompe_la_noche(tmp_path):
     assert os.path.exists(os.path.join(rutas["docs"], "index.html"))
 
 
-def test_jev_caido_se_informa_y_se_reintenta_otro_dia(tmp_path):
+def test_jev_con_clave_mala_es_error(tmp_path):
+    rutas = preparar(tmp_path)
+    informe = noche(rutas, SesionSimulada(jev_sin_permiso=True))
+    assert any("Jev" in e for e in informe["errores"])
+
+
+def test_jev_caido_se_avisa_y_se_reintenta_otro_dia(tmp_path):
     rutas = preparar(tmp_path)
     sesion = SesionSimulada(jev_roto=True)
     informe = noche(rutas, sesion)
-    assert any("Jev" in e for e in informe["errores"])
+    assert informe["errores"] == []  # saturación temporal: aviso, no error
+    assert any("Jev" in a for a in informe["avisos"])
     pendientes = leer(os.path.join(rutas["datos"], "pendientes.json"))
     assert len(pendientes) > 0
     # al día siguiente Jev funciona: los pendientes antiguos se evalúan antes que los nuevos

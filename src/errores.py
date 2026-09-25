@@ -9,6 +9,10 @@ class CuotaAgotada(ErrorAPI):
     """YouTube ya no admite más búsquedas hoy."""
 
 
+class JevNoDisponible(ErrorAPI):
+    """Jev está saturado o caído temporalmente: se reintentará otro día."""
+
+
 def mensaje_de_error(respuesta):
     """Saca el mensaje de error de una respuesta HTTP, sea cual sea su formato."""
     try:
