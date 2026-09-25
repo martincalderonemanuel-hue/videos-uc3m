@@ -1,0 +1,247 @@
+{
+  "asignatura": "Termodinámica",
+  "prioridad": 3,
+  "nota": "Programa en dos bloques: termodinámica y ciclos, y transferencia de calor (programa completo, confirmado por Emanuel).",
+  "temas": [
+    {
+      "id": "TD-01",
+      "activo": false,
+      "nota": "Desactivado a petición de Emanuel: es repaso. Cambiar a true para incluirlo.",
+      "titulo": "Repaso de conceptos previos: propiedades termodinámicas, diagrama T-s del agua, líquido incompresible y gas ideal",
+      "subtemas": [
+        "Propiedades termodinámicas",
+        "Diagrama T-s del agua",
+        "Tablas de vapor",
+        "Modelo de líquido incompresible",
+        "Modelo de gas ideal"
+      ],
+      "palabras_clave": [
+        "propiedades termodinámicas tablas de vapor",
+        "diagrama T-s del agua",
+        "gas ideal termodinámica ingeniería"
+      ],
+      "palabras_clave_en": [
+        "steam tables thermodynamic properties",
+        "T-s diagram water",
+        "ideal gas model thermodynamics"
+      ]
+    },
+    {
+      "id": "TD-02",
+      "titulo": "Balances de masa, energía y entropía en sistemas cerrados",
+      "subtemas": [
+        "Primer principio en sistemas cerrados",
+        "Balance de entropía",
+        "Generación de entropía"
+      ],
+      "palabras_clave": [
+        "primer principio sistema cerrado",
+        "balance de entropía sistema cerrado",
+        "generación de entropía"
+      ],
+      "palabras_clave_en": [
+        "closed system energy balance",
+        "entropy balance closed system",
+        "entropy generation"
+      ]
+    },
+    {
+      "id": "TD-03",
+      "titulo": "Balances de masa, energía y entropía en sistemas abiertos",
+      "subtemas": [
+        "Balance de masa en volumen de control",
+        "Balance de energía en volumen de control",
+        "Balance de entropía en volumen de control"
+      ],
+      "palabras_clave": [
+        "volumen de control balance de energía",
+        "balance de entropía sistema abierto"
+      ],
+      "palabras_clave_en": [
+        "control volume energy balance",
+        "control volume entropy balance"
+      ]
+    },
+    {
+      "id": "TD-04",
+      "titulo": "Dispositivos en estado estacionario: toberas, difusores, bombas, compresores, turbinas, intercambiadores y válvulas",
+      "subtemas": [
+        "Toberas y difusores",
+        "Bombas y compresores",
+        "Turbinas",
+        "Intercambiadores de calor abiertos y cerrados",
+        "Válvulas de estrangulamiento",
+        "Rendimiento isentrópico"
+      ],
+      "palabras_clave": [
+        "turbina compresor rendimiento isentrópico",
+        "tobera difusor flujo estacionario",
+        "válvula de estrangulamiento termodinámica"
+      ],
+      "palabras_clave_en": [
+        "steady flow devices turbine compressor nozzle",
+        "isentropic efficiency turbine compressor",
+        "throttling valve mixing chamber"
+      ]
+    },
+    {
+      "id": "TD-05",
+      "titulo": "Máquinas térmicas. Ciclo de Carnot",
+      "subtemas": [
+        "Segundo principio",
+        "Máquinas térmicas y rendimiento",
+        "Ciclo de Carnot"
+      ],
+      "palabras_clave": [
+        "ciclo de Carnot máquina térmica",
+        "segundo principio de la termodinámica"
+      ],
+      "palabras_clave_en": [
+        "Carnot cycle heat engine efficiency",
+        "second law of thermodynamics heat engines"
+      ]
+    },
+    {
+      "id": "TD-06",
+      "titulo": "Ciclo Rankine",
+      "subtemas": [
+        "Ciclo Rankine ideal",
+        "Recalentamiento",
+        "Regeneración"
+      ],
+      "palabras_clave": [
+        "ciclo Rankine ejercicio resuelto",
+        "ciclo Rankine con recalentamiento y regeneración"
+      ],
+      "palabras_clave_en": [
+        "Rankine cycle example problem",
+        "Rankine cycle reheat regeneration"
+      ]
+    },
+    {
+      "id": "TD-07",
+      "titulo": "Ciclo Brayton",
+      "subtemas": [
+        "Ciclo Brayton ideal",
+        "Brayton real",
+        "Regeneración, interrefrigeración y recalentamiento"
+      ],
+      "palabras_clave": [
+        "ciclo Brayton turbina de gas",
+        "ciclo Brayton con regeneración"
+      ],
+      "palabras_clave_en": [
+        "Brayton cycle gas turbine",
+        "Brayton cycle regeneration intercooling"
+      ]
+    },
+    {
+      "id": "TD-08",
+      "titulo": "Motores alternativos de combustión interna",
+      "subtemas": [
+        "Ciclo Otto",
+        "Ciclo Diésel",
+        "Ciclo dual"
+      ],
+      "palabras_clave": [
+        "ciclo Otto ciclo Diésel",
+        "motores de combustión interna termodinámica"
+      ],
+      "palabras_clave_en": [
+        "Otto cycle Diesel cycle analysis",
+        "internal combustion engine air standard cycle"
+      ]
+    },
+    {
+      "id": "TD-09",
+      "titulo": "Ciclo inverso de Carnot. Ciclo de refrigeración",
+      "subtemas": [
+        "Ciclo inverso de Carnot",
+        "Refrigeración por compresión de vapor",
+        "COP",
+        "Bomba de calor"
+      ],
+      "palabras_clave": [
+        "ciclo de refrigeración por compresión de vapor",
+        "COP bomba de calor"
+      ],
+      "palabras_clave_en": [
+        "vapor compression refrigeration cycle",
+        "refrigeration cycle COP heat pump"
+      ]
+    },
+    {
+      "id": "TD-10",
+      "titulo": "Introducción a la transferencia de calor: Fourier, Newton y Stefan-Boltzmann",
+      "subtemas": [
+        "Conducción: ley de Fourier",
+        "Convección: ley de enfriamiento de Newton",
+        "Radiación: ley de Stefan-Boltzmann"
+      ],
+      "palabras_clave": [
+        "mecanismos de transferencia de calor conducción convección radiación",
+        "ley de Fourier conducción"
+      ],
+      "palabras_clave_en": [
+        "heat transfer mechanisms conduction convection radiation",
+        "Fourier law heat conduction"
+      ]
+    },
+    {
+      "id": "TD-11",
+      "titulo": "Conducción unidimensional en régimen estacionario con y sin generación de calor",
+      "subtemas": [
+        "Pared plana",
+        "Cilindro",
+        "Esfera",
+        "Resistencias térmicas",
+        "Generación interna de calor",
+        "Radio crítico de aislamiento"
+      ],
+      "palabras_clave": [
+        "resistencias térmicas pared plana cilindro",
+        "conducción con generación de calor",
+        "radio crítico de aislamiento"
+      ],
+      "palabras_clave_en": [
+        "thermal resistance network plane wall cylinder",
+        "heat conduction with heat generation",
+        "critical radius of insulation"
+      ]
+    },
+    {
+      "id": "TD-12",
+      "titulo": "Conducción en régimen no estacionario",
+      "subtemas": [
+        "Sistemas concentrados",
+        "Número de Biot",
+        "Diagramas de Heisler"
+      ],
+      "palabras_clave": [
+        "conducción transitoria sistemas concentrados número de Biot"
+      ],
+      "palabras_clave_en": [
+        "transient heat conduction lumped system Biot number",
+        "Heisler charts transient conduction"
+      ]
+    },
+    {
+      "id": "TD-13",
+      "titulo": "Aletas: formulación, diseño y análisis de rendimiento y eficiencia. Superficies aleteadas",
+      "subtemas": [
+        "Ecuación de la aleta",
+        "Rendimiento de aleta",
+        "Eficacia de aleta",
+        "Superficies aleteadas"
+      ],
+      "palabras_clave": [
+        "aletas transferencia de calor rendimiento eficiencia",
+        "superficies aleteadas"
+      ],
+      "palabras_clave_en": [
+        "fin heat transfer efficiency effectiveness",
+        "extended surfaces fins"
+      ]
+    }
+  ]
+}

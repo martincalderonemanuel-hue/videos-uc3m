@@ -1,0 +1,83 @@
+{
+  "asignatura": "Electrónica digital",
+  "prioridad": 4,
+  "temas": [
+    {
+      "id": "ED-01",
+      "titulo": "Representación de la información en los sistemas digitales",
+      "subtemas": ["Sistemas de numeración", "Conversiones entre sistemas de numeración", "Códigos binarios"],
+      "palabras_clave": ["sistemas de numeración binario hexadecimal conversiones", "códigos binarios BCD Gray"],
+      "palabras_clave_en": ["number systems binary hexadecimal conversion", "binary codes BCD Gray code"]
+    },
+    {
+      "id": "ED-02",
+      "titulo": "Álgebra de Boole y puertas lógicas",
+      "subtemas": ["Postulados y propiedades del Álgebra de Boole", "Funciones y expresiones booleanas", "Puertas lógicas", "Minimización de funciones lógicas"],
+      "palabras_clave": ["álgebra de Boole simplificación", "mapas de Karnaugh minimización"],
+      "palabras_clave_en": ["Boolean algebra simplification", "Karnaugh map minimization"]
+    },
+    {
+      "id": "ED-03",
+      "titulo": "Introducción al diseño e implementación de circuitos digitales",
+      "subtemas": ["Tecnologías de implementación", "Lenguajes de descripción de hardware", "Flujo de diseño: simulación y síntesis", "Conceptos básicos de VHDL"],
+      "palabras_clave": ["introducción VHDL entidad arquitectura", "flujo de diseño digital simulación síntesis"],
+      "palabras_clave_en": ["VHDL basics entity architecture", "digital design flow simulation synthesis"]
+    },
+    {
+      "id": "ED-04",
+      "titulo": "Circuitos combinacionales",
+      "subtemas": ["Codificadores y decodificadores", "Multiplexores y demultiplexores", "Comparadores", "Asociación de circuitos combinacionales", "Implementación de funciones con circuitos combinacionales"],
+      "palabras_clave": ["multiplexor demultiplexor circuitos combinacionales", "decodificador codificador", "implementar función lógica con multiplexor"],
+      "palabras_clave_en": ["multiplexer decoder combinational circuits", "implement boolean function with multiplexer"]
+    },
+    {
+      "id": "ED-05",
+      "titulo": "Circuitos combinacionales aritméticos y descripción en VHDL",
+      "subtemas": ["Signo y magnitud, complemento a 1 y complemento a 2", "Aritmética binaria", "Representación de números reales", "Sumadores, restadores y multiplicadores", "ALU"],
+      "palabras_clave": ["complemento a 2 aritmética binaria", "sumador completo restador", "ALU unidad aritmético lógica VHDL"],
+      "palabras_clave_en": ["two's complement binary arithmetic", "full adder ripple carry adder", "ALU design VHDL"]
+    },
+    {
+      "id": "ED-06",
+      "titulo": "Biestables",
+      "subtemas": ["Biestables asíncronos y síncronos", "Lógicas de control", "Características temporales", "Circuitos síncronos", "Cronogramas"],
+      "palabras_clave": ["biestables flip flop JK D T", "cronogramas biestables", "tiempo de setup y hold"],
+      "palabras_clave_en": ["flip flops latches JK D T", "setup hold time flip flop timing"]
+    },
+    {
+      "id": "ED-07",
+      "titulo": "Registros y contadores",
+      "subtemas": ["Registros", "Contadores", "Aplicaciones con contadores"],
+      "palabras_clave": ["registros de desplazamiento", "contadores síncronos diseño"],
+      "palabras_clave_en": ["shift registers", "synchronous counter design"]
+    },
+    {
+      "id": "ED-08",
+      "titulo": "Circuitos secuenciales síncronos",
+      "subtemas": ["Máquinas de estados: Moore y Mealy", "Contadores como máquinas de estados", "Análisis de circuitos secuenciales", "Síntesis de circuitos secuenciales"],
+      "palabras_clave": ["máquinas de estados Moore Mealy", "diseño de máquina de estados finitos", "síntesis circuitos secuenciales síncronos"],
+      "palabras_clave_en": ["Moore Mealy state machine", "finite state machine design", "sequential circuit analysis synthesis"]
+    },
+    {
+      "id": "ED-09",
+      "titulo": "Memorias",
+      "subtemas": ["Tipos según tecnología", "Tipos según funcionalidad", "Descripción en VHDL"],
+      "palabras_clave": ["memorias RAM ROM tipos", "memoria en VHDL"],
+      "palabras_clave_en": ["RAM ROM memory types", "memory VHDL description"]
+    },
+    {
+      "id": "ED-10",
+      "titulo": "Simulación y síntesis de circuitos digitales descritos en VHDL",
+      "subtemas": ["VHDL para simulación y para síntesis", "Bancos de prueba", "Síntesis, recursos y temporización"],
+      "palabras_clave": ["testbench VHDL banco de pruebas", "síntesis VHDL restricciones temporización"],
+      "palabras_clave_en": ["VHDL testbench tutorial", "VHDL synthesis timing constraints"]
+    },
+    {
+      "id": "ED-11",
+      "titulo": "Sistemas digitales: estructura e implementación",
+      "subtemas": ["Ruta de datos y control", "FPGA", "ASIC", "Microprocesadores"],
+      "palabras_clave": ["ruta de datos y unidad de control", "FPGA qué es y cómo funciona"],
+      "palabras_clave_en": ["datapath and control unit", "FPGA explained", "FPGA vs ASIC"]
+    }
+  ]
+}
