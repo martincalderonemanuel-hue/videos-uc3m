@@ -39,6 +39,16 @@ def test_cuota_agotada_se_detecta():
         youtube_client.buscar(s, "CLAVE", "x", "es", 15)
 
 
+def test_cuota_de_busquedas_429_se_detecta():
+    # formato real visto el 25/09/2026 con el cupo propio de búsquedas
+    error = {"error": {"code": 429, "status": "RESOURCE_EXHAUSTED",
+                       "message": "Quota exceeded for quota metric 'Search Queries' and limit "
+                                  "'Search Queries per day' of service 'youtube.googleapis.com'"}}
+    s = SesionFalsa({"/search": RespuestaFalsa(429, error)})
+    with pytest.raises(CuotaAgotada):
+        youtube_client.buscar(s, "CLAVE", "x", "es", 15)
+
+
 def test_otro_error_de_youtube_da_mensaje_claro():
     error = {"error": {"code": 400, "errors": [{"reason": "keyInvalid"}], "message": "API key not valid"}}
     s = SesionFalsa({"/search": RespuestaFalsa(400, error)})
@@ -100,6 +110,8 @@ def test_evaluar_normaliza_la_respuesta():
     llamada = s.llamadas[0]
     assert llamada["headers"]["Authorization"] == "Bearer CLAVE"
     assert llamada["json"]["model"] == "typesafe-ai/jev"
+    # Zero Data Retention solo existe en planes de pago de Vercel: no se pide
+    assert "zeroDataRetention" not in str(llamada["json"])
 
 
 def test_evaluar_acepta_formato_nativo_de_typesafe():
