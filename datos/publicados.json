@@ -1,38 +1,38 @@
 {
  "MM-02": [
   {
-   "id": "GaX64mS72s4",
-   "titulo": "problema de cinemática del sólido rígido con velocidades relativas",
-   "canal": "Juan Riveira Tecnología",
-   "duracion_min": 15.8,
+   "id": "4eSp54LFCus",
+   "titulo": "🔝ANÁLISIS Del Movimiento RELATIVO Por Medio De Ejes Rotatorios🔛[ACELERACIÓN DE CORIOLIS] FÁCIL",
+   "canal": "Matcool",
+   "duracion_min": 23.1,
    "formato": "problemas_resueltos",
-   "nota": 0.8515,
-   "por_que": "Permite estudiar la cinemática del sólido rígido mediante la resolución práctica de un problema de mecanismo plano con velocidades relativas.",
-   "para_quien": "Para practicar la resolución de problemas con velocidades relativas.",
+   "nota": 0.9524,
+   "por_que": "Explica cómo calcular la aceleración de Coriolis y realizar el análisis de movimiento relativo usando ejes rotatorios.",
+   "para_quien": "Para entender el análisis de aceleración de Coriolis",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   },
   {
-   "id": "H9kLG2Bibcg",
-   "titulo": "Física de Universidad. CINEMÁTICA DEL SÓLIDO RÍGIDO 2.",
-   "canal": "La Constante Universal ",
-   "duracion_min": 8.9,
+   "id": "WHV53HxtHIM",
+   "titulo": "⚙ CENTRO Instantáneo De ROTACION ♾️ 1",
+   "canal": "Matcool",
+   "duracion_min": 13.0,
    "formato": "problemas_resueltos",
-   "nota": 0.7807,
-   "por_que": "Muestra un ejercicio universitario resuelto sobre cinemática del sólido rígido aplicando el cálculo de velocidades y ángulos en mecanismos.",
-   "para_quien": "Para ver ejemplos prácticos de física universitaria.",
+   "nota": 0.9176,
+   "por_que": "Explica el concepto de centro instantáneo de rotación y muestra cómo resolver dos problemas comunes de velocidades en movimiento plano general.",
+   "para_quien": "Para aprender a calcular velocidades con centros instantáneos.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   },
   {
-   "id": "f_b1uac3pnQ",
-   "titulo": "Física de Universidad CINEMÁTICA DEL SÓLIDO RÍGIDO 1.",
-   "canal": "La Constante Universal ",
-   "duracion_min": 12.2,
+   "id": "bDlSvQKxGE0",
+   "titulo": "CENTROS INSTANTÁNEOS DE ROTACIÓN | CINEMÁTICA DE CUERPOS RÍGIDOS | HIBBELER| EJERCICIO 16.89",
+   "canal": "dcahue-ingeniería",
+   "duracion_min": 29.9,
    "formato": "problemas_resueltos",
-   "nota": 0.7796,
-   "por_que": "Explica la resolución de un problema de cinemática del sólido rígido calculando velocidad, aceleración y aceleración angular.",
-   "para_quien": "Para entender el cálculo de aceleraciones en mecanismos.",
+   "nota": 0.885,
+   "por_que": "Resuelve paso a paso un ejercicio práctico sobre centros instantáneos de rotación, abarcando diagramas y cálculos de velocidad.",
+   "para_quien": "Para practicar la resolución de ejercicios de Hibbeler.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
@@ -51,64 +51,1490 @@
    "sin_transcripcion": true
   },
   {
-   "id": "W3Tyju_cQnQ",
-   "titulo": "DINÁMICA DEL SÓLIDO RÍGIDO (BIEN EXPLICADA) | FÍSICA UNIVERSITARIA | MR PLANCK",
-   "canal": "Mr Planck",
-   "duracion_min": 16.6,
+   "id": "G4f0-MGtezc",
+   "titulo": "Rigid Bodies Equations of Motion Rotation (Learn to solve any question)",
+   "canal": "Question Solutions",
+   "duracion_min": 12.7,
    "formato": "problemas_resueltos",
-   "nota": 0.8286,
-   "por_que": "Ayuda a comprender la dinámica del sólido rígido a través de la resolución y explicación detallada de ejercicios prácticos.",
-   "para_quien": "Para reforzar la resolución de ejercicios de dinámica.",
+   "nota": 0.8695,
+   "por_que": "Enseña las ecuaciones de movimiento para cuerpos rígidos en rotación mediante ejemplos animados y diagramas cinéticos.",
+   "para_quien": "Para entender la dinámica de rotación aplicada.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   },
   {
-   "id": "50VkJH4s6kg",
-   "titulo": "FISICA Rotación en un plano inclinado - Momento de inercia - unicoos",
-   "canal": "unicoos",
-   "duracion_min": 11.2,
+   "id": "kqMHK_siHXA",
+   "titulo": "Rigid Bodies Impulse and Momentum Dynamics (Learn to solve any question)",
+   "canal": "Question Solutions",
+   "duracion_min": 14.0,
    "formato": "problemas_resueltos",
-   "nota": 0.7868,
-   "por_que": "Resuelve un caso práctico de física universitaria sobre rotación en un plano inclinado aplicando el concepto de momento de inercia.",
-   "para_quien": "Para aprender a calcular el momento de inercia.",
+   "nota": 0.869,
+   "por_que": "Aborda los conceptos de impulso y momento lineal y angular en cuerpos rígidos a través de ejemplos paso a paso.",
+   "para_quien": "Para dominar el impulso y momento dinámico.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
  "MM-04": [
   {
-   "id": "zRaeOX5axN0",
-   "titulo": "Grados de libertad mecanismos (Criterio de Grubler)",
-   "canal": "Doctor Felipe Nerhi",
-   "duracion_min": 11.6,
+   "id": "6C-gi-JO4wk",
+   "titulo": "Mobility of Planar Mechanisms – Degrees of Freedom using Kutzbach Criterion",
+   "canal": "Brian Bernard",
+   "duracion_min": 11.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.975,
+   "por_que": "Permite aprender a calcular la movilidad y los grados de libertad en mecanismos planos mediante cuatro problemas prácticos de ejemplo.",
+   "para_quien": "Para calcular grados de libertad paso a paso",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "yeNGnJZN2cU",
+   "titulo": "Análisis cinemático de un mecanismo de 4 barras. Posición, velocidad y aceleración",
+   "canal": "BETA SCIENCE",
+   "duracion_min": 23.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8876,
+   "por_que": "Muestra un análisis vectorial completo paso a paso de la posición, velocidad y aceleración en un mecanismo de 4 barras.",
+   "para_quien": "Para estudiar el análisis cinemático vectorial",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "oB0DXUnj_JA",
+   "titulo": "CENTROS INSTANTÁNEOS DE ROTACIÓN | CINEMÁTICA DE CUERPOS RÍGIDOS | HIBBELER| EJERCICIO 16.97",
+   "canal": "dcahue-ingeniería",
+   "duracion_min": 22.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.8744,
+   "por_que": "Explica la resolución práctica de un ejercicio sobre centros instantáneos de rotación aplicado a una unidad de bombeo.",
+   "para_quien": "Para entender los centros instantáneos de rotación",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "MM-05": [
+  {
+   "id": "tJukINWTAYc",
+   "titulo": "ANÁLISIS DE VELOCIDADES EN MECANISMOS | MÉTODO VECTORIAL CINEMÁTICA DE CUERPO RÍGIDO HIBBELER 16.68",
+   "canal": "dcahue-ingeniería",
+   "duracion_min": 24.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.8946,
+   "por_que": "Desarrolla mediante análisis vectorial y sumatorias la velocidad y velocidad relativa en un mecanismo con bloque deslizante.",
+   "para_quien": "Para dominar el análisis vectorial de velocidades",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "yeNGnJZN2cU",
+   "titulo": "Análisis cinemático de un mecanismo de 4 barras. Posición, velocidad y aceleración",
+   "canal": "BETA SCIENCE",
+   "duracion_min": 23.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8936,
+   "por_que": "Muestra un análisis vectorial completo paso a paso de la posición, velocidad y aceleración en un mecanismo de 4 barras.",
+   "para_quien": "Para estudiar el análisis cinemático vectorial",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "wCfySZS2cl0",
+   "titulo": "Análisis cinemático del Mecanismo BIELA MANIVELA. Posición, velocidad y aceleración",
+   "canal": "BETA SCIENCE",
+   "duracion_min": 18.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.8802,
+   "por_que": "Analiza paso a paso la posición, velocidad y aceleración del mecanismo biela-manivela utilizando métodos vectoriales.",
+   "para_quien": "Para aprender sobre el mecanismo biela-manivela",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "MM-07": [
+  {
+   "id": "WRkxzh8cAIY",
+   "titulo": "Principle of Work and Energy (Learn to solve any problem)",
+   "canal": "Question Solutions",
+   "duracion_min": 14.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.8532,
+   "por_que": "Presenta ejemplos animados resueltos paso a paso sobre el principio de trabajo y energía para resolver problemas mecánicos.",
+   "para_quien": "Para aplicar el principio de trabajo y energía",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "cgy3gvadOd8",
+   "titulo": "Teorema de las fuerzas vivas - Ejercicio resuelto",
+   "canal": "Nuria Solorzano",
+   "duracion_min": 8.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.8323,
+   "por_que": "Resuelve un ejercicio práctico aplicando el teorema del trabajo y la energía cinética o teorema de las fuerzas vivas.",
+   "para_quien": "Para ver el teorema de las fuerzas vivas",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "1AFTd9GwoYk",
+   "titulo": "Virtual Work Method Lec 3 ||(Problem 1)|Engineering Mechanics|First Year Course",
+   "canal": "Mechanical Engineering by Ashish Purohit",
+   "duracion_min": 20.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.8173,
+   "por_que": "Resuelve un problema clásico de mecánica utilizando el principio del trabajo virtual en un sistema de tijera.",
+   "para_quien": "Para aplicar el método del trabajo virtual",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "MM-06": [
+  {
+   "id": "V-BlZlRSqo0",
+   "titulo": "Analisis DINAMICO de MECANISMOS 😁 BIELA MANIVELA",
+   "canal": "Ingeniosos",
+   "duracion_min": 9.5,
+   "formato": "problemas_resueltos",
+   "nota": 0.8924,
+   "por_que": "Explica los fundamentos teóricos del análisis dinámico y resuelve un ejercicio práctico de fuerzas en un mecanismo de biela manivela.",
+   "para_quien": "Para calcular fuerzas en mecanismos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "8TYMmDjvrrI",
+   "titulo": "Lecture   Kinetostatic analysis with matrix method",
+   "canal": "Stephen Canfield",
+   "duracion_min": 41.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.8567,
+   "por_que": "Presenta una clase sobre el análisis cinetostático de mecanismos utilizando el método matricial en casos de cuatro barras y manivela.",
+   "para_quien": "Para aplicar el método matricial en mecanismos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "0itRnZEF8OQ",
+   "titulo": "Trabajo Virtual (Mecanismo Multilazo)",
+   "canal": "Oscar Serna",
+   "duracion_min": 17.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.8183,
+   "por_que": "Describe el procedimiento para analizar un mecanismo multilazo mediante el método de trabajo virtual y deducción de ecuaciones.",
+   "para_quien": "Para comprender el análisis por trabajo virtual.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "EA-02": [
+  {
+   "id": "Jft56-zhMdM",
+   "titulo": "Amplificador Operacional Diferencial  Video",
+   "canal": "heber Pc",
+   "duracion_min": 8.6,
+   "formato": "teoria",
+   "nota": 0.848,
+   "por_que": "Desarrolla el análisis matemático detallado de un circuito de amplificador operacional diferencial.",
+   "para_quien": "Para estudiar el análisis matemático diferencial.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "84QbNM_XCnM",
+   "titulo": "Fuentes de Corriente (Con Transistores o BJT)",
+   "canal": "Electro Didacta ",
+   "duracion_min": 16.5,
+   "formato": "teoria",
+   "nota": 0.757,
+   "por_que": "Describe el funcionamiento de fuentes de corriente con transistores BJT, incluyendo espejos de corriente y un amplificador diferencial.",
+   "para_quien": "Para entender fuentes de corriente con BJT.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "jKqmz1-p6i4",
+   "titulo": "AMPLIFICADOR DIFERENCIAL CON OPERACIONAL",
+   "canal": "DPTO.ELECTRONICA FMSD",
+   "duracion_min": 11.0,
+   "formato": "teoria",
+   "nota": 0.6702,
+   "por_que": "Explica el funcionamiento de un amplificador operacional como amplificador diferencial aplicando el Teorema de Superposición.",
+   "para_quien": "Para analizar amplificadores diferenciales con operacionales.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "EA-03": [
+  {
+   "id": "N79k4O52a7I",
+   "titulo": "Clase 13 (parte a) EEB: Transistor FET respuesta en frecuencia",
+   "canal": "Elementos de Electronica Básica",
+   "duracion_min": 35.6,
+   "formato": "teoria",
+   "nota": 0.9101,
+   "por_que": "Permite estudiar las capacidades internas y de acople en transistores FET mediante ejemplos prácticos de resolución de circuitos.",
+   "para_quien": "Para aprender sobre respuesta en frecuencia en FETs.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "jVIk569DooA",
+   "titulo": "Teorema de Miller (ejemplos)",
+   "canal": "Julio Saldaña",
+   "duracion_min": 13.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.905,
+   "por_que": "Muestra ejemplos de aplicación directa del Teorema de Miller para comprender su uso en circuitos amplificadores.",
+   "para_quien": "Para ver ejemplos prácticos del Teorema de Miller.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "PLMoKORMmM4",
+   "titulo": "Amplificadores con Transistores: Respuesta en Frecuencia (Ejemplo)",
+   "canal": "Conmutando Suave",
+   "duracion_min": 29.1,
    "formato": "problemas_resueltos",
    "nota": 0.8305,
-   "por_que": "Facilita el cálculo de los grados de libertad en mecanismos planos bidimensionales utilizando el criterio de Kutzbach-Grübler.",
-   "para_quien": "Para practicar el cálculo de grados de libertad.",
+   "por_que": "Explica mediante un ejemplo cómo obtener la respuesta en frecuencia de un circuito de amplificación.",
+   "para_quien": "Para practicar el cálculo de respuesta en frecuencia.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
-  },
+  }
+ ],
+ "EA-04": [
   {
-   "id": "vF8BKtFhWHU",
-   "titulo": "Grados de libertad o movilidad en un mecanismo",
-   "canal": "Learning with style",
-   "duracion_min": 19.1,
+   "id": "pXhahh7PF28",
+   "titulo": "Márgenes en diagramas de Bode.Gm y Pm, relación con ampli realimentado y osciladores.Parte 1.",
+   "canal": "MatiTech: ingeniería en español",
+   "duracion_min": 13.7,
    "formato": "teoria",
-   "nota": 0.6896,
-   "por_que": "Enseña a determinar los grados de libertad o movilidad de un mecanismo mediante la aplicación de la ecuación de Kutzbach.",
-   "para_quien": "Para aprender a usar la ecuación de Kutzbach.",
+   "nota": 0.964,
+   "por_que": "Ofrece una explicación técnica y práctica sobre los márgenes en diagramas de Bode y su relación con amplificadores realimentados.",
+   "para_quien": "Para entender los márgenes de Bode en realimentación.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   },
   {
-   "id": "TodAs9xQcPY",
-   "titulo": "EJEMPLOS DEL CRITERIO DE GRÜBLER: Calcular Grados de Libertad de un Mecanismo.",
-   "canal": "ingGenio dinámico",
-   "duracion_min": 13.9,
+   "id": "4ZEYcClh2NE",
+   "titulo": "20200905 Solucion PCExt1920 BloqueT3",
+   "canal": "Javier Macías-Guarasa",
+   "duracion_min": 63.4,
    "formato": "problemas_resueltos",
-   "nota": 0.6569,
-   "por_que": "Presenta ejemplos de análisis de mecanismos planos para calcular los grados de libertad utilizando el criterio de Grübler.",
-   "para_quien": "Para calcular grados de libertad en mecanismos.",
+   "nota": 0.9063,
+   "por_que": "Facilita la comprensión mediante la resolución completa de un examen práctico sobre circuitos realimentados.",
+   "para_quien": "Para preparar exámenes de circuitos realimentados.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "jIOH6sIoLeg",
+   "titulo": "Shunt-Series feedback example with transistor amplifier (6 - Feedback)",
+   "canal": "Aaron Danner",
+   "duracion_min": 7.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.8897,
+   "por_que": "Desarrolla un problema completo sobre una configuración de realimentación negativa tipo shunt-series en un amplificador con transistor.",
+   "para_quien": "Para analizar impedancias en circuitos realimentados.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "EA-06": [
+  {
+   "id": "FJ__JiYOUdE",
+   "titulo": "Filtros activos con topología: Sallen - Key. Cálculos, diseños y simulación. Parte I",
+   "canal": "Intronic",
+   "duracion_min": 86.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.9885,
+   "por_que": "Enseña las fórmulas, diseños y funciones de transferencia para armar diversos tipos de filtros activos usando la topología Sallen-Key.",
+   "para_quien": "Para diseñar filtros activos Sallen-Key.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "4CJHy_KLbXw",
+   "titulo": "Sallen-Key Filters 💡 Two-Pole & Three-Pole 🌟 Transfer Function & Cutoff Frequency 👉 MANY EXAMPLES!",
+   "canal": "CAN Education",
+   "duracion_min": 45.1,
+   "formato": "teoria",
+   "nota": 0.8851,
+   "por_que": "Profundiza en las configuraciones de filtros Sallen-Key y la derivación de su función de transferencia con múltiples ejemplos.",
+   "para_quien": "Para dominar el análisis de filtros Sallen-Key.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "v3p8Xh2bH1Y",
+   "titulo": "Implementación de filtros activos de primer y segundo orden, pasa bajas",
+   "canal": "Rigo",
+   "duracion_min": 57.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.8553,
+   "por_que": "Muestra el diseño de filtros activos pasa bajas de primer y segundo orden a partir de funciones de transferencia.",
+   "para_quien": "Para aprender a diseñar filtros pasa bajas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "EA-07": [
+  {
+   "id": "QF6Ph0KHeqc",
+   "titulo": "Amplificador como comparador: Disparador Schmitt no inversor",
+   "canal": "Ricardo Cruz",
+   "duracion_min": 18.3,
+   "formato": "teoria",
+   "nota": 0.9209,
+   "por_que": "Explica el funcionamiento y diseño de un disparador Schmitt no inversor para mitigar los efectos del ruido en comparadores.",
+   "para_quien": "Para implementar disparadores Schmitt con amplificadores.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "MzCOoWXR0gM",
+   "titulo": "Amplificador como comparador: Schmitt trigger inversor V2 (Aplicado en diente de Sierra)",
+   "canal": "Ricardo Cruz",
+   "duracion_min": 15.8,
+   "formato": "teoria",
+   "nota": 0.8868,
+   "por_que": "Explica la obtención de ecuaciones del comparador Schmitt trigger inversor y demuestra su funcionamiento generando una señal diente de sierra.",
+   "para_quien": "Para aprender sobre circuitos de pulsos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "oPjhWHJiZ1o",
+   "titulo": "Amplificador como comparador: Disparador Schmitt inversor V1",
+   "canal": "Ricardo Cruz",
+   "duracion_min": 8.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.8572,
+   "por_que": "Muestra el comportamiento del Schmitt trigger inversor mediante fórmulas de diseño, un ejercicio práctico y comprobación en simulador.",
+   "para_quien": "Para diseñar circuitos de pulsos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "EA-08": [
+  {
+   "id": "u7hXKFB_OQE",
+   "titulo": "Ejercicio de Osciladores",
+   "canal": "Luis Méndez",
+   "duracion_min": 8.5,
+   "formato": "problemas_resueltos",
+   "nota": 0.7367,
+   "por_que": "Presenta la resolución detallada de un ejercicio práctico de osciladores aplicando el criterio de Barkhausen.",
+   "para_quien": "Para resolver problemas de osciladores.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "EA-05": [
+  {
+   "id": "1zzHWJ82Ji4",
+   "titulo": "Regulador de Tension con Transistor y Operacional - Seguidor Booster | Sponsor LCSC",
+   "canal": "Electgpl",
+   "duracion_min": 25.7,
+   "formato": "practica",
+   "nota": 0.4605,
+   "por_que": "Detalla el funcionamiento y diseño de un regulador de tensión utilizando un transistor y un amplificador operacional en configuración seguidor.",
+   "para_quien": "Para diseñar reguladores de tensión.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-02": [
+  {
+   "id": "Y38TERBUe84",
+   "titulo": "Primera Ley de la Termodinámica |(Balance de energía) Sistema Cerrado. 4-33 Cengel 9na edición.",
+   "canal": "Nacho soluciones",
+   "duracion_min": 6.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.6389,
+   "por_que": "Resuelve paso a paso un problema clásico de la primera ley de la termodinámica aplicado a un sistema cerrado con mezcla de agua.",
+   "para_quien": "Para practicar balances en sistemas cerrados.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-03": [
+  {
+   "id": "u5ysyw0mc1g",
+   "titulo": "Steady Flow Systems - Nozzles and Diffusers | Thermodynamics | (Solved examples)",
+   "canal": "Question Solutions",
+   "duracion_min": 12.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.8445,
+   "por_que": "Explica los fundamentos de los sistemas de flujo estacionario enfocados en toberas y difusores, incluyendo balances y ejercicios resueltos.",
+   "para_quien": "Para entender sistemas abiertos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "yqZi8AdnuzY",
+   "titulo": "TURBINA - COMPRESOR. Ejercicio Resuelto (Balance de energía volúmenes de control)",
+   "canal": "Nacho soluciones",
+   "duracion_min": 6.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.8233,
+   "por_que": "Desarrolla un ejercicio práctico de volúmenes de control calculando la potencia en un sistema acoplado de turbina y compresor.",
+   "para_quien": "Para calcular potencia en turbinas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "8O22DlCfYYo",
+   "titulo": "👍TERMODINÁMICA.ENTRA y CONOCE TODAS las FÓRMULAS en un VOLUMEN DE CONTROL o SISTEMA ABIERTO[👉GENIAL]",
+   "canal": "LaMejorAsesoríaEducativa",
+   "duracion_min": 15.9,
+   "formato": "teoria",
+   "nota": 0.6525,
+   "por_que": "Repasa de forma clara y directa todas las fórmulas esenciales necesarias para resolver problemas de sistemas abiertos y volúmenes de control.",
+   "para_quien": "Para dominar fórmulas de sistemas abiertos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-04": [
+  {
+   "id": "k0FaAI65vNE",
+   "titulo": "Pipe Flow, Nozzles, Diffusers, and Throttling Devices in 9 Minutes!",
+   "canal": "Less Boring Lectures",
+   "duracion_min": 8.7,
+   "formato": "teoria",
+   "nota": 0.8788,
+   "por_que": "Resume de manera rápida y concisa el comportamiento de diversos dispositivos en estado estacionario como toberas, bombas y turbinas.",
+   "para_quien": "Para repasar dispositivos termodinámicos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "SABgz1NRa3E",
+   "titulo": "Steady Flow Systems - Turbines and Compressors | Thermodynamics | (Solved Examples)",
+   "canal": "Question Solutions",
+   "duracion_min": 8.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8353,
+   "por_que": "Profundiza en las ecuaciones de balance de energía para turbinas y compresores mediante la resolución de ejemplos prácticos.",
+   "para_quien": "Para analizar turbinas y compresores.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "AHVvKzXYIcY",
+   "titulo": "Thermodynamics - Turbines, Compressors, and Pumps in 9 Minutes!",
+   "canal": "Less Boring Lectures",
+   "duracion_min": 9.2,
+   "formato": "teoria",
+   "nota": 0.8341,
+   "por_que": "Explica de forma clara y rápida el funcionamiento y las ecuaciones de turbinas, compresores, bombas y otros dispositivos en estado estacionario.",
+   "para_quien": "Para repasar los dispositivos de flujo estacionario.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-05": [
+  {
+   "id": "Tm9pzeWyq4c",
+   "titulo": "Ciclo Carnot. Máquina Térmica.",
+   "canal": "Profesor Sergio Llanos",
+   "duracion_min": 48.2,
+   "formato": "teoria",
+   "nota": 0.9885,
+   "por_que": "Detalla los fundamentos del ciclo de Carnot, la eficiencia y el cálculo del trabajo neto mediante un gas ideal y un experimento casero.",
+   "para_quien": "Para entender el ciclo de Carnot.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "_nscxze9nB8",
+   "titulo": "Carnot Cycle Best Explanation Ever!",
+   "canal": "Brain Station Advanced",
+   "duracion_min": 11.0,
+   "formato": "teoria",
+   "nota": 0.966,
+   "por_que": "Describe detalladamente las cuatro etapas del ciclo de Carnot, los diagramas PV y el concepto de eficiencia en máquinas térmicas.",
+   "para_quien": "Para comprender los diagramas y procesos de Carnot.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "0wn0R9qWbiQ",
+   "titulo": "The Carnot Cycle Animated | Thermodynamics | (Solved Examples)",
+   "canal": "Question Solutions",
+   "duracion_min": 11.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.9327,
+   "por_que": "Muestra el ciclo de Carnot mediante animaciones paso a paso y resuelve problemas prácticos para comprender el funcionamiento del motor.",
+   "para_quien": "Para aprender con ejemplos animados.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-06": [
+  {
+   "id": "iuWcGEQcTqU",
+   "titulo": "Solve Rankine cycle all questions by these 5 easy steps(hindi",
+   "canal": "Manish Mehta - IIT",
+   "duracion_min": 11.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.9448,
+   "por_que": "Presenta un método estructurado en cinco pasos junto al uso de tablas de vapor para resolver ejercicios del ciclo Rankine.",
+   "para_quien": "Para resolver problemas del ciclo Rankine.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "AwLpST3vlS4",
+   "titulo": "Thermodynamics RANKINE CYCLE in 10 Minutes!",
+   "canal": "Less Boring Lectures",
+   "duracion_min": 9.8,
+   "formato": "teoria",
+   "nota": 0.8886,
+   "por_que": "Resume las etapas del ciclo Rankine, los diagramas T-s, las ecuaciones de energía y la diferencia entre ciclos ideales y reales.",
+   "para_quien": "Para repasar rápidamente el ciclo Rankine.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "lL19Tk9Wivg",
+   "titulo": "TERMODINÁMICA. Ejercicio Ciclo Rankine Ideal.",
+   "canal": "Alex Arévalo ",
+   "duracion_min": 16.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.8724,
+   "por_que": "Muestra la resolución paso a paso de un ejercicio práctico de un ciclo Rankine ideal utilizando herramientas de apoyo.",
+   "para_quien": "Para ver un ejercicio resuelto.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-07": [
+  {
+   "id": "fZ80tkxWa-4",
+   "titulo": "Ideal BRAYTON CYCLE Explained in 11 Minutes!",
+   "canal": "Less Boring Lectures",
+   "duracion_min": 11.3,
+   "formato": "teoria",
+   "nota": 0.9038,
+   "por_que": "Explica el ciclo Brayton ideal, sus diagramas T-s, las relaciones de presión y las ecuaciones de eficiencia térmica en poco tiempo.",
+   "para_quien": "Para repasar la teoría del ciclo Brayton.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "_lLChCcJ3hc",
+   "titulo": "Ciclo Brayton Simple | Ejercicio Resuelto 9.95 Termodinámica Cengel",
+   "canal": "Nacho soluciones",
+   "duracion_min": 9.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.7828,
+   "por_que": "Resuelve un ejercicio clásico de un ciclo Brayton simple basado en un problema del libro de texto de Cengel.",
+   "para_quien": "Para practicar con ejercicios de Cengel.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "x8-WwRcYETg",
+   "titulo": "Cómo Resolver Ciclo Brayton Simple | 9.86 Termodinámica Cengel.",
+   "canal": "Nacho soluciones",
+   "duracion_min": 8.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.7804,
+   "por_que": "Explica detalladamente la resolución de un problema de ciclo Brayton simple aplicando las fórmulas del libro de Cengel.",
+   "para_quien": "Para dominar la resolución de problemas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-08": [
+  {
+   "id": "4VaGLlpx7sU",
+   "titulo": "Ciclo Otto - Motor de Combustión Interna de 4 Tiempos",
+   "canal": "Profesor Sergio Llanos",
+   "duracion_min": 30.0,
+   "formato": "teoria",
+   "nota": 0.9321,
+   "por_que": "Permite visualizar y comprender cada etapa del ciclo termodinámico de Otto en los motores de combustión interna de cuatro tiempos.",
+   "para_quien": "Para entender la teoría desde cero.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "ytswLxZH9LI",
+   "titulo": "Ciclo Diésel | Todo lo que necesitas saber (Explicación + Ejercicio Resuelto)",
+   "canal": "Nacho soluciones",
+   "duracion_min": 14.5,
+   "formato": "problemas_resueltos",
+   "nota": 0.9044,
+   "por_que": "Explica el funcionamiento del ciclo Diésel ideal y real, y muestra paso a paso la resolución de un ejercicio práctico.",
+   "para_quien": "Para practicar con ejercicios resueltos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "EAfjXVWdw78",
+   "titulo": "Ciclos Semi Diesel, Otto, y Diesel",
+   "canal": "Ruben Rebora",
+   "duracion_min": 33.9,
+   "formato": "teoria",
+   "nota": 0.7162,
+   "por_que": "Analiza los parámetros de diseño y la obtención de las expresiones del rendimiento térmico para los ciclos Otto, Diésel y Semi Diésel.",
+   "para_quien": "Para profundizar en el rendimiento de ciclos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-09": [
+  {
+   "id": "jr-dXGCmHIE",
+   "titulo": "💪 # 2. PUNTOS CLAVES DEL CICLO de REFRIGERACIÓN IDEAL, FÓRMULAS Y DIAGRAMA T - S. 👉ENTRA Y APRENDE👍",
+   "canal": "LaMejorAsesoríaEducativa",
+   "duracion_min": 40.8,
+   "formato": "teoria",
+   "nota": 0.7168,
+   "por_que": "Detalla los puntos claves, las fórmulas principales y el diagrama T-S aplicados al ciclo de refrigeración ideal.",
+   "para_quien": "Para dominar diagramas y fórmulas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "YpI36pgCOGA",
+   "titulo": "Ciclo de refrigeración por compresión de vapor, sistemas de refrigeración y bombas de calor.",
+   "canal": "Josecrack",
+   "duracion_min": 7.2,
+   "formato": "teoria",
+   "nota": 0.5685,
+   "por_que": "Aborda de forma práctica los sistemas de refrigeración, las bombas de calor y el ciclo de refrigeración por compresión de vapor.",
+   "para_quien": "Para estudiantes de máquinas térmicas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-10": [
+  {
+   "id": "Jje7KHUjdPI",
+   "titulo": "Mecanismos de transferencia de calor Conducción, Convección y Radiación Termodinámica",
+   "canal": "Creciendo en Ingeniería Mecánica y Eléctrica",
+   "duracion_min": 24.3,
+   "formato": "teoria",
+   "nota": 0.6814,
+   "por_que": "Presenta la base teórica y las fórmulas fundamentales de los mecanismos de transferencia de calor por conducción, convección y radiación.",
+   "para_quien": "Para repasar teoría y fórmulas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "hYZd2qhQ47s",
+   "titulo": "Transferencia de CALOR 🔥 CONDUCCION, CONVECCION y RADIACION",
+   "canal": "Ingeniosos",
+   "duracion_min": 8.4,
+   "formato": "teoria",
+   "nota": 0.6116,
+   "por_que": "Explica en qué consisten los tres mecanismos de transferencia de calor y detalla las ecuaciones características de la conducción.",
+   "para_quien": "Para aprender los conceptos básicos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "li9W6PinbnE",
+   "titulo": "Transferencia de calor: conducción, convección y radiación",
+   "canal": "Profa. Kempis",
+   "duracion_min": 8.2,
+   "formato": "teoria",
+   "nota": 0.4842,
+   "por_que": "Describe las formas de transferencia de calor junto con el concepto de equilibrio térmico mediante ejemplos claros.",
+   "para_quien": "Para una introducción rápida al tema.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-12": [
+  {
+   "id": "NqETOkdP-jg",
+   "titulo": "Conducción Transitoria Parte 1 - Clase 7 Transferencia de Calor",
+   "canal": "Gabriel Fernando García Sánchez",
+   "duracion_min": 11.2,
+   "formato": "teoria",
+   "nota": 0.8159,
+   "por_que": "Desarrolla la clase teórica sobre conducción de calor en régimen transitorio aplicando el método de sistemas concentrados.",
+   "para_quien": "Para comprender el régimen transitorio.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "PZiJM5zeP1w",
+   "titulo": "Ejercicio 1 Conducción Transitoria (Sistemas concentrados) - Transferencia de calor",
+   "canal": "Gabriel Fernando García Sánchez",
+   "duracion_min": 8.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.8093,
+   "por_que": "Muestra la aplicación práctica de los sistemas concentrados mediante un ejercicio resuelto de conducción transitoria.",
+   "para_quien": "Para ver ejercicios de conducción transitoria.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "D8h8HrjQL5k",
+   "titulo": "Conducción Transitoria Parte 2 - Clase 8 Transferencia de Calor",
+   "canal": "Gabriel Fernando García Sánchez",
+   "duracion_min": 13.2,
+   "formato": "teoria",
+   "nota": 0.7548,
+   "por_que": "Aporta una clase teórica enfocada en la conducción de calor en régimen transitorio utilizando el método de paredes planas, cilindros y esferas.",
+   "para_quien": "Para aprender la teoría de conducción transitoria.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "TD-13": [
+  {
+   "id": "khfQTqrcl0c",
+   "titulo": "APRENDE A ANALIZAR [ALETAS] - Ejemplo resuelto [ALETA CILÍNDRICA] - Curso Transferencia de Calor",
+   "canal": "Álvaro Delgado Mejía",
+   "duracion_min": 15.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.8467,
+   "por_que": "Muestra un ejercicio práctico resuelto sobre aletas cilíndricas para calcular la temperatura, eficiencia y efectividad en transferencia de calor.",
+   "para_quien": "Para ver un ejemplo práctico de aletas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "3fiRKQH4x2s",
+   "titulo": "Intro Aletas. Transferencia de calor.",
+   "canal": "THE CLASS OF TORCHIA",
+   "duracion_min": 32.1,
+   "formato": "teoria",
+   "nota": 0.8459,
+   "por_que": "Ofrece una introducción a la definición de aletas y deriva las ecuaciones diferenciales que rigen la conducción y convección en superficies aleteadas.",
+   "para_quien": "Para entender la introducción y ecuaciones.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "QMXkQBupubU",
+   "titulo": "Clase 11 – Teoría de Elementos Extendidos de Transferencia de Calor   ALETAS",
+   "canal": "Ariel Dario Ferrer Lozano",
+   "duracion_min": 33.5,
+   "formato": "teoria",
+   "nota": 0.7128,
+   "por_que": "Desarrolla una clase completa sobre la teoría de elementos extendidos y problemas de transferencia de calor en aletas.",
+   "para_quien": "Para seguir una clase teórica completa.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-01": [
+  {
+   "id": "8wcha8pImj0",
+   "titulo": "✅ Conversión de Sistemas Numéricos: Binario, Octal, Decimal y Hexadecimal [TODO en UNO] ⚡💻",
+   "canal": "PrograMate",
+   "duracion_min": 59.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8377,
+   "por_que": "Explica de forma completa las conversiones entre sistemas numéricos binario, octal, decimal y hexadecimal, incluyendo partes fraccionarias.",
+   "para_quien": "Para dominar conversiones numéricas paso a paso.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "kAnBaQoJkpo",
+   "titulo": "Binary,Decimal,Octal,Hexadecimal Conversion (PART-1)",
+   "canal": "Manjeet Singh",
+   "duracion_min": 26.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.7123,
+   "por_que": "Presenta conversiones básicas entre sistemas numéricos binario, decimal, octal y hexadecimal de manera directa.",
+   "para_quien": "Para repasar conversiones numéricas rápidamente.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "FFDMzbrEXaE",
+   "titulo": "Number Systems Introduction - Decimal, Binary, Octal & Hexadecimal",
+   "canal": "The Organic Chemistry Tutor",
+   "duracion_min": 10.9,
+   "formato": "teoria",
+   "nota": 0.677,
+   "por_que": "Proporciona una introducción básica a los diferentes sistemas de numeración utilizados en electrónica digital.",
+   "para_quien": "Para entender los sistemas desde cero.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-02": [
+  {
+   "id": "fLGhzvmcu-Y",
+   "titulo": "SIMPLIFICACIÓN DE FUNCIONES BOOLEANAS - Ejercicio #4",
+   "canal": "Estudia Con Marisol",
+   "duracion_min": 7.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.9305,
+   "por_que": "Explica paso a paso la simplificación de una función booleana utilizando las leyes, reglas y teoremas del álgebra de Boole.",
+   "para_quien": "Para practicar la simplificación booleana.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "ZJfVoQXGp4M",
+   "titulo": "SIMPLIFICACIÓN DE FUNCIONES BOOLEANAS - Ejercicio #9",
+   "canal": "Estudia Con Marisol",
+   "duracion_min": 6.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.9304,
+   "por_que": "Muestra la resolución detallada de otro ejercicio de reducción de funciones booleanas aplicando propiedades algebraicas.",
+   "para_quien": "Para ver más ejemplos de simplificación.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "dKxtMXZw2sw",
+   "titulo": "Ep 035: More Boolean Algebraic Simplification Examples",
+   "canal": "Intermation",
+   "duracion_min": 12.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.9053,
+   "por_que": "Ayuda a ganar práctica resolviendo ejemplos adicionales de simplificación de expresiones mediante álgebra de Boole.",
+   "para_quien": "Para practicar con ejercicios adicionales.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-03": [
+  {
+   "id": "8U0lFegV7bA",
+   "titulo": "Introducción a VHDL - Xilinx ISE: Paralelo B",
+   "canal": "Diego Barragán",
+   "duracion_min": 79.3,
+   "formato": "teoria",
+   "nota": 0.469,
+   "por_que": "Aporta una introducción completa a VHDL, abarcando el flujo de diseño, la estructura del código y los tipos de datos en circuitos digitales.",
+   "para_quien": "Para aprender los fundamentos de VHDL.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "PVJekDa1Jr0",
+   "titulo": "1. Electrónica Digital: VHDL Introducción",
+   "canal": "Tutoriales Ingenieria",
+   "duracion_min": 8.2,
+   "formato": "practica",
+   "nota": 0.3254,
+   "por_que": "Permite conocer el software ISE Design Suite y aprender a configurar un proyecto junto con las partes básicas de un código VHDL.",
+   "para_quien": "Para iniciarse en la programación VHDL.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-04": [
+  {
+   "id": "0Uiiw1nR3NA",
+   "titulo": "Electrónica combinacional| Sección Práctica 17| DeMultiplexor 1 a 4",
+   "canal": "C-XIOS Tech",
+   "duracion_min": 9.4,
+   "formato": "practica",
+   "nota": 0.97,
+   "por_que": "Explica de forma práctica el análisis y desarrollo de un demultiplexor, incluyendo ecuaciones booleanas y su simulación en Proteus.",
+   "para_quien": "Para practicar con circuitos combinacionales.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "KD5PlM9__K8",
+   "titulo": "Explicación y ejercicios resueltos del multiplexor, Universidad",
+   "canal": "gyvermak : ingeniero",
+   "duracion_min": 10.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.7925,
+   "por_que": "Ofrece una explicación teórica y ejercicios resueltos sobre el funcionamiento del multiplexor en sistemas digitales a nivel universitario.",
+   "para_quien": "Para comprender multiplexores con ejercicios.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "oLKFXejJ4PI",
+   "titulo": "Multiplexor de 4 entradas - Circuitos combinacionales",
+   "canal": "Felipe Machado",
+   "duracion_min": 18.3,
+   "formato": "teoria",
+   "nota": 0.6312,
+   "por_que": "Muestra detalladamente el funcionamiento, la tabla de verdad y la implementación con puertas lógicas de un multiplexor de cuatro entradas.",
+   "para_quien": "Para dominar el diseño de multiplexores.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-05": [
+  {
+   "id": "mG0SuB2XohQ",
+   "titulo": "Resta entre números binarios usando complemento a 1 y a 2 | Curso de electrónica digital | #4",
+   "canal": "Mundo Electrónica",
+   "duracion_min": 9.3,
+   "formato": "teoria",
+   "nota": 0.5885,
+   "por_que": "Enseña el proceso de resta entre números binarios utilizando complemento a 1 y a 2 dentro de la electrónica digital.",
+   "para_quien": "Para entender la aritmética binaria.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "4bO7Cx8qKfI",
+   "titulo": "SUMA COMPLEMENTO A 2 CAPT 6 PARTE 7",
+   "canal": "PYRATAPCH",
+   "duracion_min": 5.7,
+   "formato": "teoria",
+   "nota": 0.4488,
+   "por_que": "Facilita la comprensión del uso del complemento a 2 aplicado directamente en la parte de hardware.",
+   "para_quien": "Para aplicar operaciones con complemento.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-06": [
+  {
+   "id": "nfqN-mc4y7U",
+   "titulo": "Conversión entre biestables - Circuitos secuenciales",
+   "canal": "Felipe Machado",
+   "duracion_min": 25.7,
+   "formato": "teoria",
+   "nota": 0.9265,
+   "por_que": "Detalla el proceso de conversión entre diferentes tipos de biestables activos por flanco y el uso de tablas de excitación.",
+   "para_quien": "Para convertir biestables secuenciales.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "XH-0tc5bH1Y",
+   "titulo": "FLIP-FLOPS : RS, D, T y JK - EXPLICADOS a FONDO",
+   "canal": "Santiago Rodríguez",
+   "duracion_min": 26.6,
+   "formato": "teoria",
+   "nota": 0.7853,
+   "por_que": "Explica a fondo el funcionamiento de los flip-flops RS, D, T y JK mediante sus circuitos, ecuaciones características y tablas de verdad.",
+   "para_quien": "Para estudiar flip-flops a fondo.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "_XTzxO3C3Tw",
+   "titulo": "Problema 2   Cronograma con Flip Flop JK",
+   "canal": "Guillermo Peñaloza",
+   "duracion_min": 15.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.6317,
+   "por_que": "Presenta la resolución práctica de un problema mediante el análisis de un cronograma con flip-flop JK.",
+   "para_quien": "Para resolver problemas de cronogramas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-07": [
+  {
+   "id": "gXMFuuFFeWA",
+   "titulo": "5.3b - Registros de desplazamiento",
+   "canal": "Luis Marqués",
+   "duracion_min": 10.9,
+   "formato": "teoria",
+   "nota": 0.4578,
+   "por_que": "Explica el diseño y las utilidades prácticas de los registros de desplazamiento dentro del estudio de sistemas digitales.",
+   "para_quien": "Para aprender los fundamentos teóricos de los registros.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "8PvnC65E2XI",
+   "titulo": "COMO FUNCIONA EL REGISTRO DE DESPLAZAMIENTO 74HC164",
+   "canal": "Carlos QL",
+   "duracion_min": 9.2,
+   "formato": "teoria",
+   "nota": 0.4362,
+   "por_que": "Muestra el funcionamiento práctico del circuito integrado de registro de desplazamiento 74HC164.",
+   "para_quien": "Para ver aplicaciones prácticas de circuitos integrados.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "FwdVJ59CkpM",
+   "titulo": "REGISTRO DE DESPLAZAMIENTO LOGO 👌. #automatizaciónindustrial #electrónica",
+   "canal": "ROBERTO CARLOS COLLAHUAZO ESPINOSA | Electrónica",
+   "duracion_min": 7.0,
+   "formato": "practica",
+   "nota": 0.4208,
+   "por_que": "Enseña el uso del registro de desplazamiento como función especial y bloque lógico en Logo Soft Comfort.",
+   "para_quien": "Para aplicar registros en automatización industrial.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-08": [
+  {
+   "id": "zuAXgvRmNU8",
+   "titulo": "Guía Completa de Lógica Secuencial y Máquinas de Estado (Mealy vs Moore)",
+   "canal": "Facil y Rapido",
+   "duracion_min": 8.5,
+   "formato": "teoria",
+   "nota": 0.861,
+   "por_que": "Introduce los fundamentos de la lógica secuencial, latches, flip-flops y las diferencias entre máquinas de estado.",
+   "para_quien": "Para entender la teoría desde cero.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "GIHlqxAWr1Y",
+   "titulo": "Video Máquinas de Moore",
+   "canal": "Ivan Alberto Arias Galvis",
+   "duracion_min": 11.9,
+   "formato": "teoria",
+   "nota": 0.7502,
+   "por_que": "Define los componentes de una máquina de Moore y detalla la elaboración de tablas y diagramas de transición.",
+   "para_quien": "Para dominar el diseño de máquinas de Moore.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "M3vyWdRMI8o",
+   "titulo": "Ejemplos de secuenciales (resolucion por máquina de Mealy, Moore y funcional)",
+   "canal": "Paulina Velarde Valencia",
+   "duracion_min": 11.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.7214,
+   "por_que": "Resuelve ejemplos prácticos de circuitos secuenciales utilizando métodos de máquinas de Mealy, Moore y funcional.",
+   "para_quien": "Para practicar la resolución de circuitos secuenciales.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-09": [
+  {
+   "id": "s-ARr8wGOhg",
+   "titulo": "Introducción a las memorias. Parte 1",
+   "canal": "Electrónica FP",
+   "duracion_min": 9.5,
+   "formato": "teoria",
+   "nota": 0.4485,
+   "por_que": "Ofrece una introducción teórica fundamental sobre el funcionamiento y concepto de las memorias.",
+   "para_quien": "Para iniciarse en el estudio de memorias.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "VYZ81zYbe98",
+   "titulo": "Memoria RAM y ROM, Tipos de Case | Alejandro Josué Chávez Irias",
+   "canal": "Alejandro Chavez",
+   "duracion_min": 5.6,
+   "formato": "teoria",
+   "nota": 0.2515,
+   "por_que": "Explica conceptos básicos sobre memoria RAM y ROM como parte de la arquitectura y componentes.",
+   "para_quien": "Para repasar los tipos de memoria.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-10": [
+  {
+   "id": "aX-DW-stv8Y",
+   "titulo": "|| How to write VHDL TEST BENCH OF HALF ADDER || TEST BENCH ||",
+   "canal": "Dr.Santosh Tondare Engineering Tutorials",
+   "duracion_min": 8.4,
+   "formato": "practica",
+   "nota": 0.4192,
+   "por_que": "Guía paso a paso en la escritura de un banco de pruebas en VHDL para verificar un sumador parcial.",
+   "para_quien": "Para aprender a simular diseños en VHDL.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "7dIsBrEGkpc",
+   "titulo": "[JuanEducaciOnDigital] VHDL CREACIÓN BANCO DE PRUEBAS | Test Bench",
+   "canal": "Juan Educación Digital (JuanEducaciónDigital)",
+   "duracion_min": 13.4,
+   "formato": "practica",
+   "nota": 0.3934,
+   "por_que": "Detalla el proceso práctico para crear un banco de pruebas (test bench) en VHDL utilizando Xilinx ISE.",
+   "para_quien": "Para realizar simulaciones y validaciones en VHDL.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-11": [
+  {
+   "id": "Ftyod_6Bm-8",
+   "titulo": "Ruta de datos explicada con instrucciones. Estructura de computadores UCLM",
+   "canal": "angel ruiz nove",
+   "duracion_min": 6.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.5115,
+   "por_que": "Permite visualizar la explicación práctica de una ruta de datos creada como solución a un ejercicio universitario específico.",
+   "para_quien": "Para ver un ejercicio práctico resuelto.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "TETS4tj00Xk",
+   "titulo": "Análisis de Camino de datos Uniciclo (sin segmentacion) MIPS32, Universidad",
+   "canal": "gyvermak : ingeniero",
+   "duracion_min": 12.3,
+   "formato": "teoria",
+   "nota": 0.4592,
+   "por_que": "Muestra el análisis detallado de un camino de datos uniciclo sin segmentación en el procesador MIPS32.",
+   "para_quien": "Para comprender procesadores MIPS sin segmentación.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "K7izja8h-Lk",
+   "titulo": "Instrucciones aritmético-lógicas en el camino de datos uniciclo de MIPS",
+   "canal": "Ángel Serrano Sánchez de León",
+   "duracion_min": 6.1,
+   "formato": "teoria",
+   "nota": 0.4404,
+   "por_que": "Explica la ejecución paso a paso de instrucciones aritmético-lógicas de formato R en el camino de datos uniciclo de MIPS.",
+   "para_quien": "Para entender instrucciones aritmético-lógicas en MIPS.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ME-01": [
+  {
+   "id": "1jUg9KJnsQ8",
+   "titulo": "Sistema Equivalente Fuerza-Par. Curso de Estática. Clase 23",
+   "canal": "Profesor Sergio Llanos",
+   "duracion_min": 14.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.925,
+   "por_que": "Enseña a resolver un problema práctico para calcular el sistema equivalente fuerza-par aplicado sobre un componente de máquina.",
+   "para_quien": "Para aprender a calcular sistemas fuerza-par.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "987LQSCIZjo",
+   "titulo": "Sistema Equivalente Fuerza-Par. Curso de Estática - EJERCICIO RESUELTO BEER AND JOHNSTON",
+   "canal": "PROFE JN El canal del ingeniero",
+   "duracion_min": 14.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.9045,
+   "por_que": "Muestra la conversión de un sistema de cuatro fuerzas en una sola fuerza equivalente mediante un ejercicio resuelto.",
+   "para_quien": "Para repasar ejercicios de estática.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "-rcm9zdX93M",
+   "titulo": "Estática - Sistemas equivalentes de fuerza 3 dimensiones",
+   "canal": "Axel Contreras",
+   "duracion_min": 14.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8859,
+   "por_que": "Explica de forma vectorial un ejercicio práctico sobre sistemas equivalentes de fuerzas en tres dimensiones.",
+   "para_quien": "Para dominar fuerzas equivalentes en 3D.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ME-02": [
+  {
+   "id": "muCrmuI1T-A",
+   "titulo": "CALCULO de VIGAS, reacciones, esfuerzos y diagramas",
+   "canal": "Ingeniosos",
+   "duracion_min": 8.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.8591,
+   "por_que": "Enseña a calcular reacciones en apoyos y leyes de esfuerzos para obtener diagramas en vigas isostáticas.",
+   "para_quien": "Para aprender a calcular vigas isostáticas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "XdHDaH3Y1nA",
+   "titulo": "Equilibrio de Cuerpo Rígido, Determinar Reacciones, Estática - Salvador FI",
+   "canal": "Salvador FI Facultad de Ingeniería",
+   "duracion_min": 10.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.7386,
+   "por_que": "Aborda el equilibrio de cuerpos rígidos y la determinación de reacciones en el ámbito de la estática.",
+   "para_quien": "Para estudiar el equilibrio de cuerpos rígidos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "lea6fmoKE9Q",
+   "titulo": "Como calcular las REACCIONES en los apoyos de una estructura ISOSTÁTICA",
+   "canal": "NUDO",
+   "duracion_min": 9.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.6884,
+   "por_que": "Desarrolla un ejercicio práctico enfocado en el cálculo de las reacciones en los apoyos de una estructura isostática.",
+   "para_quien": "Para calcular reacciones en estructuras isostáticas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ME-03": [
+  {
+   "id": "F-8jjM06434",
+   "titulo": "Centroides de Figuras Compuestas - Salvador FI",
+   "canal": "Salvador FI Facultad de Ingeniería",
+   "duracion_min": 11.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.7906,
+   "por_que": "Proporciona explicaciones sobre el cálculo de centroides en figuras compuestas dentro de la estática.",
+   "para_quien": "Para calcular centroides de figuras compuestas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "o7pBdffz68Q",
+   "titulo": "CENTRO DE GRAVEDAD de Figuras Compuestas",
+   "canal": "Ingenieria Civil y Construcción",
+   "duracion_min": 11.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.7751,
+   "por_que": "Explica el cálculo del centro de gravedad de figuras compuestas paso a paso, facilitando la comprensión práctica de la geometría de áreas.",
+   "para_quien": "Para aprender a calcular centros de gravedad.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "pcM3dT2u3UA",
+   "titulo": "GEOMETRÍA DE MASAS: CENTRO DE GRAVEDAD DE SUPERFICIE PLANA |  | UPV",
+   "canal": "Universitat Politècnica de València - UPV",
+   "duracion_min": 9.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.768,
+   "por_que": "Muestra un método de cálculo mediante integración y resuelve un caso práctico con un triángulo, ideal para dominar los fundamentos teóricos.",
+   "para_quien": "Para entender la integración en superficies planas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ME-04": [
+  {
+   "id": "D7RT1QgEEEc",
+   "titulo": "RELACION ENTRE CARGA, FUERZA CORTANTE y MOMENTO FLECTOR ejemplo de grafica de VyM Método abreviado",
+   "canal": "Anthony Dueñas Ramirez",
+   "duracion_min": 21.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.889,
+   "por_que": "Enseña métodos abreviados utilizando integrales para relacionar la carga, la fuerza cortante y el momento flector en estructuras.",
+   "para_quien": "Para aplicar métodos rápidos de resolución.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "DCKPmVPc-0k",
+   "titulo": "DIAGRAMAS DE FUERZA CORTANTE Y MOMENTO FLECTOR POR ECUACIONES Y/O CORTES PASO A PASO Y FÁCIL",
+   "canal": "INGTOOL",
+   "duracion_min": 37.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.8431,
+   "por_que": "Permite visualizar el uso de cortes y ecuaciones paso a paso para determinar las funciones y leyes de esfuerzos en vigas.",
+   "para_quien": "Para dominar los cortes en vigas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "KmHw7pEpRtQ",
+   "titulo": "Diagrama de Fuerza Cortante y Momento Flector en Vigas - Salvador FI",
+   "canal": "Salvador FI Facultad de Ingeniería",
+   "duracion_min": 17.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.7949,
+   "por_que": "Proporciona ejemplos detallados sobre la obtención de diagramas de fuerza cortante y momento flector en vigas dentro de la estática.",
+   "para_quien": "Para resolver diagramas en vigas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ME-05": [
+  {
+   "id": "BK-7hFNDtX8",
+   "titulo": "Resistencia de Materiales 4x01: Diagramas de cortantes y momento flector",
+   "canal": "Jose Luis Blanco",
+   "duracion_min": 27.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.8211,
+   "por_que": "Ofrece un repaso básico de teoría acompañado de un ejercicio resuelto para la obtención de diagramas de esfuerzos en un pórtico.",
+   "para_quien": "Para repasar teoría y pórticos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "DCKPmVPc-0k",
+   "titulo": "DIAGRAMAS DE FUERZA CORTANTE Y MOMENTO FLECTOR POR ECUACIONES Y/O CORTES PASO A PASO Y FÁCIL",
+   "canal": "INGTOOL",
+   "duracion_min": 37.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.7806,
+   "por_que": "Permite visualizar el uso de cortes y ecuaciones paso a paso para determinar las funciones y leyes de esfuerzos en vigas.",
+   "para_quien": "Para dominar los cortes en vigas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "B09R3JM36nQ",
+   "titulo": "Diagramas en Vigas |Fuerza Cortante y Momento Flector| Ejemplo - Salvador FI",
+   "canal": "Salvador FI Facultad de Ingeniería",
+   "duracion_min": 13.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.7359,
+   "por_que": "Presenta un ejemplo claro y directo sobre el cálculo de la fuerza cortante y el momento flector en estructuras isostáticas.",
+   "para_quien": "Para estudiar ejemplos de vigas isostáticas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ME-06": [
+  {
+   "id": "B9H-CWax6Io",
+   "titulo": "Diagramas de Esfuerzos Internos - Pórtico Isostático - Práctica - IPS UNR 18",
+   "canal": "Damián Ángel Villar",
+   "duracion_min": 24.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.8765,
+   "por_que": "Ilustra los detalles prácticos para construir los diagramas de esfuerzos internos en pórticos isostáticos, incluyendo el análisis de nudos.",
+   "para_quien": "Para analizar pórticos isostáticos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "bK_-0ZuggiA",
+   "titulo": "Diagramas de esfuerzos en un pórtico isostático con un soporte inclinado: nivel intermed | 6/8 | UPV",
+   "canal": "Universitat Politècnica de València - UPV",
+   "duracion_min": 11.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.8393,
+   "por_que": "Explica la obtención de diagramas de esfuerzos en un pórtico isostático con soporte inclinado mediante un modelo aplicado.",
+   "para_quien": "Para comprender pórticos con soportes inclinados.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "yAupxFmuf8o",
+   "titulo": "Diagramas de esfuerzos en un pórtico isostático con un soporte inclinado: nivel intermedio |  | UPV",
+   "canal": "Universitat Politècnica de València - UPV",
+   "duracion_min": 10.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.8278,
+   "por_que": "Explica de forma práctica un ejemplo de nivel medio sobre la obtención de leyes de esfuerzos y diagramas en un pórtico con soporte inclinado.",
+   "para_quien": "Para practicar con pórticos isostáticos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ME-07": [
+  {
+   "id": "v9RHuowbU8E",
+   "titulo": "TENSOR de TENSIONES y vector Tension - RESISTENCIA de MATERIALES",
+   "canal": "Ingeniosos",
+   "duracion_min": 6.5,
+   "formato": "teoria",
+   "nota": 0.8888,
+   "por_que": "Permite comprender el significado físico del tensor de tensiones y cómo aplicarlo para obtener el vector tensión en un plano.",
+   "para_quien": "Para entender el tensor de tensiones.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "00Ckle5-qfs",
+   "titulo": "LEY DE HOOKE EN BARRAS - COMPATIBILIDAD DE DEFORMACIONES",
+   "canal": "INGeniería ÚNIca",
+   "duracion_min": 7.8,
+   "formato": "teoria",
+   "nota": 0.6878,
+   "por_que": "Analiza paso a paso las deformaciones internas en los elementos estructurales y los desplazamientos relativos mediante la ley de Hooke.",
+   "para_quien": "Para comprender la ley de Hooke.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "CIk7QCxfbPg",
+   "titulo": "DEFORMACION AXIAL. EJERCICIO RESUELTO DE MECANICA DE MATERIALES. 👨‍🏫",
+   "canal": "Hugo E. Cabrera Cerna (HK Ingeniería)",
+   "duracion_min": 12.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.6837,
+   "por_que": "Desarrolla un ejercicio práctico resuelto sobre deformación axial dentro del estudio de la mecánica de materiales para principiantes.",
+   "para_quien": "Para aprender deformación axial.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ME-08": [
+  {
+   "id": "9Bqeds5t5H8",
+   "titulo": "11A Esfuerzo axil   Desarrollo teórico",
+   "canal": "Mini Trains",
+   "duracion_min": 20.1,
+   "formato": "teoria",
+   "nota": 0.8584,
+   "por_que": "Ofrece un desarrollo teórico completo sobre el esfuerzo axil analizado a partir de las tensiones y las deformaciones.",
+   "para_quien": "Para estudiar la teoría del esfuerzo axil.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "56WxoqnKPvE",
+   "titulo": "1 Esfuerzo Axial - teoría y ejemplo (básico)",
+   "canal": "marcelo pardo",
+   "duracion_min": 8.4,
+   "formato": "teoria",
+   "nota": 0.7761,
+   "por_que": "Describe de manera simple y directa el concepto fundamental de esfuerzo axial combinando teoría y un ejemplo básico.",
+   "para_quien": "Para principiantes en esfuerzo axial.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "3nlm1mZxal4",
+   "titulo": "RESISTENCIA DE MATERIALES | ESFUERZO AXIAL | PROB. 40 LIBRO 7 RUSOS",
+   "canal": "UNIENSEÑA",
+   "duracion_min": 36.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.7615,
+   "por_que": "Muestra la resolución detallada de un problema clásico de resistencia de materiales aplicado a sistemas de barras.",
+   "para_quien": "Para resolver problemas avanzados.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "ME-09": [
+  {
+   "id": "EIwZEyxvfy8",
+   "titulo": "Flexión Pura - Cap 5: Tensiones Normales por flexión (ejemplo)",
+   "canal": "Ingeniería Elemental",
+   "duracion_min": 5.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.93,
+   "por_que": "Calcula paso a paso la tensión normal en las fibras de un elemento prismático sometido a flexión pura bajo un desarrollo ordenado.",
+   "para_quien": "Para calcular tensiones por flexión.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "vz3GyCWxtCg",
+   "titulo": "Resistencia de Materiales 4x02: Flexión. Ley de Navier. Centroide y momento de inercia de sección",
+   "canal": "Jose Luis Blanco",
+   "duracion_min": 37.2,
+   "formato": "teoria",
+   "nota": 0.9006,
+   "por_que": "Repasa los tipos de flexión, la Ley de Navier, el momento de inercia y el teorema de Steiner mediante ejemplos de cálculo.",
+   "para_quien": "Para repasar flexión y ley de Navier.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "pxzSJZXHd7k",
+   "titulo": "Tensions normals en flexió. Llei de Navier | 2/6 | UPV",
+   "canal": "Universitat Politècnica de València - UPV",
+   "duracion_min": 10.1,
+   "formato": "teoria",
+   "nota": 0.832,
+   "por_que": "Demuestra paso a paso la Ley de Navier para calcular la tensión normal en barras solicitadas a esfuerzo axil o flexión.",
+   "para_quien": "Para comprender la Ley de Navier.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
