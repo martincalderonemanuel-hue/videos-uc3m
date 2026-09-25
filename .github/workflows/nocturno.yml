@@ -1,0 +1,65 @@
+name: Buscador nocturno
+
+on:
+  schedule:
+    - cron: "30 2 * * *"          # 02:30 cada noche (hora de Madrid)
+      timezone: "Europe/Madrid"
+  workflow_dispatch:               # botón "Run workflow" para lanzarlo a mano
+    inputs:
+      asignatura:
+        description: "Solo esta asignatura (vacío = todas). Ej.: Termodinámica"
+        required: false
+        default: ""
+      reverificar:
+        description: "Comprobar que los vídeos publicados siguen existiendo"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write                  # para guardar los resultados en el repositorio
+
+concurrency:
+  group: buscador-nocturno
+  cancel-in-progress: false
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Comprobar que todo funciona (tests)
+        run: python -m pytest -q
+
+      - name: Buscar, evaluar y publicar
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ASIGNATURA: ${{ inputs.asignatura }}
+          REVERIFICAR: ${{ inputs.reverificar }}
+        run: python main.py
+
+      - name: Guardar resultados
+        if: always()
+        run: |
+          git config user.name "buscador-nocturno"
+          git config user.email "buscador-nocturno@users.noreply.github.com"
+          git add datos docs
+          if git diff --cached --quiet; then
+            echo "Nada nuevo que guardar"
+          else
+            git commit -m "Vídeos del $(date +%Y-%m-%d)"
+            git push
+          fi
