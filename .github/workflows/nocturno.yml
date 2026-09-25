@@ -29,6 +29,8 @@ jobs:
     steps:
       - name: Descargar el código
         uses: actions/checkout@v4
+        with:
+          ref: main                # siempre la versión más reciente (también al repetir una ejecución)
 
       - name: Preparar Python
         uses: actions/setup-python@v5
@@ -61,5 +63,6 @@ jobs:
             echo "Nada nuevo que guardar"
           else
             git commit -m "Vídeos del $(date +%Y-%m-%d)"
+            git pull --rebase origin main   # por si has cambiado algo mientras se ejecutaba
             git push
           fi
