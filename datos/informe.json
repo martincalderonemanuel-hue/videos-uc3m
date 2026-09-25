@@ -1,11 +1,13 @@
 {
- "fecha": "2026-09-25 21:47",
- "busquedas": 90,
- "evaluados": 0,
- "publicados_nuevos": 0,
+ "fecha": "2026-09-25 22:13",
+ "busquedas": 2,
+ "evaluados": 30,
+ "publicados_nuevos": 9,
  "retirados": 0,
  "errores": [
-  "Jev (403): AI Gateway requires a valid credit card on file to service requests. Please visit https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dadd-credit-card to add a card and unlock your free credits.. Se han guardado 1037 vídeos para reintentar mañana."
+  "Jev (503): Service temporarily unavailable. Please try again shortly.. Se han guardado 1023 vídeos para reintentar mañana."
  ],
- "avisos": []
+ "avisos": [
+  "YouTube: cuota diaria agotada; se continuará la próxima noche."
+ ]
 }

@@ -1,1 +1,116 @@
-{}
+{
+ "MM-02": [
+  {
+   "id": "GaX64mS72s4",
+   "titulo": "problema de cinemática del sólido rígido con velocidades relativas",
+   "canal": "Juan Riveira Tecnología",
+   "duracion_min": 15.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8515,
+   "por_que": "Permite estudiar la cinemática del sólido rígido mediante la resolución práctica de un problema de mecanismo plano con velocidades relativas.",
+   "para_quien": "Para practicar la resolución de problemas con velocidades relativas.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "H9kLG2Bibcg",
+   "titulo": "Física de Universidad. CINEMÁTICA DEL SÓLIDO RÍGIDO 2.",
+   "canal": "La Constante Universal ",
+   "duracion_min": 8.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.7807,
+   "por_que": "Muestra un ejercicio universitario resuelto sobre cinemática del sólido rígido aplicando el cálculo de velocidades y ángulos en mecanismos.",
+   "para_quien": "Para ver ejemplos prácticos de física universitaria.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "f_b1uac3pnQ",
+   "titulo": "Física de Universidad CINEMÁTICA DEL SÓLIDO RÍGIDO 1.",
+   "canal": "La Constante Universal ",
+   "duracion_min": 12.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.7796,
+   "por_que": "Explica la resolución de un problema de cinemática del sólido rígido calculando velocidad, aceleración y aceleración angular.",
+   "para_quien": "Para entender el cálculo de aceleraciones en mecanismos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "MM-03": [
+  {
+   "id": "L3IqR3hyZRI",
+   "titulo": "Dinámica del Cuerpo Rígido || Física I || Clase de Consulta UTN FRA",
+   "canal": "Ingeniería Entrópica",
+   "duracion_min": 89.5,
+   "formato": "teoria",
+   "nota": 0.9346,
+   "por_que": "Aporta una clase teórica completa sobre dinámica del cuerpo rígido, abarcando rototraslación, momento de inercia y teorema de Steiner.",
+   "para_quien": "Para repasar los conceptos teóricos de dinámica rotacional.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "W3Tyju_cQnQ",
+   "titulo": "DINÁMICA DEL SÓLIDO RÍGIDO (BIEN EXPLICADA) | FÍSICA UNIVERSITARIA | MR PLANCK",
+   "canal": "Mr Planck",
+   "duracion_min": 16.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.8286,
+   "por_que": "Ayuda a comprender la dinámica del sólido rígido a través de la resolución y explicación detallada de ejercicios prácticos.",
+   "para_quien": "Para reforzar la resolución de ejercicios de dinámica.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "50VkJH4s6kg",
+   "titulo": "FISICA Rotación en un plano inclinado - Momento de inercia - unicoos",
+   "canal": "unicoos",
+   "duracion_min": 11.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.7868,
+   "por_que": "Resuelve un caso práctico de física universitaria sobre rotación en un plano inclinado aplicando el concepto de momento de inercia.",
+   "para_quien": "Para aprender a calcular el momento de inercia.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ],
+ "MM-04": [
+  {
+   "id": "zRaeOX5axN0",
+   "titulo": "Grados de libertad mecanismos (Criterio de Grubler)",
+   "canal": "Doctor Felipe Nerhi",
+   "duracion_min": 11.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.8305,
+   "por_que": "Facilita el cálculo de los grados de libertad en mecanismos planos bidimensionales utilizando el criterio de Kutzbach-Grübler.",
+   "para_quien": "Para practicar el cálculo de grados de libertad.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "vF8BKtFhWHU",
+   "titulo": "Grados de libertad o movilidad en un mecanismo",
+   "canal": "Learning with style",
+   "duracion_min": 19.1,
+   "formato": "teoria",
+   "nota": 0.6896,
+   "por_que": "Enseña a determinar los grados de libertad o movilidad de un mecanismo mediante la aplicación de la ecuación de Kutzbach.",
+   "para_quien": "Para aprender a usar la ecuación de Kutzbach.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "TodAs9xQcPY",
+   "titulo": "EJEMPLOS DEL CRITERIO DE GRÜBLER: Calcular Grados de Libertad de un Mecanismo.",
+   "canal": "ingGenio dinámico",
+   "duracion_min": 13.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.6569,
+   "por_que": "Presenta ejemplos de análisis de mecanismos planos para calcular los grados de libertad utilizando el criterio de Grübler.",
+   "para_quien": "Para calcular grados de libertad en mecanismos.",
+   "fecha": "2026-09-25",
+   "sin_transcripcion": true
+  }
+ ]
+}
