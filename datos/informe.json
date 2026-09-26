@@ -1,13 +1,12 @@
 {
- "fecha": "2026-09-25 22:18",
- "busquedas": 1,
- "evaluados": 1034,
- "publicados_nuevos": 120,
+ "fecha": "2026-09-26 05:18",
+ "busquedas": 3,
+ "evaluados": 1,
+ "publicados_nuevos": 0,
  "retirados": 0,
  "errores": [],
  "avisos": [
   "YouTube: cuota diaria agotada; se continuará la próxima noche.",
-  "Descartado en la verificación final: CBn2PaVlLiI",
-  "Gemini no explicó 2 vídeos; se publican sin explicación."
+  "Jev (429): The upstream provider is currently experiencing high demand. Please retry shortly.. Se han guardado 26 vídeos para reintentar mañana."
  ]
 }
