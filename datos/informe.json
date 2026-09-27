@@ -1,12 +1,11 @@
 {
- "fecha": "2026-09-26 05:18",
- "busquedas": 3,
- "evaluados": 1,
+ "fecha": "2026-09-27 05:36",
+ "busquedas": 90,
+ "evaluados": 0,
  "publicados_nuevos": 0,
  "retirados": 0,
  "errores": [],
  "avisos": [
-  "YouTube: cuota diaria agotada; se continuará la próxima noche.",
-  "Jev (429): The upstream provider is currently experiencing high demand. Please retry shortly.. Se han guardado 26 vídeos para reintentar mañana."
+  "Jev (429): The upstream provider is currently experiencing high demand. Please retry shortly.. Se han guardado 925 vídeos para reintentar mañana."
  ]
 }
