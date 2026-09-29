@@ -1,11 +1,11 @@
 {
- "fecha": "2026-09-28 05:44",
+ "fecha": "2026-09-29 06:01",
  "busquedas": 90,
  "evaluados": 0,
  "publicados_nuevos": 0,
  "retirados": 0,
  "errores": [
-  "Jev (403): Free tier users do not have access to this model. Upgrade to paid credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up for unrestricted access.. Se han guardado 1682 vídeos para reintentar mañana."
+  "Jev (403): Free tier users do not have access to this model. Upgrade to paid credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up for unrestricted access.. Se han guardado 2415 vídeos para reintentar mañana."
  ],
  "avisos": [
   "Se alcanzó el tope de vídeos de Jev por noche; el resto queda para mañana."
