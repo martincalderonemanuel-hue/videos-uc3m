@@ -17,6 +17,7 @@ import json
 import os
 import sys
 import time
+from zoneinfo import ZoneInfo
 
 import config
 from src import gemini_client, jev_client, youtube_client
@@ -28,7 +29,14 @@ from src.verificador import duracion_a_minutos, existe_en_oembed, motivo_descart
 from src.web import generar_html
 
 RAIZ = os.path.dirname(os.path.abspath(__file__))
+MADRID = ZoneInfo("Europe/Madrid")
 MAX_FALLOS_JEV_SEGUIDOS = 3
+
+
+def hora_madrid(momento=None):
+    """Fecha y hora en Madrid (los servidores de GitHub van en hora UTC)."""
+    momento = momento or dt.datetime.now(dt.timezone.utc)
+    return momento.astimezone(MADRID).strftime("%Y-%m-%d %H:%M")
 
 
 # --- ficheros -------------------------------------------------------------------
@@ -119,41 +127,73 @@ def _ficha(video, candidato, respuestas, nota, transcripcion, hoy):
     }
 
 
-def _evaluar(validos, sesion, clave, transcriptor, evaluados, hoy, informe, dormir):
-    aceptados, sin_evaluar = [], []
-    fallos_seguidos, ultimo_error, transitorio = 0, None, True
+def _preguntar_a_jev(c, video, texto, sesion, clave, dormir, ctrl):
+    """Pregunta a Jev por un vídeo. Si Jev está saturado, hace las esperas largas antes de rendirse."""
+    estado = jev_client.construir_estado(video, texto, c["tema_titulo"], c["asignatura"])
+    preguntas = jev_client.construir_preguntas(c["tema_titulo"], c["asignatura"])
+    while not ctrl["rendido"]:
+        try:
+            respuestas = jev_client.evaluar(sesion, clave, estado, preguntas, dormir=dormir)
+            ctrl["fallos_seguidos"] = 0
+            return respuestas
+        except ErrorAPI as e:
+            ctrl["ultimo_error"] = str(e)
+            ctrl["fallos_seguidos"] += 1
+            if not isinstance(e, JevNoDisponible):  # clave mala o sin permisos: esperar no sirve
+                ctrl["rendido"], ctrl["grave"] = True, True
+                return None
+            if ctrl["fallos_seguidos"] < MAX_FALLOS_JEV_SEGUIDOS:
+                return None  # fallo aislado: este vídeo se reintenta otro día
+            if ctrl["esperas"]:
+                dormir(ctrl["esperas"].pop(0))  # 1 min, luego 3 min
+                ctrl["fallos_seguidos"] = 0
+                continue  # reintenta el mismo vídeo
+            ctrl["rendido"] = True
+    return None
+
+
+def _registrar(c, video, respuestas, texto, evaluados, aceptados, hoy, informe):
+    informe["evaluados"] += 1
+    resultado = puntuar(video, respuestas)
+    evaluados[f"{c['tema_id']}|{c['video_id']}"] = {
+        "f": hoy.isoformat(), "n": resultado["nota"], "d": resultado["descartado"]}
+    if not resultado["descartado"]:
+        aceptados.append(_ficha(video, c, respuestas, resultado["nota"], texto, hoy))
+
+
+def _evaluar(validos, sesion, claves, transcriptor, evaluados, hoy, informe, dormir):
+    aceptados, sin_evaluar, sin_respuesta = [], [], []
+    ctrl = {"rendido": False, "grave": False, "fallos_seguidos": 0, "ultimo_error": None,
+            "esperas": list(config.JEV_ESPERAS_LARGAS)}
     for i, (c, video) in enumerate(validos):
-        if i >= config.MAX_VIDEOS_JEV_POR_NOCHE or fallos_seguidos >= MAX_FALLOS_JEV_SEGUIDOS:
+        if i >= config.MAX_VIDEOS_JEV_POR_NOCHE:
             sin_evaluar.append(c)
+            continue
+        texto = transcriptor.obtener(c["video_id"], config.MAX_PALABRAS_TRANSCRIPCION)
+        if ctrl["rendido"]:
+            sin_respuesta.append((c, video, texto))
             continue
         if i > 0:
             dormir(config.JEV_PAUSA_SEGUNDOS)  # no saturar a Jev
-        texto = transcriptor.obtener(c["video_id"], config.MAX_PALABRAS_TRANSCRIPCION)
-        estado = jev_client.construir_estado(video, texto, c["tema_titulo"], c["asignatura"])
-        preguntas = jev_client.construir_preguntas(c["tema_titulo"], c["asignatura"])
-        try:
-            respuestas = jev_client.evaluar(sesion, clave, estado, preguntas, dormir=dormir)
-        except ErrorAPI as e:
-            fallos_seguidos += 1
-            ultimo_error = str(e)
-            transitorio = isinstance(e, JevNoDisponible)
-            sin_evaluar.append(c)
-            continue
-        fallos_seguidos = 0
-        informe["evaluados"] += 1
-        resultado = puntuar(video, respuestas)
-        evaluados[f"{c['tema_id']}|{c['video_id']}"] = {
-            "f": hoy.isoformat(), "n": resultado["nota"], "d": resultado["descartado"]}
-        if not resultado["descartado"]:
-            aceptados.append(_ficha(video, c, respuestas, resultado["nota"], texto, hoy))
-    if fallos_seguidos >= MAX_FALLOS_JEV_SEGUIDOS:
-        mensaje = f"{ultimo_error}. Se han guardado {len(sin_evaluar)} vídeos para reintentar mañana."
-        # Jev saturado es temporal (aviso); una clave mala o sin permisos es un error de verdad
-        informe["avisos" if transitorio else "errores"].append(mensaje)
-    elif ultimo_error:
-        informe["avisos"].append(f"Algún fallo puntual de Jev: {ultimo_error}")
+        respuestas = _preguntar_a_jev(c, video, texto, sesion, claves["jev"], dormir, ctrl)
+        if respuestas is None:
+            sin_respuesta.append((c, video, texto))
+        else:
+            _registrar(c, video, respuestas, texto, evaluados, aceptados, hoy, informe)
+
+    if ctrl["grave"]:
+        informe["errores"].append(f"{ctrl['ultimo_error']} (revisa la clave de Vercel).")
+
+    sin_evaluar += [c for c, _v, _t in sin_respuesta]
+    if ctrl["rendido"] and not ctrl["grave"]:
+        informe["avisos"].append(
+            f"{ctrl['ultimo_error']}. Jev sigue saturado tras esperar 1 y 3 minutos: "
+            f"se han guardado {len(sin_evaluar)} vídeos para reintentar mañana.")
+    elif ctrl["ultimo_error"] and not ctrl["grave"]:
+        informe["avisos"].append(f"Algún fallo puntual de Jev: {ctrl['ultimo_error']}")
+
     if len(validos) > config.MAX_VIDEOS_JEV_POR_NOCHE:
-        informe["avisos"].append("Se alcanzó el tope de vídeos de Jev por noche; el resto queda para mañana.")
+        informe["avisos"].append("Se alcanzó el tope de vídeos por noche; el resto queda para mañana.")
     return aceptados, sin_evaluar
 
 
@@ -188,13 +228,13 @@ def _actualizar_top(publicados, aceptados, sesion, informe):
     return entrantes
 
 
-def _explicar(entrantes, sesion, clave, informe, dormir):
+def _explicar(entrantes, sesion, clave, informe, dormir, modelo_gemini):
     if not entrantes:
         return
     if not clave:
         informe["avisos"].append("Sin clave de Gemini: los vídeos se publican sin explicación.")
         return
-    modelo = gemini_client.elegir_modelo(sesion, clave, config.GEMINI_MODELO_PREFERIDO)
+    modelo = modelo_gemini()
     if not modelo:
         informe["avisos"].append("No se encontró ningún modelo Flash-Lite de Gemini disponible.")
         return
@@ -233,8 +273,23 @@ def ejecutar(opciones, rutas, sesion, claves, hoy, dormir=time.sleep, ahora=None
     publicados = _leer(os.path.join(datos, "publicados.json"), {})
     candidatos = _leer(os.path.join(datos, "pendientes.json"), [])
 
-    informe = {"fecha": ahora or dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "busquedas": 0,
+    informe = {"fecha": ahora or hora_madrid(), "busquedas": 0,
                "evaluados": 0, "publicados_nuevos": 0, "retirados": 0, "errores": [], "avisos": []}
+
+    # Elección perezosa del modelo de Gemini: solo se consulta si hace falta, y una sola vez
+    cache_modelo = {}
+
+    def modelo_gemini():
+        if "m" not in cache_modelo:
+            cache_modelo["m"] = gemini_client.elegir_modelo(
+                sesion, claves.get("gemini"), config.GEMINI_MODELO_PREFERIDO)
+        return cache_modelo["m"]
+
+    # Retirar lo publicado que no llega a la nota mínima (por si se cambió el umbral)
+    for tema_id, videos in publicados.items():
+        buenos = [v for v in videos if v.get("nota", 0) >= config.NOTA_MINIMA_PUBLICAR]
+        informe["retirados"] += len(videos) - len(buenos)
+        publicados[tema_id] = buenos
 
     # 0. Reverificación semanal de lo ya publicado
     if opciones.get("reverificar") or hoy.weekday() == config.DIA_REVERIFICACION:
@@ -264,7 +319,7 @@ def ejecutar(opciones, rutas, sesion, claves, hoy, dormir=time.sleep, ahora=None
     # 4 y 5. Jev + puntuación
     obtener = getattr(sesion, "obtener_transcripcion", None)
     transcriptor = Transcriptor(obtener=obtener) if obtener else Transcriptor()
-    aceptados, no_evaluados = _evaluar(validos, sesion, claves["jev"], transcriptor, evaluados, hoy, informe, dormir)
+    aceptados, no_evaluados = _evaluar(validos, sesion, claves, transcriptor, evaluados, hoy, informe, dormir)
     sin_evaluar += no_evaluados
 
     # 6. Top por tema + verificación final (control 2)
@@ -272,7 +327,7 @@ def ejecutar(opciones, rutas, sesion, claves, hoy, dormir=time.sleep, ahora=None
     informe["publicados_nuevos"] = len(entrantes)
 
     # 7. Explicaciones con Gemini
-    _explicar(entrantes, sesion, claves.get("gemini"), informe, dormir)
+    _explicar(entrantes, sesion, claves.get("gemini"), informe, dormir, modelo_gemini)
     _limpiar_privados(publicados)
 
     # 8. Guardar y publicar la web
@@ -298,7 +353,7 @@ def main():
                         default=os.environ.get("REVERIFICAR", "").lower() == "true")
     args = parser.parse_args()
 
-    hoy = dt.date.today()
+    hoy = dt.datetime.now(MADRID).date()
     opciones = {"asignatura": args.asignatura.strip(), "reverificar": args.reverificar}
 
     if args.simulado:

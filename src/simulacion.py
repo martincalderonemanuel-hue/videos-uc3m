@@ -35,10 +35,13 @@ CANALES = ["Profe de Ingeniería", "UniTutor", "Engineering Explained ES", "Clas
 
 class SesionSimulada:
     def __init__(self, cuota_busquedas=None, jev_roto=False, borrados=None, oembed_falla=False,
-                 jev_sin_permiso=False):
+                 jev_sin_permiso=False, jev_vuelve_tras=None):
         self.cuota_busquedas = cuota_busquedas
         self.jev_roto = jev_roto
         self.jev_sin_permiso = jev_sin_permiso
+        self.jev_vuelve_tras = jev_vuelve_tras  # nº de llamadas fallidas antes de recuperarse
+        self.llamadas_jev = 0
+        self.clasificaciones_gemini = 0
         self.borrados = set(borrados or [])
         self.oembed_falla = oembed_falla
         self.busquedas = 0
@@ -113,8 +116,10 @@ class SesionSimulada:
     def _jev(self, cuerpo):
         if self.jev_sin_permiso:
             return _Respuesta(401, {"error": {"message": "Invalid API key (simulado)"}})
-        if self.jev_roto:
-            return _Respuesta(503, {"error": {"message": "Servicio no disponible (simulado)"}})
+        self.llamadas_jev += 1
+        recuperado = self.jev_vuelve_tras is not None and self.llamadas_jev > self.jev_vuelve_tras
+        if self.jev_roto and not recuperado:
+            return _Respuesta(429, {"error": {"message": "High demand (simulado)"}})
         titulo = str(cuerpo.get("state", {}).get("titulo", ""))
         h = _hash(titulo)
         niveles = ["universitario", "universitario", "universitario", "bachillerato", "divulgativo", "posgrado"]
@@ -130,7 +135,10 @@ class SesionSimulada:
     # --- Gemini ----------------------------------------------------------------
     def _gemini(self, cuerpo):
         texto = cuerpo["contents"][0]["parts"][0]["text"]
-        fichas = json.loads(texto.split("\n\n", 1)[1])
+        fichas = json.loads(texto.rsplit("\n\n", 1)[1])
+        if texto.startswith("Clasifica"):  # no debería ocurrir: Gemini solo explica
+            self.clasificaciones_gemini += 1
+            return _Respuesta(400, {"error": {"message": "clasificar con Gemini no está permitido"}})
         salida = [{
             "id": f["id"],
             "por_que": f"Explica «{f['tema']}» con ejemplos claros y un problema resuelto al final.",

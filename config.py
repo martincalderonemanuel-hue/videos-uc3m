@@ -32,6 +32,7 @@ MAX_PALABRAS_TRANSCRIPCION = 1500
 DURACION_MIN_MINUTOS = 5
 DURACION_MAX_MINUTOS = 90
 REGION = "ES"
+IDIOMAS_ACEPTADOS = ("es", "en")   # vídeos sin idioma declarado también se aceptan
 
 # ---------------------------------------------------------------------------
 # Umbrales sobre las respuestas de Jev (Jev responde, el código decide)
@@ -48,6 +49,7 @@ PESO_CUBRE_TEMA = 0.3
 PESO_POPULARIDAD = 0.2
 PENALIZACION_PARA_NINOS = 0.15
 RATIO_LIKES_EXCELENTE = 0.03        # 3 % de likes/visitas ya cuenta como popularidad máxima
+NOTA_MINIMA_PUBLICAR = 0.7          # 7/10: mejor un tema con menos vídeos que con vídeos flojos
 
 # ---------------------------------------------------------------------------
 # Publicación
@@ -62,6 +64,7 @@ DIA_REVERIFICACION = 0              # 0 = lunes: se comprueba que los vídeos pu
 JEV_MODELO = "typesafe-ai/jev"
 JEV_URL = "https://ai-gateway.vercel.sh/v1/evaluate"
 JEV_PAUSA_SEGUNDOS = 0.3            # pausa entre vídeos para no saturar a Jev (~6 min para 1.200 vídeos)
+JEV_ESPERAS_LARGAS = (60, 180)      # si Jev sigue saturado: esperar 1 min, luego 3 min; después, se reintenta la noche siguiente
 GEMINI_MODELO_PREFERIDO = ""        # vacío = se elige solo el Flash-Lite disponible más reciente
 GEMINI_VIDEOS_POR_PETICION = 10
 GEMINI_PAUSA_SEGUNDOS = 7           # la capa gratuita admite pocas peticiones por minuto

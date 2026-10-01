@@ -72,10 +72,49 @@ def test_jev_con_clave_mala_es_error(tmp_path):
     assert any("Jev" in e for e in informe["errores"])
 
 
-def test_jev_caido_se_avisa_y_se_reintenta_otro_dia(tmp_path):
+def test_jev_caido_espera_y_guarda_sin_usar_gemini(tmp_path):
+    rutas = preparar(tmp_path)
+    esperas = []
+    sesion = SesionSimulada(jev_roto=True)
+    informe = main.ejecutar({}, rutas, sesion, CLAVES, HOY, dormir=esperas.append)
+    assert informe["errores"] == []
+    assert informe["evaluados"] == 0
+    assert 60 in esperas and 180 in esperas  # espera 1 y 3 minutos antes de rendirse
+    assert sesion.clasificaciones_gemini == 0  # Gemini nunca clasifica
+    assert any("Jev" in a for a in informe["avisos"])
+    assert len(leer(os.path.join(rutas["datos"], "pendientes.json"))) > 0
+
+
+def test_jev_vuelve_tras_la_espera_larga(tmp_path):
+    rutas = preparar(tmp_path)
+    sesion = SesionSimulada(jev_roto=True, jev_vuelve_tras=12)  # falla 12 llamadas y luego funciona
+    informe = noche(rutas, sesion)
+    assert informe["errores"] == []
+    assert not any("Gemini" in a for a in informe["avisos"])  # no hizo falta el plan B
+    assert informe["evaluados"] > 0
+
+
+def test_nota_baja_ya_publicada_se_retira(tmp_path):
+    rutas = preparar(tmp_path)
+    os.makedirs(rutas["datos"])
+    flojo = {"id": "AAAAAAAAAAA", "titulo": "Flojo", "canal": "c", "duracion_min": 6, "formato": "teoria",
+             "nota": 0.25, "por_que": "", "para_quien": "", "fecha": "2026-09-25", "sin_transcripcion": True}
+    with open(os.path.join(rutas["datos"], "publicados.json"), "w", encoding="utf-8") as f:
+        json.dump({"ED-09": [flojo]}, f)
+    noche(rutas, SesionSimulada(cuota_busquedas=0))
+    publicados = leer(os.path.join(rutas["datos"], "publicados.json"))
+    assert all(v["id"] != "AAAAAAAAAAA" for vs in publicados.values() for v in vs)
+
+
+def test_hora_de_madrid():
+    utc = dt.datetime(2026, 9, 27, 0, 36, tzinfo=dt.timezone.utc)
+    assert main.hora_madrid(utc) == "2026-09-27 02:36"
+
+
+def test_jev_caido_sin_gemini_se_reintenta_otro_dia(tmp_path):
     rutas = preparar(tmp_path)
     sesion = SesionSimulada(jev_roto=True)
-    informe = noche(rutas, sesion)
+    informe = main.ejecutar({}, rutas, sesion, dict(CLAVES, gemini=""), HOY, dormir=lambda _: None)
     assert informe["errores"] == []  # saturación temporal: aviso, no error
     assert any("Jev" in a for a in informe["avisos"])
     pendientes = leer(os.path.join(rutas["datos"], "pendientes.json"))

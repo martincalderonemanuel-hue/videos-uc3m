@@ -40,6 +40,13 @@ def _bloqueado_en_region(detalles, region):
     return permitidos is not None and region not in permitidos
 
 
+def _idioma_no_admitido(snippet):
+    idioma = snippet.get("defaultAudioLanguage") or snippet.get("defaultLanguage")
+    if not idioma:
+        return False  # muchos vídeos no lo declaran: se aceptan
+    return idioma.lower().split("-")[0] not in config.IDIOMAS_ACEPTADOS
+
+
 def motivo_descarte(video):
     """
     Devuelve el motivo por el que el vídeo se descarta, o None si pasa.
@@ -55,6 +62,8 @@ def motivo_descarte(video):
         return "no está procesado"
     if _bloqueado_en_region(detalles, config.REGION):
         return "bloqueado en España"
+    if _idioma_no_admitido(video["snippet"]):
+        return "idioma no admitido"
     minutos = duracion_a_minutos(detalles.get("duration"))
     if not (config.DURACION_MIN_MINUTOS <= minutos <= config.DURACION_MAX_MINUTOS):
         return "duración fuera de rango"

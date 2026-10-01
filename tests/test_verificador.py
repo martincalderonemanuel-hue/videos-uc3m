@@ -70,6 +70,31 @@ def test_video_con_lista_blanca_sin_espana_se_descarta():
     assert motivo_descarte(v) == "bloqueado en España"
 
 
+@pytest.mark.parametrize("idioma, motivo", [
+    ("hi", "idioma no admitido"),
+    ("pt-BR", "idioma no admitido"),
+    ("es", None),
+    ("es-419", None),
+    ("en-US", None),
+])
+def test_filtro_de_idioma(idioma, motivo):
+    v = cargar_videos()["6QLbw1xS8sg"]
+    v["snippet"]["defaultAudioLanguage"] = idioma
+    assert motivo_descarte(v) == motivo
+
+
+def test_sin_idioma_declarado_se_acepta():
+    v = cargar_videos()["6QLbw1xS8sg"]
+    assert "defaultAudioLanguage" not in v["snippet"]
+    assert motivo_descarte(v) is None
+
+
+def test_idioma_del_texto_si_no_hay_de_audio():
+    v = cargar_videos()["6QLbw1xS8sg"]
+    v["snippet"]["defaultLanguage"] = "hi"
+    assert motivo_descarte(v) == "idioma no admitido"
+
+
 def test_video_sin_datos_basicos_se_descarta():
     assert motivo_descarte({"id": "abc"}) == "datos incompletos"
 

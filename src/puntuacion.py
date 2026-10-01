@@ -47,4 +47,7 @@ def puntuar(video, respuestas):
     )
     if video.get("status", {}).get("madeForKids"):
         nota -= config.PENALIZACION_PARA_NINOS
-    return {"descartado": None, "nota": round(max(0.0, min(nota, 1.0)), 4)}
+    nota = round(max(0.0, min(nota, 1.0)), 4)
+    if nota < config.NOTA_MINIMA_PUBLICAR:
+        return {"descartado": "nota baja", "nota": nota}
+    return {"descartado": None, "nota": nota}
