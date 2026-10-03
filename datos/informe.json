@@ -1,11 +1,12 @@
 {
- "fecha": "2026-10-02 08:00",
+ "fecha": "2026-10-03 07:36",
  "busquedas": 0,
- "evaluados": 1200,
- "publicados_nuevos": 45,
- "retirados": 28,
+ "evaluados": 1010,
+ "publicados_nuevos": 29,
+ "retirados": 0,
  "errores": [],
  "avisos": [
-  "Se alcanzó el tope de vídeos por noche; el resto queda para mañana."
+  "Descartado en la verificación final: _kgW1ivWcfE",
+  "Descartado en la verificación final: V78X6FJptj8"
  ]
 }

@@ -534,6 +534,18 @@
  ],
  "TD-04": [
   {
+   "id": "bjbfLk0kJxk",
+   "titulo": "SFEE numerical steam turbine and compressor |Thermodynamics numerical | L42 (N21,22)",
+   "canal": "Platinum Study Classes - Sandeep Patidar",
+   "duracion_min": 44.5,
+   "formato": "problemas_resueltos",
+   "nota": 0.9235,
+   "por_que": "Permite aprender a resolver problemas prácticos basados en la ecuación de energía de flujo estacionario aplicando casos de turbinas y compresores.",
+   "para_quien": "Para practicar cálculos en turbinas y compresores.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "L47PTLYFlyw",
    "titulo": "Thermodynamics: Isentropic Efficiency Turbines and Compressors",
    "canal": "Mark Tronzo",
@@ -555,18 +567,6 @@
    "por_que": "Resume de manera rápida y concisa el comportamiento de diversos dispositivos en estado estacionario como toberas, bombas y turbinas.",
    "para_quien": "Para repasar dispositivos termodinámicos.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "b-aMphLprZ8",
-   "titulo": "Coservación de la energía en sistemas abiertos (válvula de estrangulamiento)",
-   "canal": "Aprendiendo ingeniería",
-   "duracion_min": 8.2,
-   "formato": "problemas_resueltos",
-   "nota": 0.8564,
-   "por_que": "Presenta un ejercicio resuelto de una válvula de estrangulamiento aplicando la conservación de la masa y de la energía.",
-   "para_quien": "Para comprender sistemas abiertos en termodinámica.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -622,6 +622,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "Plw0vDOjBI4",
+   "titulo": "How to solve Rankine cycle questions(solved example by using STEAM TABLE)",
+   "canal": "Manish Mehta - IIT",
+   "duracion_min": 38.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.9405,
+   "por_que": "Muestra un método estructurado de cinco pasos para resolver ejercicios prácticos del ciclo Rankine utilizando tablas de vapor.",
+   "para_quien": "Para resolver problemas del ciclo Rankine.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "9B9A49pQy94",
    "titulo": "💪CICLO RANKINE CON REGENERACIÓN 👉CALENTADORES CERRADOS👈 [ENTRA Y APRENDE DE VERDAD DE FORMA FÁCIL]👍",
    "canal": "LaMejorAsesoríaEducativa",
@@ -631,18 +643,6 @@
    "por_que": "Proporciona un enfoque teórico-práctico detallado sobre los calentadores de agua cerrados en ciclos Rankine con regeneración.",
    "para_quien": "Para dominar los calentadores cerrados.",
    "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "AwLpST3vlS4",
-   "titulo": "Thermodynamics RANKINE CYCLE in 10 Minutes!",
-   "canal": "Less Boring Lectures",
-   "duracion_min": 9.8,
-   "formato": "teoria",
-   "nota": 0.8886,
-   "por_que": "Resume las etapas del ciclo Rankine, los diagramas T-s, las ecuaciones de energía y la diferencia entre ciclos ideales y reales.",
-   "para_quien": "Para repasar rápidamente el ciclo Rankine.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -736,27 +736,27 @@
    "sin_transcripcion": true
   },
   {
-   "id": "sKfgz6JLQRI",
-   "titulo": "Refrigerators, Heat Pumps, and Coefficient of Perfomance - Thermodynamics & Physics",
-   "canal": "The Organic Chemistry Tutor",
-   "duracion_min": 11.6,
+   "id": "55Dthfn5grM",
+   "titulo": "💪 # 4.CICLO de REFRIGERACIÓN REAL (EJERCICIO TIPO EXAMEN) RESUELTO DETALLADAMENTE 👉ENTRA Y APRENDE👍",
+   "canal": "LaMejorAsesoríaEducativa",
+   "duracion_min": 33.9,
    "formato": "problemas_resueltos",
-   "nota": 0.8333,
-   "por_que": "Explica detalladamente cómo calcular el coeficiente de desempeño de refrigeradores y bombas de calor con problemas prácticos.",
-   "para_quien": "Para calcular el coeficiente de desempeño.",
-   "fecha": "2026-10-02",
+   "nota": 0.8567,
+   "por_que": "Explica detalladamente un ejercicio de examen sobre un ciclo de refrigeración real para comprender su resolución paso a paso.",
+   "para_quien": "Para preparar exámenes de refrigeración.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   },
   {
-   "id": "uF4UGM6xMp8",
-   "titulo": "REFRIGERATION and Heat Pump Cycles in 10 Minutes!",
-   "canal": "Less Boring Lectures",
-   "duracion_min": 10.2,
-   "formato": "teoria",
-   "nota": 0.823,
-   "por_que": "Explica los fundamentos de los ciclos de refrigeración y bombas de calor, detallando sus cuatro componentes principales y el coeficiente de desempeño.",
-   "para_quien": "Para repasar los ciclos de refrigeración.",
-   "fecha": "2026-10-01",
+   "id": "siBL4adMMHc",
+   "titulo": "Máquina térmica de Carnot —Segunda ley de la termodinámica  || Bomba de calor — Ejercicio explicado",
+   "canal": "InMath",
+   "duracion_min": 5.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.848,
+   "por_que": "Facilita la comprensión de la segunda ley de la termodinámica mediante la explicación detallada de un ejercicio sobre la máquina de Carnot y bombas de calor.",
+   "para_quien": "Para entender máquinas térmicas y Carnot.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ],
@@ -771,6 +771,30 @@
    "por_que": "Explica las diferentes formas de transferencia de calor como conducción, convección y radiación, utilizando la ley de Stefan-Boltzmann y la conductividad térmica.",
    "para_quien": "Para repasar los tipos de transferencia de calor.",
    "fecha": "2026-10-01",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "X_Ws46vNTfM",
+   "titulo": "Heat Transfer - Chapter 1 - Example Problem 3 - Equating conduction and convection at a surface",
+   "canal": "Kody Powell",
+   "duracion_min": 15.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.778,
+   "por_que": "Demuestra cómo realizar un balance de energía superficial igualando la conducción según la ley de Fourier y la convección de Newton.",
+   "para_quien": "Para aplicar las leyes de Fourier y Newton.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "NTlMIwYugJM",
+   "titulo": "Introducción Mecanismos de Transferencia de Calor",
+   "canal": "Mayken Espinoza",
+   "duracion_min": 19.5,
+   "formato": "teoria",
+   "nota": 0.7161,
+   "por_que": "Repasa los fundamentos teóricos de los principales mecanismos de transferencia de calor para consolidar los conceptos básicos de la materia.",
+   "para_quien": "Para repasar la teoría desde cero.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ],
@@ -788,6 +812,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "pvpHHqUYSFc",
+   "titulo": "Transient Conduction & the Biot Number | Week 3 Heat Transfer Course (04 of 11) — High Yield",
+   "canal": "PE Prep Engine",
+   "duracion_min": 7.4,
+   "formato": "teoria",
+   "nota": 0.958,
+   "por_que": "Enseña los conceptos de conducción transitoria, el número de Biot y los cálculos de tiempo de enfriamiento para transferencia de calor.",
+   "para_quien": "Para dominar la conducción en régimen no estacionario.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "-p1ao8FlFfU",
    "titulo": "Transient/Unsteady Conduction_Numerical Problems",
    "canal": "Allwin'z",
@@ -796,18 +832,6 @@
    "nota": 0.9022,
    "por_que": "Explica la resolución de problemas numéricos sobre conducción unidimensional no estacionaria usando análisis de parámetros concentrados y diagramas de Heisler.",
    "para_quien": "Para resolver problemas numéricos complejos.",
-   "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "iAE3T2b_5pg",
-   "titulo": "TRANSIENT HEAT CONDUCTION PROBLEMS ON HEISLER CHARTS - Lec 2",
-   "canal": "MECHANICAL SCHOOL",
-   "duracion_min": 11.6,
-   "formato": "problemas_resueltos",
-   "nota": 0.8506,
-   "por_que": "Muestra la resolución de problemas de conducción de calor transitoria en sólidos semiinfinitos basados en la función de error.",
-   "para_quien": "Para aprender sobre sólidos semiinfinitos.",
    "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
@@ -954,6 +978,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "-twz4E3_R8E",
+   "titulo": "CIRCUITOS COMBINACIONALES 06:MULTIPLEXORES Y DECODIFICADORES",
+   "canal": "canalfdet",
+   "duracion_min": 22.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8775,
+   "por_que": "Muestra la resolución completa de un problema de circuitos combinacionales utilizando tablas de verdad, mapas de Karnaugh, puertas lógicas, multiplexores y decodificadores.",
+   "para_quien": "Para practicar el diseño y simplificación de circuitos lógicos.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "KD5PlM9__K8",
    "titulo": "Explicación y ejercicios resueltos del multiplexor, Universidad",
    "canal": "gyvermak : ingeniero",
@@ -963,18 +999,6 @@
    "por_que": "Ofrece una explicación teórica y ejercicios resueltos sobre el funcionamiento del multiplexor en sistemas digitales a nivel universitario.",
    "para_quien": "Para comprender multiplexores con ejercicios.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "Z9i-j6iI098",
-   "titulo": "Explicación y ejercicios resueltos Decodificador, Universidad",
-   "canal": "gyvermak : ingeniero",
-   "duracion_min": 12.4,
-   "formato": "problemas_resueltos",
-   "nota": 0.7765,
-   "por_que": "Explica el funcionamiento del decodificador mediante ejemplos prácticos basados en tablas de verdad y diferentes entradas.",
-   "para_quien": "Para entender decodificadores con ejemplos.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -1069,6 +1093,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "lKrepGNLvgU",
+   "titulo": "Máquinas de Estado y Contadores: El Cerebro de la Electrónica Digital",
+   "canal": "Facil y Rapido",
+   "duracion_min": 8.1,
+   "formato": "teoria",
+   "nota": 0.8635,
+   "por_que": "Explica de forma clara el funcionamiento de las máquinas de estado y los contadores como fundamentos de los circuitos secuenciales.",
+   "para_quien": "Para entender máquinas de estado y contadores.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "zuAXgvRmNU8",
    "titulo": "Guía Completa de Lógica Secuencial y Máquinas de Estado (Mealy vs Moore)",
    "canal": "Facil y Rapido",
@@ -1079,24 +1115,63 @@
    "para_quien": "Para entender la teoría desde cero.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
-  },
+  }
+ ],
+ "ED-09": [
   {
-   "id": "1p3b2ge2lYk",
-   "titulo": "Circuitos Secuenciales Síncronos",
-   "canal": "Carlos Díaz",
-   "duracion_min": 36.3,
-   "formato": "teoria",
-   "nota": 0.8481,
-   "por_que": "Permite comprender el análisis de circuitos secuenciales síncronos a través de ecuaciones, tablas y diagramas de estados.",
-   "para_quien": "Para analizar circuitos síncronos.",
-   "fecha": "2026-10-02",
+   "id": "OxaYvJquPe0",
+   "titulo": "Direct Memory Mapping – Solved Examples",
+   "canal": "Neso Academy",
+   "duracion_min": 10.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.7942,
+   "por_que": "Presenta ejemplos resueltos sobre mapeo de memoria directa, explicando el cálculo de bits de etiqueta y tamaño de caché.",
+   "para_quien": "Para entender memorias caché.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ],
- "ED-09": [],
- "ED-10": [],
- "ED-11": [],
+ "ED-10": [
+  {
+   "id": "CMFksiZ0WGA",
+   "titulo": "De Máquina de Estados a FPGA: Contador de 4 Bits en VHDL",
+   "canal": "FPGAeduDesign",
+   "duracion_min": 12.1,
+   "formato": "practica",
+   "nota": 0.888,
+   "por_que": "Enseña el flujo completo desde el diagrama de estados hasta la implementación en VHDL de un contador en una FPGA.",
+   "para_quien": "Para implementar diseños digitales en VHDL.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  }
+ ],
+ "ED-11": [
+  {
+   "id": "bVQdeO6JtJ8",
+   "titulo": "Electrónica Digital. Tema 10: Microprocesador W65C02S. Parte 1 de 2",
+   "canal": "Marcos' Notebook",
+   "duracion_min": 53.6,
+   "formato": "teoria",
+   "nota": 0.7035,
+   "por_que": "Introduce la estructura, registros internos y modos de direccionamiento del microprocesador W65C02S.",
+   "para_quien": "Para estudiar microprocesadores.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  }
+ ],
  "ME-01": [
+  {
+   "id": "4Fj5lUCPjcA",
+   "titulo": "Estática- 3 115 - Sistemas equivalentes de fuerza 3D",
+   "canal": "Axel Contreras",
+   "duracion_min": 15.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.933,
+   "por_que": "Explica de forma vectorial un ejercicio práctico sobre sistemas equivalentes de fuerzas en tres dimensiones y reducción a un sistema fuerza-par.",
+   "para_quien": "Para aprender a resolver problemas de estática en 3D.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
   {
    "id": "1jUg9KJnsQ8",
    "titulo": "Sistema Equivalente Fuerza-Par. Curso de Estática. Clase 23",
@@ -1119,18 +1194,6 @@
    "por_que": "Muestra la conversión de un sistema de cuatro fuerzas en una sola fuerza equivalente mediante un ejercicio resuelto.",
    "para_quien": "Para repasar ejercicios de estática.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "QCerFSLpkrI",
-   "titulo": "Sum of MOMENTS and Rigid Body Equilibrium in 13 Minutes! (Statics)",
-   "canal": "Less Boring Lectures",
-   "duracion_min": 13.1,
-   "formato": "teoria",
-   "nota": 0.894,
-   "por_que": "Explica la teoría y el procedimiento para calcular momentos y el equilibrio de cuerpos rígidos mediante ejemplos prácticos.",
-   "para_quien": "Para aprender el equilibrio estático.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -1224,6 +1287,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "nkynrDINPic",
+   "titulo": "How to Draw Shear Force and Moment Diagrams | Mechanics Statics | (Step by step solved examples)",
+   "canal": "Question Solutions",
+   "duracion_min": 16.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8653,
+   "por_que": "Enseña paso a paso cómo dibujar diagramas de fuerza cortante y momento flector en vigas utilizando diferentes métodos y ejemplos prácticos.",
+   "para_quien": "Para dominar el cálculo y trazado de diagramas de esfuerzos.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "lvobdQL6yds",
    "titulo": "Statics: Lesson 61 - Shear Moment Diagram, The Equation Method",
    "canal": "Jeff Hanson",
@@ -1233,18 +1308,6 @@
    "por_que": "Explica el uso del método de ecuaciones para resolver diagramas de fuerza cortante y momento flector en vigas con cargas distribuidas triangulares.",
    "para_quien": "Para resolver diagramas con ecuaciones.",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "DCKPmVPc-0k",
-   "titulo": "DIAGRAMAS DE FUERZA CORTANTE Y MOMENTO FLECTOR POR ECUACIONES Y/O CORTES PASO A PASO Y FÁCIL",
-   "canal": "INGTOOL",
-   "duracion_min": 37.9,
-   "formato": "problemas_resueltos",
-   "nota": 0.8431,
-   "por_que": "Permite visualizar el uso de cortes y ecuaciones paso a paso para determinar las funciones y leyes de esfuerzos en vigas.",
-   "para_quien": "Para dominar los cortes en vigas.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -1262,27 +1325,27 @@
    "sin_transcripcion": true
   },
   {
-   "id": "rBkeL9SwODA",
-   "titulo": "Curved Beam Reinforced Tow Hook",
-   "canal": "TheBom_PE",
-   "duracion_min": 50.2,
+   "id": "k7pb0MjIviw",
+   "titulo": "Cálculo de vigas |  método por integración | ejercicio 1",
+   "canal": "Física Today",
+   "duracion_min": 22.7,
    "formato": "problemas_resueltos",
-   "nota": 0.8326,
-   "por_que": "Introduce el perfil de tensión por flexión no lineal en vigas curvas y presenta un problema de diseño con factor de seguridad.",
-   "para_quien": "Para analizar tensiones en piezas curvas.",
-   "fecha": "2026-10-02",
+   "nota": 0.8487,
+   "por_que": "Enseña el cálculo de reacciones y diagramas en vigas con carga triangular utilizando el método de integración.",
+   "para_quien": "Para calcular vigas por integrales.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   },
   {
-   "id": "BK-7hFNDtX8",
-   "titulo": "Resistencia de Materiales 4x01: Diagramas de cortantes y momento flector",
-   "canal": "Jose Luis Blanco",
-   "duracion_min": 27.1,
+   "id": "MBwimvj7Yf8",
+   "titulo": "Diagramas de fuerza CORTANTE y MOMENTO, viga carga PUNTUAL, viga isostática",
+   "canal": "Axel Contreras",
+   "duracion_min": 13.2,
    "formato": "problemas_resueltos",
-   "nota": 0.8211,
-   "por_que": "Ofrece un repaso básico de teoría acompañado de un ejercicio resuelto para la obtención de diagramas de esfuerzos en un pórtico.",
-   "para_quien": "Para repasar teoría y pórticos.",
-   "fecha": "2026-09-25",
+   "nota": 0.8355,
+   "por_que": "Detalla el cálculo de reacciones y la obtención de diagramas de fuerza cortante y momento flector en vigas isostáticas.",
+   "para_quien": "Para trazar diagramas en vigas.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ],
@@ -1300,6 +1363,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "bB30bcw6l-A",
+   "titulo": "Diagrama de Fuerza cortante y Momento Flector Pórticos - Prob. 4-39 Hibbeler - Análisis Estructural",
+   "canal": "Math Oroz!",
+   "duracion_min": 39.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.8753,
+   "por_que": "Desarrolla paso a paso el trazado de diagramas de fuerza cortante y momento flector en un pórtico estructural.",
+   "para_quien": "Para analizar pórticos isostáticos.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "GFQ0OOECUaw",
    "titulo": "Shear Force, Bending Moment & Axial Force Diagrams for Frames",
    "canal": "Dr Jawed Qureshi",
@@ -1310,21 +1385,21 @@
    "para_quien": "Para analizar pórticos isostáticos.",
    "fecha": "2026-10-01",
    "sin_transcripcion": true
-  },
-  {
-   "id": "bK_-0ZuggiA",
-   "titulo": "Diagramas de esfuerzos en un pórtico isostático con un soporte inclinado: nivel intermed | 6/8 | UPV",
-   "canal": "Universitat Politècnica de València - UPV",
-   "duracion_min": 11.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.8393,
-   "por_que": "Explica la obtención de diagramas de esfuerzos en un pórtico isostático con soporte inclinado mediante un modelo aplicado.",
-   "para_quien": "Para comprender pórticos con soportes inclinados.",
-   "fecha": "2026-09-25",
-   "sin_transcripcion": true
   }
  ],
  "ME-07": [
+  {
+   "id": "a88v3t0rCIc",
+   "titulo": "APLICACIÓN DE LA LEY DE HOOKE Y RAZÓN DE POISSON",
+   "canal": "TUTORIAL DE ESTRUCTURAS",
+   "duracion_min": 12.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.8996,
+   "por_que": "Analiza la aplicación práctica de la ley de Hooke y la razón de Poisson mediante la resolución paso a paso de un problema de mecánica de materiales.",
+   "para_quien": "Para entender la aplicación de la ley de Hooke.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
   {
    "id": "v9RHuowbU8E",
    "titulo": "TENSOR de TENSIONES y vector Tension - RESISTENCIA de MATERIALES",
@@ -1348,21 +1423,21 @@
    "para_quien": "Para comprender el ensayo de tracción.",
    "fecha": "2026-10-02",
    "sin_transcripcion": true
-  },
-  {
-   "id": "pwHZLkeaJuM",
-   "titulo": "Mechanics of Materials: Lesson 7 - Intro to Strain and Poisson’s Ratio",
-   "canal": "Jeff Hanson",
-   "duracion_min": 16.0,
-   "formato": "teoria",
-   "nota": 0.8464,
-   "por_que": "Introduce los conceptos fundamentales de la deformación axial y normal y la relación de Poisson en el estudio del sólido deformable.",
-   "para_quien": "Para entender deformación y Poisson.",
-   "fecha": "2026-10-01",
-   "sin_transcripcion": true
   }
  ],
  "ME-08": [
+  {
+   "id": "cZVyHsw7wyA",
+   "titulo": "🔵10 Ejercicios Resueltos de ESFUERZO Normal, Simple en Tensión y Compresión | Mecánica de Materiales",
+   "canal": "Cesar Stark",
+   "duracion_min": 53.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.9045,
+   "por_que": "Presenta diez ejercicios resueltos sobre esfuerzo normal simple en tensión y compresión para afianzar los conceptos fundamentales de la materia.",
+   "para_quien": "Para practicar el cálculo de esfuerzos normales.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
   {
    "id": "9Bqeds5t5H8",
    "titulo": "11A Esfuerzo axil   Desarrollo teórico",
@@ -1386,21 +1461,21 @@
    "para_quien": "Para repasar carga axial y tensión.",
    "fecha": "2026-10-01",
    "sin_transcripcion": true
-  },
-  {
-   "id": "56WxoqnKPvE",
-   "titulo": "1 Esfuerzo Axial - teoría y ejemplo (básico)",
-   "canal": "marcelo pardo",
-   "duracion_min": 8.4,
-   "formato": "teoria",
-   "nota": 0.7761,
-   "por_que": "Describe de manera simple y directa el concepto fundamental de esfuerzo axial combinando teoría y un ejemplo básico.",
-   "para_quien": "Para principiantes en esfuerzo axial.",
-   "fecha": "2026-09-25",
-   "sin_transcripcion": true
   }
  ],
  "ME-09": [
+  {
+   "id": "1JxRingpBm0",
+   "titulo": "Esfuerzos Causados por Flexión",
+   "canal": "Ingeniería para Principiantes",
+   "duracion_min": 6.0,
+   "formato": "teoria",
+   "nota": 0.9465,
+   "por_que": "Explica detalladamente qué son los esfuerzos por flexión, el papel del eje neutro y cómo se relacionan el momento flector y la geometría de la sección.",
+   "para_quien": "Para comprender los fundamentos de la flexión pura en vigas.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
   {
    "id": "EIwZEyxvfy8",
    "titulo": "Flexión Pura - Cap 5: Tensiones Normales por flexión (ejemplo)",
@@ -1424,21 +1499,21 @@
    "para_quien": "Para repasar flexión y ley de Navier.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
-  },
-  {
-   "id": "8btK_PhC-2A",
-   "titulo": "PURE BENDING and Parallel Axis Theorem in 12 Minutes!",
-   "canal": "Less Boring Lectures",
-   "duracion_min": 12.8,
-   "formato": "teoria",
-   "nota": 0.8956,
-   "por_que": "Explica de forma clara las tensiones normales por flexión pura y el teorema de los ejes paralelos con un ejemplo práctico.",
-   "para_quien": "Para repasar el cálculo de momentos y tensiones.",
-   "fecha": "2026-10-01",
-   "sin_transcripcion": true
   }
  ],
  "TD-11": [
+  {
+   "id": "lLUmhi9BE6A",
+   "titulo": "🔥Conducción de Calor en Pared con condiciones de frontera. Ejemplo 2🔥",
+   "canal": "Nacho soluciones",
+   "duracion_min": 8.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.8351,
+   "por_que": "Muestra paso a paso cómo resolver un problema de conducción de calor en una pared plana aplicando condiciones de frontera.",
+   "para_quien": "Para resolver problemas de pared plana.",
+   "fecha": "2026-10-03",
+   "sin_transcripcion": true
+  },
   {
    "id": "K7DT0BpfITc",
    "titulo": "🔥Transferencia de calor | Conducción de calor en Pared con condiciones de frontera. 🔥",
@@ -1462,18 +1537,6 @@
    "para_quien": "Para practicar con ejercicios de examen.",
    "fecha": "2026-10-02",
    "sin_transcripcion": true
-  },
-  {
-   "id": "a6Gbj-nJOOw",
-   "titulo": "Conducción con generación térmica - Clase 3 Transferencia de Calor (Con ejercicio resuelto)",
-   "canal": "Gabriel Fernando García Sánchez",
-   "duracion_min": 18.7,
-   "formato": "teoria",
-   "nota": 0.8007,
-   "por_que": "Ofrece una clase teórica acompañada de un ejercicio resuelto sobre la conducción de calor con generación térmica.",
-   "para_quien": "Para repasar teoría y ver un ejercicio.",
-   "fecha": "2026-10-02",
-   "sin_transcripcion": true
   }
  ],
  "EA-01": [],
@@ -1491,103 +1554,103 @@
    "sin_transcripcion": true
   },
   {
-   "id": "uwUV9JpUD-c",
-   "titulo": "FLEXIÓN EN ELEMENTOS COMPUESTOS 👷‍♂️ESFUERZOS MÁXIMOS EN VIGA DE ACERO REFORZADA CON MADERA👷‍♂️",
-   "canal": "PROFE JN El canal del ingeniero",
-   "duracion_min": 16.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.8273,
-   "por_que": "Muestra el cálculo detallado de los esfuerzos máximos en una viga compuesta de acero reforzada con madera.",
-   "para_quien": "Para calcular elementos estructurales compuestos.",
-   "fecha": "2026-10-02",
+   "id": "Ukb-9bgPIys",
+   "titulo": "Mech. of Materials-Bending-Eccentric Loading",
+   "canal": "Understanding Mech. of Materials-Dr A Ghosh",
+   "duracion_min": 36.1,
+   "formato": "teoria",
+   "nota": 0.879,
+   "por_que": "Examina el caso de una carga excéntrica aplicada a una viga, su equivalencia con fuerza y momento, y la distribución de esfuerzos resultante.",
+   "para_quien": "Para estudiar la carga excéntrica y la flexión compuesta.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   },
   {
-   "id": "Je3SJHhnMWM",
-   "titulo": "Resistencia de Materiales 6.2M ('18)- Flexión desviada y flexión compuesta (Est1)",
-   "canal": "Ingenia-ConStruct: Canal de Ingeniería Estructural",
-   "duracion_min": 17.6,
-   "formato": "problemas_resueltos",
-   "nota": 0.7894,
-   "por_que": "Desarrolla un ejercicio práctico centrado en la flexión desviada y la flexión compuesta en estructuras.",
-   "para_quien": "Para resolver casos de flexión compuesta.",
-   "fecha": "2026-10-02",
+   "id": "VzJCXqe2F1M",
+   "titulo": "ESTRUCTURAS 02  FLEXIÓN COMPUESTA",
+   "canal": "Nahuel Caballero Arquitecto",
+   "duracion_min": 36.0,
+   "formato": "teoria",
+   "nota": 0.8777,
+   "por_que": "Aborda la teoría de la flexión compuesta en columnas mediante un ejercicio práctico que incluye el uso de fórmulas y diagramas de características.",
+   "para_quien": "Para repasar ejercicios prácticos de flexión compuesta.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ],
  "ME-11": [
   {
-   "id": "12gUmqMxZGQ",
-   "titulo": "ARMADURA. MÉTODO DE LOS NODOS. Ejercicio 1 Parte 1/2",
-   "canal": "CARLA'S NOTEBOOK",
-   "duracion_min": 21.6,
+   "id": "YbggTKAGlkQ",
+   "titulo": "Method of Joints – Truss Analysis Step by Step",
+   "canal": "Mechanical Engineering Tutor",
+   "duracion_min": 27.6,
    "formato": "problemas_resueltos",
-   "nota": 0.8702,
-   "por_que": "Resuelve paso a paso un ejercicio práctico de una armadura plana aplicando el método de los nodos.",
-   "para_quien": "Para resolver armaduras paso a paso.",
-   "fecha": "2026-10-02",
+   "nota": 0.9182,
+   "por_que": "Desarrolla paso a paso el análisis de una estructura articulada empleando el método de los nudos para determinar las fuerzas internas.",
+   "para_quien": "Para aprender a resolver armaduras paso a paso.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   },
   {
-   "id": "ERsibP_d1f8",
-   "titulo": "METODO de los NODOS en CERCHAS (Estructuras ARTICULADAS)",
-   "canal": "Ingeniosos",
-   "duracion_min": 6.4,
+   "id": "BVCIQfFzguk",
+   "titulo": "Statics: Lesson 48 - Trusses, Method of Joints",
+   "canal": "Jeff Hanson",
+   "duracion_min": 17.4,
    "formato": "problemas_resueltos",
-   "nota": 0.8545,
-   "por_que": "Permite aprender a clasificar estructuras articuladas y calcular reacciones y esfuerzos en todas las barras usando el método de los nudos.",
-   "para_quien": "Para aprender el método de los nudos fácilmente.",
-   "fecha": "2026-10-02",
+   "nota": 0.8981,
+   "por_que": "Enseña un método estructurado de cuatro pasos para resolver armaduras mediante el método de los nudos y calcular las fuerzas en cada elemento.",
+   "para_quien": "Para dominar el análisis de armaduras en estática.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   },
   {
-   "id": "Go8zmrztnTs",
-   "titulo": "Estructuras articuladas: Cálculo de esfuerzos mediante le método de los nudos | 2/9 | UPV",
-   "canal": "Universitat Politècnica de València - UPV",
-   "duracion_min": 8.7,
+   "id": "JU6-eo4W3Qk",
+   "titulo": "Trusses Method of Sections | Mechanics Statics | (Solved examples)",
+   "canal": "Question Solutions",
+   "duracion_min": 11.0,
    "formato": "problemas_resueltos",
-   "nota": 0.8362,
-   "por_que": "Define las estructuras articuladas y muestra un caso práctico paso a paso mediante el cálculo de esfuerzos con el método de los nudos.",
-   "para_quien": "Para ver un caso práctico resuelto.",
-   "fecha": "2026-10-02",
+   "nota": 0.8878,
+   "por_que": "Permite aprender a resolver fuerzas desconocidas en estructuras articuladas mediante el método de secciones con ejemplos prácticos paso a paso.",
+   "para_quien": "Para practicar la resolución de armaduras.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ],
  "ME-12": [
   {
-   "id": "GwvSuanGIEY",
-   "titulo": "Cables sometidos a cargas distribuidas (parabólicos): EJERCICIO EXAMEN (Mecánica de Estructuras)",
-   "canal": "ESTRUCTURAS UC3M",
-   "duracion_min": 11.3,
+   "id": "KCsuF6MOAR4",
+   "titulo": "💥 ¿Cómo hallar las cotas y tracción máxima en un cable con cargas puntuales? | 📐 Ejercicio Explicado",
+   "canal": "CIVIL CORE",
+   "duracion_min": 10.4,
    "formato": "problemas_resueltos",
-   "nota": 0.8512,
-   "por_que": "Ofrece la resolución práctica de un ejercicio de examen enfocado en cables parabólicos sometidos a cargas distribuidas.",
-   "para_quien": "Para practicar con ejercicios de examen.",
-   "fecha": "2026-10-02",
+   "nota": 0.949,
+   "por_que": "Muestra la resolución completa de un ejercicio sobre el comportamiento de cables sometidos a cargas concentradas, incluyendo cotas y tracción máxima.",
+   "para_quien": "Para calcular esfuerzos en cables.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   },
   {
-   "id": "cfyHm56z23I",
-   "titulo": "Cables sometidos a cargas distribuidas (parabólicos): Desarrollo Teórico (Mecánica de Estructuras)",
+   "id": "xqHzd9boUqY",
+   "titulo": "Catenaria (cables sometidos a su propio peso): Desarrollo Teórico (Mecánica de Estructuras)",
    "canal": "ESTRUCTURAS UC3M",
-   "duracion_min": 13.1,
+   "duracion_min": 17.1,
    "formato": "teoria",
-   "nota": 0.8453,
-   "por_que": "Proporciona el desarrollo teórico necesario para comprender el comportamiento de los cables parabólicos sometidos a cargas distribuidas.",
-   "para_quien": "Para estudiar la teoría de cables.",
-   "fecha": "2026-10-02",
+   "nota": 0.8919,
+   "por_que": "Ofrece el desarrollo teórico fundamental sobre los cables parabólicos sometidos a su propio peso.",
+   "para_quien": "Para comprender la teoría de catenarias.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   },
   {
-   "id": "HM22OAa8FjM",
-   "titulo": "Cálculo de cables sometidos a cargas puntuales (Mecánica de Estructuras)",
-   "canal": "ESTRUCTURAS UC3M",
-   "duracion_min": 14.0,
-   "formato": "teoria",
-   "nota": 0.8407,
-   "por_que": "Explica detalladamente cómo realizar el cálculo específico de cables cuando están sometidos a cargas puntuales.",
-   "para_quien": "Para entender el cálculo con cargas puntuales.",
-   "fecha": "2026-10-02",
+   "id": "8p0usSl-_d0",
+   "titulo": "CONCENTRATED LOADS on Cables Example Problem // How to solve for the unknowns on loaded cables",
+   "canal": "Student Engineering",
+   "duracion_min": 19.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.856,
+   "por_que": "Explica mediante un problema práctico cómo calcular la masa máxima y la flecha en cables cargados usando ecuaciones de equilibrio.",
+   "para_quien": "Para resolver problemas de cables.",
+   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ]
