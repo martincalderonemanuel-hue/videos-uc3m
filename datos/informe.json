@@ -1,12 +1,9 @@
 {
- "fecha": "2026-10-03 07:36",
+ "fecha": "2026-10-04 08:11",
  "busquedas": 0,
- "evaluados": 1010,
- "publicados_nuevos": 29,
+ "evaluados": 0,
+ "publicados_nuevos": 0,
  "retirados": 0,
  "errores": [],
- "avisos": [
-  "Descartado en la verificación final: _kgW1ivWcfE",
-  "Descartado en la verificación final: V78X6FJptj8"
- ]
+ "avisos": []
 }
