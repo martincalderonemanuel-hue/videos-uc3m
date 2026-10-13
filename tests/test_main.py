@@ -172,3 +172,38 @@ def test_faltan_claves_da_error_claro(tmp_path):
         assert "YOUTUBE_API_KEY" in str(e)
     else:
         raise AssertionError("debería haber fallado")
+
+
+def test_temario_agotado_avisa_con_fecha(tmp_path):
+    rutas = preparar(tmp_path)
+    os.makedirs(rutas["datos"])
+    temarios = main.cargar_temarios(rutas["temarios"])
+    estado = {tema["id"]: {"siguiente": 9999, "completado": "2026-09-25"}
+              for t in temarios for tema in t["temas"]}
+    with open(os.path.join(rutas["datos"], "estado.json"), "w", encoding="utf-8") as f:
+        json.dump(estado, f)
+    informe = noche(rutas)
+    assert informe["busquedas"] == 0
+    assert "02/10/2026" in informe["pausa"]  # 25/09 + 7 días
+    html = open(os.path.join(rutas["docs"], "index.html"), encoding="utf-8").read()
+    assert "02/10/2026" in html
+
+
+def test_noche_normal_no_tiene_pausa(tmp_path):
+    informe = noche(preparar(tmp_path))
+    assert not informe.get("pausa")
+
+
+def test_temas_sin_videos_se_buscan_primero(tmp_path):
+    rutas = preparar(tmp_path)
+    os.makedirs(rutas["datos"])
+    temarios = main.cargar_temarios(rutas["temarios"])
+    llenos = {tema["id"]: [{"id": f"X{i:010d}", "nota": 0.9} for i in range(3)]
+              for t in temarios for tema in t["temas"] if tema["id"] != "EA-05"}
+    with open(os.path.join(rutas["datos"], "publicados.json"), "w", encoding="utf-8") as f:
+        json.dump(llenos, f)
+    noche(rutas, SesionSimulada(cuota_busquedas=60))
+    estado = leer(os.path.join(rutas["datos"], "estado.json"))
+    # EA-05 no tenía vídeos: dentro de su asignatura recibe más búsquedas que cualquier otro tema
+    ea = {k: v["siguiente"] for k, v in estado.items() if k.startswith("EA-")}
+    assert ea["EA-05"] == max(ea.values()) and ea["EA-05"] > 1

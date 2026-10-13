@@ -47,6 +47,8 @@ button:hover{border-color:var(--acc);color:var(--acc)}
 details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 16px 12px;margin-bottom:12px}
 summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
 .vacio{color:var(--sub);font-size:14px;margin:0 0 8px}
+.pausa{background:#fff4d6;color:#6b4e00;border-radius:10px;padding:12px 14px;margin:16px 0}
+@media (prefers-color-scheme:dark){.pausa{background:#3a2f12;color:#ffd977}}
 .informe{margin-top:40px;font-size:13px;color:var(--sub);border-top:1px solid var(--line);padding-top:16px}
 .error{color:var(--warn)}
 """
@@ -162,6 +164,8 @@ def generar_html(publicados, temarios, informe, novedades):
         + "</div>"
     )
 
+    pausa_html = f'<p class="pausa">⏸️ {escape(informe["pausa"])}</p>' if informe.get("pausa") else ""
+
     return f"""<!doctype html>
 <html lang="es">
 <head>
@@ -175,6 +179,7 @@ def generar_html(publicados, temarios, informe, novedades):
 <main>
   <h1>Vídeos para estudiar</h1>
   <p class="sub">Seleccionados cada noche por tema de tu temario · actualizado {escape(str(informe.get("fecha", "")))}</p>
+  {pausa_html}
   <h2>Novedades de esta noche</h2>
   {bloque_nuevos}
   <h2>Por asignatura</h2>

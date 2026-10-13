@@ -22,7 +22,7 @@ from zoneinfo import ZoneInfo
 import config
 from src import gemini_client, jev_client, youtube_client
 from src.errores import CuotaAgotada, ErrorAPI, JevNoDisponible
-from src.planificador import marcar_hecha, planificar
+from src.planificador import marcar_hecha, planificar, proxima_busqueda
 from src.puntuacion import puntuar
 from src.transcripciones import Transcriptor
 from src.verificador import duracion_a_minutos, existe_en_oembed, motivo_descarte
@@ -296,8 +296,14 @@ def ejecutar(opciones, rutas, sesion, claves, hoy, dormir=time.sleep, ahora=None
         _reverificar(publicados, sesion, claves["youtube"], informe)
 
     # 1. Búsquedas de esta noche
+    incompletos = {tema["id"] for t in temarios for tema in t["temas"]
+                   if len(publicados.get(tema["id"], [])) < config.VIDEOS_POR_TEMA}
     plan = planificar(temarios, estado, hoy, config.MAX_BUSQUEDAS_POR_NOCHE,
-                      solo_asignatura=opciones.get("asignatura") or None)
+                      solo_asignatura=opciones.get("asignatura") or None, incompletos=incompletos)
+    if not plan and not candidatos:
+        proxima = proxima_busqueda(temarios, estado)
+        informe["pausa"] = ("Todo el temario está buscado. "
+                            + (f"La próxima búsqueda será el {proxima:%d/%m/%Y}." if proxima else ""))
     _buscar(plan, estado, evaluados, candidatos, sesion, claves["youtube"], hoy, informe)
 
     # 2 y 3. Detalles de YouTube + filtros gratuitos (control 1 de existencia)

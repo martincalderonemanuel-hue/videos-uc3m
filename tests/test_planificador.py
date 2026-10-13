@@ -7,7 +7,8 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from src.planificador import consultas_de_tema, marcar_hecha, planificar
+import config
+from src.planificador import consultas_de_tema, marcar_hecha, planificar, proxima_busqueda
 
 RAIZ = os.path.join(os.path.dirname(__file__), "..")
 HOY = dt.date(2026, 9, 26)
@@ -132,3 +133,49 @@ def test_tema_completado_hace_tiempo_se_repite():
     estado = {"AA-1": {"siguiente": total, "completado": "2026-08-01"}}
     plan = planificar(t, estado, HOY, 90)
     assert plan and plan[0]["indice"] == 0
+
+
+# --- actualización 5: más búsquedas, prioridad a temas incompletos, aviso de pausa ---
+
+def test_consultas_nuevas_van_al_final_sin_cambiar_las_antiguas():
+    # las consultas ya hechas conservan su posición: el estado guardado sigue siendo válido
+    tema = temario("Prueba", 1, 1)["temas"][0]
+    textos = [c for c, _ in consultas_de_tema(tema, "Prueba")]
+    assert textos[:6] == ["es 1", "en 1", "sub 1a Prueba", "es 1 ejercicios resueltos",
+                          "en 1 solved problems", "es 1 clase"]
+    assert "en 1 lecture" in textos
+    assert "en 1 exam problems" in textos
+
+
+def test_temario_real_tiene_al_menos_el_doble_de_busquedas():
+    total = sum(len(consultas_de_tema(tema, t["asignatura"]))
+                for t in temarios_reales() for tema in t["temas"] if tema.get("activo", True))
+    assert total >= 1000  # antes eran 526: se agotaban en una semana
+
+
+def test_tema_terminado_antes_de_ampliar_continua_con_las_nuevas():
+    t = [temario("Aaa", 1, 1)]
+    estado = {"AA-1": {"siguiente": 5, "completado": "2026-10-01"}}  # terminó con 5 consultas
+    plan = planificar(t, estado, HOY, 90)
+    assert plan and plan[0]["indice"] == 5
+
+
+def test_temas_incompletos_van_primero():
+    t = [temario("Aaa", 1, 4)]
+    plan = planificar(t, {}, HOY, 3, incompletos={"AA-3"})
+    assert [p["tema_id"] for p in plan[:2]] == ["AA-3", "AA-3"]
+
+
+def test_repetir_busquedas_a_los_7_dias():
+    assert config.DIAS_PARA_REPETIR_BUSQUEDAS == 7
+
+
+def test_proxima_busqueda_es_el_tema_que_antes_vuelve():
+    t = [temario("Aaa", 1, 2)]
+    estado = {"AA-1": {"siguiente": 99, "completado": "2026-10-01"},
+              "AA-2": {"siguiente": 99, "completado": "2026-09-28"}}
+    assert proxima_busqueda(t, estado) == dt.date(2026, 9, 28) + dt.timedelta(days=config.DIAS_PARA_REPETIR_BUSQUEDAS)
+
+
+def test_proxima_busqueda_sin_temas_completados():
+    assert proxima_busqueda([temario("Aaa", 1, 1)], {}) is None

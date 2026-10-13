@@ -55,7 +55,7 @@ NOTA_MINIMA_PUBLICAR = 0.7          # 7/10: mejor un tema con menos vídeos que 
 # Publicación
 # ---------------------------------------------------------------------------
 VIDEOS_POR_TEMA = 3                 # los mejores N de cada tema que aparecen en la web
-DIAS_PARA_REPETIR_BUSQUEDAS = 30    # cuando un tema agota sus búsquedas, se repite pasado este tiempo
+DIAS_PARA_REPETIR_BUSQUEDAS = 7     # cuando un tema agota sus búsquedas, se repite pasada una semana
 DIA_REVERIFICACION = 0              # 0 = lunes: se comprueba que los vídeos publicados siguen existiendo
 
 # ---------------------------------------------------------------------------

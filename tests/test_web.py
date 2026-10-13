@@ -89,3 +89,15 @@ def test_video_sin_explicacion_no_rompe():
 def test_ids_no_validos_no_se_publican():
     html = generar_html({"MM-02": [ficha(vid="javascript:x")]}, TEMARIOS, INFORME, set())
     assert "javascript:x" not in html
+
+
+def test_aviso_de_temario_en_pausa_se_muestra_arriba():
+    informe = dict(INFORME, pausa="Todo el temario está buscado. Próxima búsqueda: 20/10/2026.")
+    html = generar_html({}, TEMARIOS, informe, set())
+    assert 'class="pausa"' in html
+    assert "Próxima búsqueda: 20/10/2026" in html
+    assert html.index("pausa") < html.index("Novedades de esta noche")
+
+
+def test_sin_pausa_no_hay_aviso():
+    assert 'class="pausa"' not in generar_html({}, TEMARIOS, INFORME, set())
