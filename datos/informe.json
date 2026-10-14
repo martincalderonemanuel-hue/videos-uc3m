@@ -1,9 +1,11 @@
 {
- "fecha": "2026-10-13 08:59",
- "busquedas": 0,
- "evaluados": 0,
- "publicados_nuevos": 0,
+ "fecha": "2026-10-14 07:13",
+ "busquedas": 90,
+ "evaluados": 414,
+ "publicados_nuevos": 5,
  "retirados": 0,
  "errores": [],
- "avisos": []
+ "avisos": [
+  "Descartado en la verificación final: nM0s-4LT5lU"
+ ]
 }

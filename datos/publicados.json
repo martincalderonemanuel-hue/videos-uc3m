@@ -13,6 +13,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "0TTvQCLsVBo",
+   "titulo": "5.6.0 Teoria de Centro Instantaneo de Velocidad Cero",
+   "canal": "Consulta Arturo Woocay",
+   "duracion_min": 43.2,
+   "formato": "teoria",
+   "nota": 0.9501,
+   "por_que": "Explica la teoría de centros instantáneos de velocidad cero con ejemplos prácticos para la cinemática del cuerpo rígido.",
+   "para_quien": "Para aprender los fundamentos y ejemplos del CIV0.",
+   "fecha": "2026-10-14",
+   "sin_transcripcion": true
+  },
+  {
    "id": "WHV53HxtHIM",
    "titulo": "⚙ CENTRO Instantáneo De ROTACION ♾️ 1",
    "canal": "Matcool",
@@ -22,18 +34,6 @@
    "por_que": "Explica el concepto de centro instantáneo de rotación y muestra cómo resolver dos problemas comunes de velocidades en movimiento plano general.",
    "para_quien": "Para aprender a calcular velocidades con centros instantáneos.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "tJukINWTAYc",
-   "titulo": "ANÁLISIS DE VELOCIDADES EN MECANISMOS | MÉTODO VECTORIAL CINEMÁTICA DE CUERPO RÍGIDO HIBBELER 16.68",
-   "canal": "dcahue-ingeniería",
-   "duracion_min": 24.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.9034,
-   "por_que": "Muestra la resolución paso a paso de un ejercicio práctico sobre cinemática de cuerpo rígido usando métodos vectoriales.",
-   "para_quien": "Para aprender a resolver problemas de velocidades en mecanismos.",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
@@ -139,15 +139,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "yeNGnJZN2cU",
-   "titulo": "Análisis cinemático de un mecanismo de 4 barras. Posición, velocidad y aceleración",
-   "canal": "BETA SCIENCE",
-   "duracion_min": 23.8,
+   "id": "BgOcMAfFVmg",
+   "titulo": "Lecture 17 Example on Acceleration Analysis of 4 bar mechanism | KTOM | GTU",
+   "canal": "Hitesh Rana",
+   "duracion_min": 41.2,
    "formato": "problemas_resueltos",
-   "nota": 0.8936,
-   "por_que": "Muestra un análisis vectorial completo paso a paso de la posición, velocidad y aceleración en un mecanismo de 4 barras.",
-   "para_quien": "Para estudiar el análisis cinemático vectorial",
-   "fecha": "2026-09-25",
+   "nota": 0.894,
+   "por_que": "Muestra un ejercicio práctico de análisis de aceleración en un mecanismo de cuatro barras.",
+   "para_quien": "Para ver la resolución práctica de mecanismos planos.",
+   "fecha": "2026-10-14",
    "sin_transcripcion": true
   }
  ],
@@ -762,6 +762,18 @@
  ],
  "TD-10": [
   {
+   "id": "IaiwNtM4AUA",
+   "titulo": "CLASE 11 MECANISMOS DE TRANSFERENCIA DE CALOR MÁS UN EJERCICIO DE APLICACIÓN.",
+   "canal": "Fisica 123",
+   "duracion_min": 45.0,
+   "formato": "teoria",
+   "nota": 0.8676,
+   "por_que": "Detalla los mecanismos de transferencia de calor incluyendo conducción, convección y radiación mediante un ejercicio.",
+   "para_quien": "Para repasar los mecanismos de transferencia térmica.",
+   "fecha": "2026-10-14",
+   "sin_transcripcion": true
+  },
+  {
    "id": "LR5bYxC4syI",
    "titulo": "Thermal Conductivity, Stefan Boltzmann Law, Heat Transfer, Conduction, Convecton, Radiation, Physics",
    "canal": "The Organic Chemistry Tutor",
@@ -782,18 +794,6 @@
    "nota": 0.778,
    "por_que": "Demuestra cómo realizar un balance de energía superficial igualando la conducción según la ley de Fourier y la convección de Newton.",
    "para_quien": "Para aplicar las leyes de Fourier y Newton.",
-   "fecha": "2026-10-03",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "NTlMIwYugJM",
-   "titulo": "Introducción Mecanismos de Transferencia de Calor",
-   "canal": "Mayken Espinoza",
-   "duracion_min": 19.5,
-   "formato": "teoria",
-   "nota": 0.7161,
-   "por_que": "Repasa los fundamentos teóricos de los principales mecanismos de transferencia de calor para consolidar los conceptos básicos de la materia.",
-   "para_quien": "Para repasar la teoría desde cero.",
    "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
@@ -1173,6 +1173,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "_7-D02meh8w",
+   "titulo": "Pares de Fuerzas. Curso de Estática. Clase 21.",
+   "canal": "Profesor Sergio Llanos",
+   "duracion_min": 28.9,
+   "formato": "teoria",
+   "nota": 0.928,
+   "por_que": "Desarrolla el concepto de momento de un par de fuerzas, pares equivalentes y la solución de un problema de estática.",
+   "para_quien": "Para dominar el análisis de pares de fuerzas.",
+   "fecha": "2026-10-14",
+   "sin_transcripcion": true
+  },
+  {
    "id": "1jUg9KJnsQ8",
    "titulo": "Sistema Equivalente Fuerza-Par. Curso de Estática. Clase 23",
    "canal": "Profesor Sergio Llanos",
@@ -1181,18 +1193,6 @@
    "nota": 0.925,
    "por_que": "Enseña a resolver un problema práctico para calcular el sistema equivalente fuerza-par aplicado sobre un componente de máquina.",
    "para_quien": "Para aprender a calcular sistemas fuerza-par.",
-   "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "987LQSCIZjo",
-   "titulo": "Sistema Equivalente Fuerza-Par. Curso de Estática - EJERCICIO RESUELTO BEER AND JOHNSTON",
-   "canal": "PROFE JN El canal del ingeniero",
-   "duracion_min": 14.6,
-   "formato": "problemas_resueltos",
-   "nota": 0.9045,
-   "por_que": "Muestra la conversión de un sistema de cuatro fuerzas en una sola fuerza equivalente mediante un ejercicio resuelto.",
-   "para_quien": "Para repasar ejercicios de estática.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
@@ -1539,7 +1539,20 @@
    "sin_transcripcion": true
   }
  ],
- "EA-01": [],
+ "EA-01": [
+  {
+   "id": "7-V9SvComik",
+   "titulo": "Electronics - Lecture 22:  BJT biasing techniques, CMOS digital circuits",
+   "canal": "Tim Holman",
+   "duracion_min": 71.6,
+   "formato": "teoria",
+   "nota": 0.7511,
+   "por_que": "Aborda técnicas de polarización de BJT y circuitos digitales CMOS con explicaciones detalladas y prácticas.",
+   "para_quien": "Para comprender el funcionamiento de BJT y CMOS.",
+   "fecha": "2026-10-14",
+   "sin_transcripcion": true
+  }
+ ],
  "ME-10": [
   {
    "id": "MLtOEvCCqwI",

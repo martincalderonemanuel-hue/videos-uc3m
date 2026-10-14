@@ -37,6 +37,8 @@ button:hover{border-color:var(--acc);color:var(--acc)}
 details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 16px 12px;margin-bottom:12px}
 summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
 .vacio{color:var(--sub);font-size:14px;margin:0 0 8px}
+.pausa{background:#fff4d6;color:#6b4e00;border-radius:10px;padding:12px 14px;margin:16px 0}
+@media (prefers-color-scheme:dark){.pausa{background:#3a2f12;color:#ffd977}}
 .informe{margin-top:40px;font-size:13px;color:var(--sub);border-top:1px solid var(--line);padding-top:16px}
 .error{color:var(--warn)}
 </style>
@@ -44,9 +46,10 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
 <body>
 <main>
   <h1>Vídeos para estudiar</h1>
-  <p class="sub">Seleccionados cada noche por tema de tu temario · actualizado 2026-10-13 08:59</p>
+  <p class="sub">Seleccionados cada noche por tema de tu temario · actualizado 2026-10-14 07:13</p>
+  
   <h2>Novedades de esta noche</h2>
-  <p class="vacio">Esta noche no ha entrado ningún vídeo nuevo en el top de ningún tema.</p>
+  <div class="nuevos"><strong>Mecánica de máquinas</strong> <span class="sub">· 2 nuevos</span><ul><li><a href="https://www.youtube.com/watch?v=0TTvQCLsVBo" target="_blank" rel="noopener">5.6.0 Teoria de Centro Instantaneo de Velocidad Cero</a> <span class="sub">· Cinemática del Sólido Rígido</span></li><li><a href="https://www.youtube.com/watch?v=BgOcMAfFVmg" target="_blank" rel="noopener">Lecture 17 Example on Acceleration Analysis of 4 bar mechanism | KTOM | GTU</a> <span class="sub">· Cinemática de Mecanismos Planos</span></li></ul></div><div class="nuevos"><strong>Electrónica analógica</strong> <span class="sub">· 1 nuevos</span><ul><li><a href="https://www.youtube.com/watch?v=7-V9SvComik" target="_blank" rel="noopener">Electronics - Lecture 22:  BJT biasing techniques, CMOS digital circuits</a> <span class="sub">· Introducción a la Electrónica Analógica, circuitos con transistores y circuitos integrados de aplicación específica</span></li></ul></div><div class="nuevos"><strong>Termodinámica</strong> <span class="sub">· 1 nuevos</span><ul><li><a href="https://www.youtube.com/watch?v=IaiwNtM4AUA" target="_blank" rel="noopener">CLASE 11 MECANISMOS DE TRANSFERENCIA DE CALOR MÁS UN EJERCICIO DE APLICACIÓN.</a> <span class="sub">· Introducción a la transferencia de calor: Fourier, Newton y Stefan-Boltzmann</span></li></ul></div><div class="nuevos"><strong>Mecánica de estructuras</strong> <span class="sub">· 1 nuevos</span><ul><li><a href="https://www.youtube.com/watch?v=_7-D02meh8w" target="_blank" rel="noopener">Pares de Fuerzas. Curso de Estática. Clase 21.</a> <span class="sub">· Sistemas de fuerzas y equilibrio</span></li></ul></div>
   <h2>Por asignatura</h2>
   <details><summary>Mecánica de máquinas <span class="sub">· 18 vídeos</span></summary><h3>Cinemática del Sólido Rígido</h3><div class="grid">
 <article class="card">
@@ -60,6 +63,16 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
   </div>
 </article>
 <article class="card">
+  <a href="https://www.youtube.com/watch?v=0TTvQCLsVBo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/0TTvQCLsVBo/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
+  <div class="body">
+    <a class="titulo" href="https://www.youtube.com/watch?v=0TTvQCLsVBo" target="_blank" rel="noopener">5.6.0 Teoria de Centro Instantaneo de Velocidad Cero</a>
+    <div class="meta">Consulta Arturo Woocay · 43 min</div>
+    <div class="chips"><span class="chip nuevo">Nuevo</span><span class="chip">Nota 9,5/10</span><span class="chip">Teoría</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
+    <p class="porque">Explica la teoría de centros instantáneos de velocidad cero con ejemplos prácticos para la cinemática del cuerpo rígido.</p><p class="paraquien">Para aprender los fundamentos y ejemplos del CIV0.</p>
+    <button type="button" data-q="Tengo una duda sobre el vídeo «5.6.0 Teoria de Centro Instantaneo de Velocidad Cero» (https://www.youtube.com/watch?v=0TTvQCLsVBo), del tema «Cinemática del Sólido Rígido» de Mecánica de máquinas: ">Copiar pregunta para Claude</button>
+  </div>
+</article>
+<article class="card">
   <a href="https://www.youtube.com/watch?v=WHV53HxtHIM" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/WHV53HxtHIM/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
   <div class="body">
     <a class="titulo" href="https://www.youtube.com/watch?v=WHV53HxtHIM" target="_blank" rel="noopener">⚙ CENTRO Instantáneo De ROTACION ♾️ 1</a>
@@ -67,16 +80,6 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
     <div class="chips"><span class="chip">Nota 9,2/10</span><span class="chip">Problemas resueltos</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
     <p class="porque">Explica el concepto de centro instantáneo de rotación y muestra cómo resolver dos problemas comunes de velocidades en movimiento plano general.</p><p class="paraquien">Para aprender a calcular velocidades con centros instantáneos.</p>
     <button type="button" data-q="Tengo una duda sobre el vídeo «⚙ CENTRO Instantáneo De ROTACION ♾️ 1» (https://www.youtube.com/watch?v=WHV53HxtHIM), del tema «Cinemática del Sólido Rígido» de Mecánica de máquinas: ">Copiar pregunta para Claude</button>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.youtube.com/watch?v=tJukINWTAYc" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/tJukINWTAYc/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
-  <div class="body">
-    <a class="titulo" href="https://www.youtube.com/watch?v=tJukINWTAYc" target="_blank" rel="noopener">ANÁLISIS DE VELOCIDADES EN MECANISMOS | MÉTODO VECTORIAL CINEMÁTICA DE CUERPO RÍGIDO HIBBELER 16.68</a>
-    <div class="meta">dcahue-ingeniería · 24 min</div>
-    <div class="chips"><span class="chip">Nota 9,0/10</span><span class="chip">Problemas resueltos</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
-    <p class="porque">Muestra la resolución paso a paso de un ejercicio práctico sobre cinemática de cuerpo rígido usando métodos vectoriales.</p><p class="paraquien">Para aprender a resolver problemas de velocidades en mecanismos.</p>
-    <button type="button" data-q="Tengo una duda sobre el vídeo «ANÁLISIS DE VELOCIDADES EN MECANISMOS | MÉTODO VECTORIAL CINEMÁTICA DE CUERPO RÍGIDO HIBBELER 16.68» (https://www.youtube.com/watch?v=tJukINWTAYc), del tema «Cinemática del Sólido Rígido» de Mecánica de máquinas: ">Copiar pregunta para Claude</button>
   </div>
 </article></div><h3>Dinámica del Sólido Rígido</h3><div class="grid">
 <article class="card">
@@ -160,13 +163,13 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
   </div>
 </article>
 <article class="card">
-  <a href="https://www.youtube.com/watch?v=yeNGnJZN2cU" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/yeNGnJZN2cU/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
+  <a href="https://www.youtube.com/watch?v=BgOcMAfFVmg" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/BgOcMAfFVmg/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
   <div class="body">
-    <a class="titulo" href="https://www.youtube.com/watch?v=yeNGnJZN2cU" target="_blank" rel="noopener">Análisis cinemático de un mecanismo de 4 barras. Posición, velocidad y aceleración</a>
-    <div class="meta">BETA SCIENCE · 24 min</div>
-    <div class="chips"><span class="chip">Nota 8,9/10</span><span class="chip">Problemas resueltos</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
-    <p class="porque">Muestra un análisis vectorial completo paso a paso de la posición, velocidad y aceleración en un mecanismo de 4 barras.</p><p class="paraquien">Para estudiar el análisis cinemático vectorial</p>
-    <button type="button" data-q="Tengo una duda sobre el vídeo «Análisis cinemático de un mecanismo de 4 barras. Posición, velocidad y aceleración» (https://www.youtube.com/watch?v=yeNGnJZN2cU), del tema «Cinemática de Mecanismos Planos» de Mecánica de máquinas: ">Copiar pregunta para Claude</button>
+    <a class="titulo" href="https://www.youtube.com/watch?v=BgOcMAfFVmg" target="_blank" rel="noopener">Lecture 17 Example on Acceleration Analysis of 4 bar mechanism | KTOM | GTU</a>
+    <div class="meta">Hitesh Rana · 41 min</div>
+    <div class="chips"><span class="chip nuevo">Nuevo</span><span class="chip">Nota 8,9/10</span><span class="chip">Problemas resueltos</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
+    <p class="porque">Muestra un ejercicio práctico de análisis de aceleración en un mecanismo de cuatro barras.</p><p class="paraquien">Para ver la resolución práctica de mecanismos planos.</p>
+    <button type="button" data-q="Tengo una duda sobre el vídeo «Lecture 17 Example on Acceleration Analysis of 4 bar mechanism | KTOM | GTU» (https://www.youtube.com/watch?v=BgOcMAfFVmg), del tema «Cinemática de Mecanismos Planos» de Mecánica de máquinas: ">Copiar pregunta para Claude</button>
   </div>
 </article></div><h3>Dinámica de Mecanismos Planos</h3><div class="grid">
 <article class="card">
@@ -228,7 +231,17 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
     <p class="porque">Aplica los principios de energía mecánica, cinética y potencial en la resolución guiada de un problema físico.</p><p class="paraquien">Para practicar problemas de energía mecánica.</p>
     <button type="button" data-q="Tengo una duda sobre el vídeo «Problema de ENERGÍA MECÁNICA 🎢» (https://www.youtube.com/watch?v=qKDU7mp4vGs), del tema «Trabajo y Energía en Mecanismos Planos» de Mecánica de máquinas: ">Copiar pregunta para Claude</button>
   </div>
-</article></div></details><details><summary>Electrónica analógica <span class="sub">· 18 vídeos</span></summary><h3>Introducción a la Electrónica Analógica, circuitos con transistores y circuitos integrados de aplicación específica</h3><p class="vacio">Aún sin vídeos: se buscarán en próximas noches.</p><h3>Fuentes de corriente y amplificadores básicos. Amplificador diferencial</h3><div class="grid">
+</article></div></details><details><summary>Electrónica analógica <span class="sub">· 19 vídeos</span></summary><h3>Introducción a la Electrónica Analógica, circuitos con transistores y circuitos integrados de aplicación específica</h3><div class="grid">
+<article class="card">
+  <a href="https://www.youtube.com/watch?v=7-V9SvComik" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/7-V9SvComik/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
+  <div class="body">
+    <a class="titulo" href="https://www.youtube.com/watch?v=7-V9SvComik" target="_blank" rel="noopener">Electronics - Lecture 22:  BJT biasing techniques, CMOS digital circuits</a>
+    <div class="meta">Tim Holman · 1 h 12 min</div>
+    <div class="chips"><span class="chip nuevo">Nuevo</span><span class="chip">Nota 7,5/10</span><span class="chip">Teoría</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
+    <p class="porque">Aborda técnicas de polarización de BJT y circuitos digitales CMOS con explicaciones detalladas y prácticas.</p><p class="paraquien">Para comprender el funcionamiento de BJT y CMOS.</p>
+    <button type="button" data-q="Tengo una duda sobre el vídeo «Electronics - Lecture 22:  BJT biasing techniques, CMOS digital circuits» (https://www.youtube.com/watch?v=7-V9SvComik), del tema «Introducción a la Electrónica Analógica, circuitos con transistores y circuitos integrados de aplicación específica» de Electrónica analógica: ">Copiar pregunta para Claude</button>
+  </div>
+</article></div><h3>Fuentes de corriente y amplificadores básicos. Amplificador diferencial</h3><div class="grid">
 <article class="card">
   <a href="https://www.youtube.com/watch?v=b-1pc_LMXzA" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/b-1pc_LMXzA/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
   <div class="body">
@@ -650,6 +663,16 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
   </div>
 </article></div><h3>Introducción a la transferencia de calor: Fourier, Newton y Stefan-Boltzmann</h3><div class="grid">
 <article class="card">
+  <a href="https://www.youtube.com/watch?v=IaiwNtM4AUA" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/IaiwNtM4AUA/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
+  <div class="body">
+    <a class="titulo" href="https://www.youtube.com/watch?v=IaiwNtM4AUA" target="_blank" rel="noopener">CLASE 11 MECANISMOS DE TRANSFERENCIA DE CALOR MÁS UN EJERCICIO DE APLICACIÓN.</a>
+    <div class="meta">Fisica 123 · 45 min</div>
+    <div class="chips"><span class="chip nuevo">Nuevo</span><span class="chip">Nota 8,7/10</span><span class="chip">Teoría</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
+    <p class="porque">Detalla los mecanismos de transferencia de calor incluyendo conducción, convección y radiación mediante un ejercicio.</p><p class="paraquien">Para repasar los mecanismos de transferencia térmica.</p>
+    <button type="button" data-q="Tengo una duda sobre el vídeo «CLASE 11 MECANISMOS DE TRANSFERENCIA DE CALOR MÁS UN EJERCICIO DE APLICACIÓN.» (https://www.youtube.com/watch?v=IaiwNtM4AUA), del tema «Introducción a la transferencia de calor: Fourier, Newton y Stefan-Boltzmann» de Termodinámica: ">Copiar pregunta para Claude</button>
+  </div>
+</article>
+<article class="card">
   <a href="https://www.youtube.com/watch?v=LR5bYxC4syI" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/LR5bYxC4syI/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
   <div class="body">
     <a class="titulo" href="https://www.youtube.com/watch?v=LR5bYxC4syI" target="_blank" rel="noopener">Thermal Conductivity, Stefan Boltzmann Law, Heat Transfer, Conduction, Convecton, Radiation, Physics</a>
@@ -667,16 +690,6 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
     <div class="chips"><span class="chip">Nota 7,8/10</span><span class="chip">Problemas resueltos</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
     <p class="porque">Demuestra cómo realizar un balance de energía superficial igualando la conducción según la ley de Fourier y la convección de Newton.</p><p class="paraquien">Para aplicar las leyes de Fourier y Newton.</p>
     <button type="button" data-q="Tengo una duda sobre el vídeo «Heat Transfer - Chapter 1 - Example Problem 3 - Equating conduction and convection at a surface» (https://www.youtube.com/watch?v=X_Ws46vNTfM), del tema «Introducción a la transferencia de calor: Fourier, Newton y Stefan-Boltzmann» de Termodinámica: ">Copiar pregunta para Claude</button>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.youtube.com/watch?v=NTlMIwYugJM" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/NTlMIwYugJM/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
-  <div class="body">
-    <a class="titulo" href="https://www.youtube.com/watch?v=NTlMIwYugJM" target="_blank" rel="noopener">Introducción Mecanismos de Transferencia de Calor</a>
-    <div class="meta">Mayken Espinoza · 20 min</div>
-    <div class="chips"><span class="chip">Nota 7,2/10</span><span class="chip">Teoría</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
-    <p class="porque">Repasa los fundamentos teóricos de los principales mecanismos de transferencia de calor para consolidar los conceptos básicos de la materia.</p><p class="paraquien">Para repasar la teoría desde cero.</p>
-    <button type="button" data-q="Tengo una duda sobre el vídeo «Introducción Mecanismos de Transferencia de Calor» (https://www.youtube.com/watch?v=NTlMIwYugJM), del tema «Introducción a la transferencia de calor: Fourier, Newton y Stefan-Boltzmann» de Termodinámica: ">Copiar pregunta para Claude</button>
   </div>
 </article></div><h3>Conducción unidimensional en régimen estacionario con y sin generación de calor</h3><div class="grid">
 <article class="card">
@@ -1000,6 +1013,16 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
   </div>
 </article>
 <article class="card">
+  <a href="https://www.youtube.com/watch?v=_7-D02meh8w" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/_7-D02meh8w/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
+  <div class="body">
+    <a class="titulo" href="https://www.youtube.com/watch?v=_7-D02meh8w" target="_blank" rel="noopener">Pares de Fuerzas. Curso de Estática. Clase 21.</a>
+    <div class="meta">Profesor Sergio Llanos · 29 min</div>
+    <div class="chips"><span class="chip nuevo">Nuevo</span><span class="chip">Nota 9,3/10</span><span class="chip">Teoría</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
+    <p class="porque">Desarrolla el concepto de momento de un par de fuerzas, pares equivalentes y la solución de un problema de estática.</p><p class="paraquien">Para dominar el análisis de pares de fuerzas.</p>
+    <button type="button" data-q="Tengo una duda sobre el vídeo «Pares de Fuerzas. Curso de Estática. Clase 21.» (https://www.youtube.com/watch?v=_7-D02meh8w), del tema «Sistemas de fuerzas y equilibrio» de Mecánica de estructuras: ">Copiar pregunta para Claude</button>
+  </div>
+</article>
+<article class="card">
   <a href="https://www.youtube.com/watch?v=1jUg9KJnsQ8" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/1jUg9KJnsQ8/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
   <div class="body">
     <a class="titulo" href="https://www.youtube.com/watch?v=1jUg9KJnsQ8" target="_blank" rel="noopener">Sistema Equivalente Fuerza-Par. Curso de Estática. Clase 23</a>
@@ -1007,16 +1030,6 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
     <div class="chips"><span class="chip">Nota 9,2/10</span><span class="chip">Problemas resueltos</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
     <p class="porque">Enseña a resolver un problema práctico para calcular el sistema equivalente fuerza-par aplicado sobre un componente de máquina.</p><p class="paraquien">Para aprender a calcular sistemas fuerza-par.</p>
     <button type="button" data-q="Tengo una duda sobre el vídeo «Sistema Equivalente Fuerza-Par. Curso de Estática. Clase 23» (https://www.youtube.com/watch?v=1jUg9KJnsQ8), del tema «Sistemas de fuerzas y equilibrio» de Mecánica de estructuras: ">Copiar pregunta para Claude</button>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.youtube.com/watch?v=987LQSCIZjo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/987LQSCIZjo/mqdefault.jpg" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></a>
-  <div class="body">
-    <a class="titulo" href="https://www.youtube.com/watch?v=987LQSCIZjo" target="_blank" rel="noopener">Sistema Equivalente Fuerza-Par. Curso de Estática - EJERCICIO RESUELTO BEER AND JOHNSTON</a>
-    <div class="meta">PROFE JN El canal del ingeniero · 15 min</div>
-    <div class="chips"><span class="chip">Nota 9,0/10</span><span class="chip">Problemas resueltos</span><span class="chip aviso" title="Evaluado solo con título y descripción">Sin transcripción</span></div>
-    <p class="porque">Muestra la conversión de un sistema de cuatro fuerzas en una sola fuerza equivalente mediante un ejercicio resuelto.</p><p class="paraquien">Para repasar ejercicios de estática.</p>
-    <button type="button" data-q="Tengo una duda sobre el vídeo «Sistema Equivalente Fuerza-Par. Curso de Estática - EJERCICIO RESUELTO BEER AND JOHNSTON» (https://www.youtube.com/watch?v=987LQSCIZjo), del tema «Sistemas de fuerzas y equilibrio» de Mecánica de estructuras: ">Copiar pregunta para Claude</button>
   </div>
 </article></div><h3>Reacciones y esfuerzos</h3><div class="grid">
 <article class="card">
@@ -1349,7 +1362,7 @@ summary{cursor:pointer;font-weight:600;font-size:18px;padding:10px 0}
     <button type="button" data-q="Tengo una duda sobre el vídeo «CONCENTRATED LOADS on Cables Example Problem // How to solve for the unknowns on loaded cables» (https://www.youtube.com/watch?v=8p0usSl-_d0), del tema «Estructuras de cables» de Mecánica de estructuras: ">Copiar pregunta para Claude</button>
   </div>
 </article></div></details>
-  <div class="informe">Última ejecución: 2026-10-13 08:59 · 0 búsquedas · 0 vídeos evaluados · 0 nuevos en el top</div>
+  <div class="informe">Última ejecución: 2026-10-14 07:13 · 90 búsquedas · 414 vídeos evaluados · 5 nuevos en el top</div>
 </main>
 <script>
 document.querySelectorAll('button[data-q]').forEach(function(b){
