@@ -63,15 +63,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "L3IqR3hyZRI",
-   "titulo": "Dinámica del Cuerpo Rígido || Física I || Clase de Consulta UTN FRA",
-   "canal": "Ingeniería Entrópica",
-   "duracion_min": 89.5,
-   "formato": "teoria",
-   "nota": 0.9346,
-   "por_que": "Aporta una clase teórica completa sobre dinámica del cuerpo rígido, abarcando rototraslación, momento de inercia y teorema de Steiner.",
-   "para_quien": "Para repasar los conceptos teóricos de dinámica rotacional.",
-   "fecha": "2026-09-25",
+   "id": "Tp7Nkg5BgKE",
+   "titulo": "EXAMEN FINAL DE FISICA1 , PUCP 24-2 , SOLUC PREGUNTA3 , DINAMICA DEL SOLIDO RIGIDO Y RODADURA PURA",
+   "canal": "ProfeMiky19",
+   "duracion_min": 39.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.945,
+   "por_que": "Permite ver la resolución paso a paso de un ejercicio de examen sobre dinámica del sólido rígido y rodadura pura.",
+   "para_quien": "Para practicar con ejercicios de examen.",
+   "fecha": "2026-10-15",
    "sin_transcripcion": true
   }
  ],
@@ -89,6 +89,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "32HGzrXdmp0",
+   "titulo": "DOF, Kutzbach criterion, problems, mechanism with higher pair problems, Grubler criterion, problems",
+   "canal": "WAMEs ",
+   "duracion_min": 24.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.964,
+   "por_que": "Explica el cálculo de grados de libertad y la aplicación de los criterios de Kutzbach y Grubler con problemas.",
+   "para_quien": "Para aprender a calcular grados de libertad.",
+   "fecha": "2026-10-15",
+   "sin_transcripcion": true
+  },
+  {
    "id": "lsiBKayOVQw",
    "titulo": "Ecuación de Movilidad (Grados de Libertad)",
    "canal": "carlos zamarripa",
@@ -97,18 +109,6 @@
    "nota": 0.9372,
    "por_que": "Resuelve diversos ejemplos prácticos para calcular la ecuación de movilidad y los grados de libertad en mecanismos.",
    "para_quien": "Para calcular grados de libertad en mecanismos planos.",
-   "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "X4159xXH9ns",
-   "titulo": "Analasis de Velocidad Teoria de Maquinas",
-   "canal": "Ingeniería para Principiantes",
-   "duracion_min": 6.5,
-   "formato": "teoria",
-   "nota": 0.922,
-   "por_que": "Explica los fundamentos del análisis de velocidad utilizando centros instantáneos de rotación y polígonos de velocidad.",
-   "para_quien": "Para dominar el análisis de velocidad en mecanismos.",
    "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
@@ -153,6 +153,18 @@
  ],
  "MM-07": [
   {
+   "id": "K5bCipCeyxo",
+   "titulo": "S26 MENG4145 Mechanisms Class 21 Video 1 Torque from Energy Method, Norton Example 11-4",
+   "canal": "Professor Ted Diehl",
+   "duracion_min": 14.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.9135,
+   "por_que": "Muestra la aplicación del método de la energía para calcular el torque en mecanismos basándose en la bibliografía de Norton.",
+   "para_quien": "Para aplicar el método energético en mecanismos.",
+   "fecha": "2026-10-15",
+   "sin_transcripcion": true
+  },
+  {
    "id": "WRkxzh8cAIY",
    "titulo": "Principle of Work and Energy (Learn to solve any problem)",
    "canal": "Question Solutions",
@@ -174,18 +186,6 @@
    "por_que": "Resuelve un ejercicio práctico aplicando el teorema del trabajo y la energía cinética o teorema de las fuerzas vivas.",
    "para_quien": "Para ver el teorema de las fuerzas vivas",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "qKDU7mp4vGs",
-   "titulo": "Problema de ENERGÍA MECÁNICA 🎢",
-   "canal": "Susi Profe",
-   "duracion_min": 10.9,
-   "formato": "problemas_resueltos",
-   "nota": 0.8299,
-   "por_que": "Aplica los principios de energía mecánica, cinética y potencial en la resolución guiada de un problema físico.",
-   "para_quien": "Para practicar problemas de energía mecánica.",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
@@ -291,15 +291,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "jVIk569DooA",
-   "titulo": "Teorema de Miller (ejemplos)",
-   "canal": "Julio Saldaña",
-   "duracion_min": 13.6,
+   "id": "fG316FguKIQ",
+   "titulo": "Clase 13 (parte b) EEB: Transistor FET respuesta en frecuencia",
+   "canal": "Elementos de Electronica Básica",
+   "duracion_min": 39.0,
    "formato": "problemas_resueltos",
-   "nota": 0.905,
-   "por_que": "Muestra ejemplos de aplicación directa del Teorema de Miller para comprender su uso en circuitos amplificadores.",
-   "para_quien": "Para ver ejemplos prácticos del Teorema de Miller.",
-   "fecha": "2026-09-25",
+   "nota": 0.9065,
+   "por_que": "Analiza la respuesta en frecuencia de transistores FET considerando capacidades internas y de acople mediante ejemplos.",
+   "para_quien": "Para estudiar la respuesta en frecuencia de FET.",
+   "fecha": "2026-10-15",
    "sin_transcripcion": true
   }
  ],
@@ -546,6 +546,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "N-DCiIoUM8M",
+   "titulo": "Conservación de energía en una tobera (primera ley de termodinámica en sistema abierto)",
+   "canal": "Aprendiendo ingeniería",
+   "duracion_min": 12.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8933,
+   "por_que": "Desarrolla un ejercicio práctico aplicando la primera ley de la termodinámica y conservación de masa en una tobera.",
+   "para_quien": "Para resolver problemas prácticos en toberas.",
+   "fecha": "2026-10-15",
+   "sin_transcripcion": true
+  },
+  {
    "id": "L47PTLYFlyw",
    "titulo": "Thermodynamics: Isentropic Efficiency Turbines and Compressors",
    "canal": "Mark Tronzo",
@@ -555,18 +567,6 @@
    "por_que": "Permite estudiar la eficiencia isoentrópica mediante ejemplos prácticos aplicados a turbinas de vapor y compresores de aire.",
    "para_quien": "Para practicar cálculos en turbinas y compresores.",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "k0FaAI65vNE",
-   "titulo": "Pipe Flow, Nozzles, Diffusers, and Throttling Devices in 9 Minutes!",
-   "canal": "Less Boring Lectures",
-   "duracion_min": 8.7,
-   "formato": "teoria",
-   "nota": 0.8788,
-   "por_que": "Resume de manera rápida y concisa el comportamiento de diversos dispositivos en estado estacionario como toberas, bombas y turbinas.",
-   "para_quien": "Para repasar dispositivos termodinámicos.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -648,6 +648,18 @@
  ],
  "TD-07": [
   {
+   "id": "TCURu37zZ2w",
+   "titulo": "Thermodynamics 1 Chap6 (Part 3) Brayton cycle with intercooling, reheating n regeneration.",
+   "canal": "PROFESOR MADYA DR HAJI MOHD MAHADZIR MOHAMMUD ",
+   "duracion_min": 35.3,
+   "formato": "teoria",
+   "nota": 0.956,
+   "por_que": "Explica los conceptos y la solución de problemas para el ciclo Brayton con enfriamiento intermedio, rehumidificación y regeneración.",
+   "para_quien": "Para comprender modificaciones del ciclo Brayton.",
+   "fecha": "2026-10-15",
+   "sin_transcripcion": true
+  },
+  {
    "id": "hNaRJUuMhRc",
    "titulo": "EXPLICACIÓN CICLO DE BRAYTON - FISICOQUÍMICA I",
    "canal": "Julián Lozano",
@@ -669,18 +681,6 @@
    "por_que": "Explica el ciclo Brayton ideal, sus diagramas T-s, las relaciones de presión y las ecuaciones de eficiencia térmica en poco tiempo.",
    "para_quien": "Para repasar la teoría del ciclo Brayton.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "47NfjBE7tik",
-   "titulo": "EJEMPLO DEL CICLO DE BRAYTON 9-5 DEL LIBRO DE CEGEL 7ma Edición En termograf [EMI]",
-   "canal": "JHON QUIROZ",
-   "duracion_min": 16.5,
-   "formato": "problemas_resueltos",
-   "nota": 0.891,
-   "por_que": "Proporciona un ejercicio resuelto paso a paso del ciclo de Brayton utilizando tanto resolución manual como software especializado.",
-   "para_quien": "Para practicar la resolución de ciclos Brayton.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -1439,6 +1439,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "_muJSo9l18A",
+   "titulo": "Mechanics of Materials: Lesson 2 - Normal Stress, Review of Units",
+   "canal": "Jeff Hanson",
+   "duracion_min": 14.9,
+   "formato": "teoria",
+   "nota": 0.8643,
+   "por_que": "Introduce el concepto de esfuerzo normal y realiza una revisión de unidades fundamentales en mecánica de materiales.",
+   "para_quien": "Para entender la teoría desde cero.",
+   "fecha": "2026-10-15",
+   "sin_transcripcion": true
+  },
+  {
    "id": "9Bqeds5t5H8",
    "titulo": "11A Esfuerzo axil   Desarrollo teórico",
    "canal": "Mini Trains",
@@ -1448,18 +1460,6 @@
    "por_que": "Ofrece un desarrollo teórico completo sobre el esfuerzo axil analizado a partir de las tensiones y las deformaciones.",
    "para_quien": "Para estudiar la teoría del esfuerzo axil.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "jQ-fNqZWrNg",
-   "titulo": "EVERYTHING on Axial Loading Normal Stress in 10 MINUTES - Mechanics of Materials",
-   "canal": "Less Boring Lectures",
-   "duracion_min": 11.6,
-   "formato": "teoria",
-   "nota": 0.8394,
-   "por_que": "Revisa los conceptos esenciales sobre carga axial, tensiones normales de tracción y compresión, y diagramas de tensión-deformación.",
-   "para_quien": "Para repasar carga axial y tensión.",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
