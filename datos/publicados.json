@@ -279,6 +279,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "aG_n4BK_2fI",
+   "titulo": "Common Source Amplifier with RC network | Miller effect capacitance",
+   "canal": "mosgyan",
+   "duracion_min": 6.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.92,
+   "por_que": "Permite aprender a derivar la función de transferencia, calcular polos y ceros, y analizar el efecto Miller en un amplificador de fuente común.",
+   "para_quien": "Para practicar cálculos en amplificadores analógicos.",
+   "fecha": "2026-10-16",
+   "sin_transcripcion": true
+  },
+  {
    "id": "N79k4O52a7I",
    "titulo": "Clase 13 (parte a) EEB: Transistor FET respuesta en frecuencia",
    "canal": "Elementos de Electronica Básica",
@@ -288,18 +300,6 @@
    "por_que": "Permite estudiar las capacidades internas y de acople en transistores FET mediante ejemplos prácticos de resolución de circuitos.",
    "para_quien": "Para aprender sobre respuesta en frecuencia en FETs.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "fG316FguKIQ",
-   "titulo": "Clase 13 (parte b) EEB: Transistor FET respuesta en frecuencia",
-   "canal": "Elementos de Electronica Básica",
-   "duracion_min": 39.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.9065,
-   "por_que": "Analiza la respuesta en frecuencia de transistores FET considerando capacidades internas y de acople mediante ejemplos.",
-   "para_quien": "Para estudiar la respuesta en frecuencia de FET.",
-   "fecha": "2026-10-15",
    "sin_transcripcion": true
   }
  ],
@@ -393,6 +393,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "GNODYcxeaMY",
+   "titulo": "Math of the Astable 555 Timer",
+   "canal": "Skinny R&D",
+   "duracion_min": 24.5,
+   "formato": "teoria",
+   "nota": 0.9153,
+   "por_que": "Muestra cómo se deducen las fórmulas de temporización y cómo utilizarlas con valores reales para calcular la frecuencia de salida.",
+   "para_quien": "Para entender fórmulas y cálculos del temporizador 555.",
+   "fecha": "2026-10-16",
+   "sin_transcripcion": true
+  },
+  {
    "id": "9hC3O4X-WLc",
    "titulo": "Electrónica Analógica: Dominando el C.I 555 y su configuración real",
    "canal": "Mate Electrónica",
@@ -402,18 +414,6 @@
    "por_que": "Aporta una guía práctica paso a paso para configurar el circuito integrado 555 en modo monoestable y calcular su tiempo de retardo.",
    "para_quien": "Para aprender la configuración práctica del C.I. 555.",
    "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "MzCOoWXR0gM",
-   "titulo": "Amplificador como comparador: Schmitt trigger inversor V2 (Aplicado en diente de Sierra)",
-   "canal": "Ricardo Cruz",
-   "duracion_min": 15.8,
-   "formato": "teoria",
-   "nota": 0.8868,
-   "por_que": "Explica la obtención de ecuaciones del comparador Schmitt trigger inversor y demuestra su funcionamiento generando una señal diente de sierra.",
-   "para_quien": "Para aprender sobre circuitos de pulsos.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -470,6 +470,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "CfiJEAW7gf8",
+   "titulo": "Generación de entropía (sistema cerrado, análisis estacionario) -  Termodinámica",
+   "canal": "E. P. Miranda",
+   "duracion_min": 23.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.8692,
+   "por_que": "Enseña a resolver un problema práctico de sistema cerrado determinando temperatura final, transferencia de calor y entropía generada.",
+   "para_quien": "Para practicar balances en sistemas cerrados.",
+   "fecha": "2026-10-16",
+   "sin_transcripcion": true
+  },
+  {
    "id": "tGX6deNW1PA",
    "titulo": "Termodinámica: Generación de Entropía en un sistema cerrado",
    "canal": "THE CLASS OF TORCHIA",
@@ -478,18 +490,6 @@
    "nota": 0.8207,
    "por_que": "Resuelve un problema práctico de un sistema cerrado para hallar la temperatura de equilibrio, el calor transferido y la generación de entropía.",
    "para_quien": "Para practicar balances de energía y entropía.",
-   "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "CL7aTXsL_Pk",
-   "titulo": "Balance de Entropía | Sistema Cerrado",
-   "canal": "Básicos de Ingeniería",
-   "duracion_min": 34.5,
-   "formato": "problemas_resueltos",
-   "nota": 0.783,
-   "por_que": "Analiza la generación de entropía y la espontaneidad durante el enfriamiento de refrigerante en un sistema cerrado.",
-   "para_quien": "Para aplicar balances de entropía en sistemas cerrados.",
    "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
@@ -610,6 +610,30 @@
  ],
  "TD-06": [
   {
+   "id": "FQ07pdlZMEk",
+   "titulo": "Rankine Cycle Numericals #1 | Solved examples | practice problems | #gate2025 #ME",
+   "canal": "GATEBus",
+   "duracion_min": 5.5,
+   "formato": "problemas_resueltos",
+   "nota": 0.979,
+   "por_que": "Ayuda a dominar los cálculos del ciclo Rankine mediante la resolución paso a paso de problemas numéricos de eficiencia y trabajo.",
+   "para_quien": "Para resolver problemas del ciclo Rankine.",
+   "fecha": "2026-10-16",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "xyUgU_2QB74",
+   "titulo": "RESOLUCION EXAMEN TERMOTECNIA UMA - Ejercicio 2. Ciclo de Rankine / Febrero 2023",
+   "canal": "Academia Politécnica",
+   "duracion_min": 13.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.961,
+   "por_que": "Explica la resolución detallada de un examen oficial sobre un ciclo Rankine con regeneración, fracciones de masas e irreversibilidad.",
+   "para_quien": "Para repasar ejercicios de exámenes oficiales.",
+   "fecha": "2026-10-16",
+   "sin_transcripcion": true
+  },
+  {
    "id": "iuWcGEQcTqU",
    "titulo": "Solve Rankine cycle all questions by these 5 easy steps(hindi",
    "canal": "Manish Mehta - IIT",
@@ -620,33 +644,33 @@
    "para_quien": "Para resolver problemas del ciclo Rankine.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
-  },
-  {
-   "id": "Plw0vDOjBI4",
-   "titulo": "How to solve Rankine cycle questions(solved example by using STEAM TABLE)",
-   "canal": "Manish Mehta - IIT",
-   "duracion_min": 38.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.9405,
-   "por_que": "Muestra un método estructurado de cinco pasos para resolver ejercicios prácticos del ciclo Rankine utilizando tablas de vapor.",
-   "para_quien": "Para resolver problemas del ciclo Rankine.",
-   "fecha": "2026-10-03",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "9B9A49pQy94",
-   "titulo": "💪CICLO RANKINE CON REGENERACIÓN 👉CALENTADORES CERRADOS👈 [ENTRA Y APRENDE DE VERDAD DE FORMA FÁCIL]👍",
-   "canal": "LaMejorAsesoríaEducativa",
-   "duracion_min": 41.9,
-   "formato": "teoria",
-   "nota": 0.9361,
-   "por_que": "Proporciona un enfoque teórico-práctico detallado sobre los calentadores de agua cerrados en ciclos Rankine con regeneración.",
-   "para_quien": "Para dominar los calentadores cerrados.",
-   "fecha": "2026-10-02",
-   "sin_transcripcion": true
   }
  ],
  "TD-07": [
+  {
+   "id": "n_V4uVzlakw",
+   "titulo": "Brayton Cycle — Gas Turbines — Week 1 Thermo Course | PE Mechanical TFS Exam Prep",
+   "canal": "PE Prep Engine",
+   "duracion_min": 9.6,
+   "formato": "teoria",
+   "nota": 0.9915,
+   "por_que": "Explica los componentes y el funcionamiento del ciclo Brayton para turbinas de gas en cursos de termodinámica y preparación de exámenes.",
+   "para_quien": "Para estudiar turbinas de gas.",
+   "fecha": "2026-10-16",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "bKClDUZUFl0",
+   "titulo": "Gas Turbines & the Brayton Cycle — PE Mechanical TFS Week 5 (Lesson 06 of 12)",
+   "canal": "PE Prep Engine",
+   "duracion_min": 8.3,
+   "formato": "teoria",
+   "nota": 0.9665,
+   "por_que": "Analiza cómo la relación de presiones impulsa la eficiencia en el ciclo Brayton mediante un ejercicio práctico resuelto de turbinas de gas.",
+   "para_quien": "Para comprender el rendimiento en turbinas.",
+   "fecha": "2026-10-16",
+   "sin_transcripcion": true
+  },
   {
    "id": "TCURu37zZ2w",
    "titulo": "Thermodynamics 1 Chap6 (Part 3) Brayton cycle with intercooling, reheating n regeneration.",
@@ -657,30 +681,6 @@
    "por_que": "Explica los conceptos y la solución de problemas para el ciclo Brayton con enfriamiento intermedio, rehumidificación y regeneración.",
    "para_quien": "Para comprender modificaciones del ciclo Brayton.",
    "fecha": "2026-10-15",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "hNaRJUuMhRc",
-   "titulo": "EXPLICACIÓN CICLO DE BRAYTON - FISICOQUÍMICA I",
-   "canal": "Julián Lozano",
-   "duracion_min": 9.2,
-   "formato": "teoria",
-   "nota": 0.9505,
-   "por_que": "Explica el funcionamiento teórico del ciclo de Brayton en procesos de potencia, compresión y expansión con ejemplos prácticos.",
-   "para_quien": "Para entender el ciclo Brayton desde cero.",
-   "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "fZ80tkxWa-4",
-   "titulo": "Ideal BRAYTON CYCLE Explained in 11 Minutes!",
-   "canal": "Less Boring Lectures",
-   "duracion_min": 11.3,
-   "formato": "teoria",
-   "nota": 0.9038,
-   "por_que": "Explica el ciclo Brayton ideal, sus diagramas T-s, las relaciones de presión y las ecuaciones de eficiencia térmica en poco tiempo.",
-   "para_quien": "Para repasar la teoría del ciclo Brayton.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -1161,6 +1161,18 @@
  ],
  "ME-01": [
   {
+   "id": "s-_AmiFa40M",
+   "titulo": "31 2 Equilibrio de un cuerpo ideal rígido en 3 dimensiones Ejemplo 2",
+   "canal": "FIME El Doc Cavazos",
+   "duracion_min": 21.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.9581,
+   "por_que": "Muestra la resolución de un ejemplo práctico de equilibrio de un sólido rígido en tres dimensiones aplicando el producto mixto.",
+   "para_quien": "Para practicar equilibrio tridimensional.",
+   "fecha": "2026-10-16",
+   "sin_transcripcion": true
+  },
+  {
    "id": "4Fj5lUCPjcA",
    "titulo": "Estática- 3 115 - Sistemas equivalentes de fuerza 3D",
    "canal": "Axel Contreras",
@@ -1182,18 +1194,6 @@
    "por_que": "Desarrolla el concepto de momento de un par de fuerzas, pares equivalentes y la solución de un problema de estática.",
    "para_quien": "Para dominar el análisis de pares de fuerzas.",
    "fecha": "2026-10-14",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "1jUg9KJnsQ8",
-   "titulo": "Sistema Equivalente Fuerza-Par. Curso de Estática. Clase 23",
-   "canal": "Profesor Sergio Llanos",
-   "duracion_min": 14.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.925,
-   "por_que": "Enseña a resolver un problema práctico para calcular el sistema equivalente fuerza-par aplicado sobre un componente de máquina.",
-   "para_quien": "Para aprender a calcular sistemas fuerza-par.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -1439,6 +1439,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "3AQHreV5mc4",
+   "titulo": "RESISTENCIA DE MATERIALES - Esfuerzo y Deformación - Ejercicio No. 3",
+   "canal": "Wolf-Dieter Sorg Angulo",
+   "duracion_min": 14.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.8717,
+   "por_que": "Presenta la resolución de un ejercicio práctico sobre esfuerzo normal de tracción y compresión dentro del tema de esfuerzo y deformación.",
+   "para_quien": "Para practicar cálculo de esfuerzos.",
+   "fecha": "2026-10-16",
+   "sin_transcripcion": true
+  },
+  {
    "id": "_muJSo9l18A",
    "titulo": "Mechanics of Materials: Lesson 2 - Normal Stress, Review of Units",
    "canal": "Jeff Hanson",
@@ -1448,18 +1460,6 @@
    "por_que": "Introduce el concepto de esfuerzo normal y realiza una revisión de unidades fundamentales en mecánica de materiales.",
    "para_quien": "Para entender la teoría desde cero.",
    "fecha": "2026-10-15",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "9Bqeds5t5H8",
-   "titulo": "11A Esfuerzo axil   Desarrollo teórico",
-   "canal": "Mini Trains",
-   "duracion_min": 20.1,
-   "formato": "teoria",
-   "nota": 0.8584,
-   "por_que": "Ofrece un desarrollo teórico completo sobre el esfuerzo axil analizado a partir de las tensiones y las deformaciones.",
-   "para_quien": "Para estudiar la teoría del esfuerzo axil.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
