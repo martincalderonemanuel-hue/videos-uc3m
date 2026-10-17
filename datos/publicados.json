@@ -482,15 +482,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "tGX6deNW1PA",
-   "titulo": "Termodinámica: Generación de Entropía en un sistema cerrado",
-   "canal": "THE CLASS OF TORCHIA",
-   "duracion_min": 27.6,
+   "id": "CBG9yxlokJI",
+   "titulo": "Energy Balance problems with solution, Example 3-5",
+   "canal": "Tahereh Jafary",
+   "duracion_min": 51.1,
    "formato": "problemas_resueltos",
-   "nota": 0.8207,
-   "por_que": "Resuelve un problema práctico de un sistema cerrado para hallar la temperatura de equilibrio, el calor transferido y la generación de entropía.",
-   "para_quien": "Para practicar balances de energía y entropía.",
-   "fecha": "2026-10-01",
+   "nota": 0.8252,
+   "por_que": "Permite practicar la resolución paso a paso de problemas prácticos sobre balances de energía basados en la bibliografía de Felder.",
+   "para_quien": "Para practicar problemas de balances de energía.",
+   "fecha": "2026-10-17",
    "sin_transcripcion": true
   }
  ],
@@ -534,6 +534,18 @@
  ],
  "TD-04": [
   {
+   "id": "ew0c4KTFAco",
+   "titulo": "numerical SFEE Heat exchanger turbine and nozzle | Thermodynamics numerical L-45 (N-27, 28)",
+   "canal": "Platinum Study Classes - Sandeep Patidar",
+   "duracion_min": 37.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.9465,
+   "por_que": "Muestra cómo aplicar la ecuación de energía de flujo estacionario para resolver ejercicios numéricos que combinan múltiples dispositivos de ingeniería.",
+   "para_quien": "Para resolver problemas con múltiples dispositivos.",
+   "fecha": "2026-10-17",
+   "sin_transcripcion": true
+  },
+  {
    "id": "bjbfLk0kJxk",
    "titulo": "SFEE numerical steam turbine and compressor |Thermodynamics numerical | L42 (N21,22)",
    "canal": "Platinum Study Classes - Sandeep Patidar",
@@ -555,18 +567,6 @@
    "por_que": "Desarrolla un ejercicio práctico aplicando la primera ley de la termodinámica y conservación de masa en una tobera.",
    "para_quien": "Para resolver problemas prácticos en toberas.",
    "fecha": "2026-10-15",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "L47PTLYFlyw",
-   "titulo": "Thermodynamics: Isentropic Efficiency Turbines and Compressors",
-   "canal": "Mark Tronzo",
-   "duracion_min": 38.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.884,
-   "por_que": "Permite estudiar la eficiencia isoentrópica mediante ejemplos prácticos aplicados a turbinas de vapor y compresores de aire.",
-   "para_quien": "Para practicar cálculos en turbinas y compresores.",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
@@ -736,6 +736,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "sMHhiXn2fFE",
+   "titulo": "How Do Refrigerators and Heat Pumps Work? | Thermodynamics | (Solved Examples)",
+   "canal": "Question Solutions",
+   "duracion_min": 13.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.87,
+   "por_que": "Explica el funcionamiento de refrigeradores y bombas de calor aplicando conceptos de entalpía y resolviendo ejemplos prácticos paso a paso.",
+   "para_quien": "Para comprender ciclos de refrigeración mediante ejemplos.",
+   "fecha": "2026-10-17",
+   "sin_transcripcion": true
+  },
+  {
    "id": "55Dthfn5grM",
    "titulo": "💪 # 4.CICLO de REFRIGERACIÓN REAL (EJERCICIO TIPO EXAMEN) RESUELTO DETALLADAMENTE 👉ENTRA Y APRENDE👍",
    "canal": "LaMejorAsesoríaEducativa",
@@ -746,21 +758,21 @@
    "para_quien": "Para preparar exámenes de refrigeración.",
    "fecha": "2026-10-03",
    "sin_transcripcion": true
-  },
-  {
-   "id": "siBL4adMMHc",
-   "titulo": "Máquina térmica de Carnot —Segunda ley de la termodinámica  || Bomba de calor — Ejercicio explicado",
-   "canal": "InMath",
-   "duracion_min": 5.2,
-   "formato": "problemas_resueltos",
-   "nota": 0.848,
-   "por_que": "Facilita la comprensión de la segunda ley de la termodinámica mediante la explicación detallada de un ejercicio sobre la máquina de Carnot y bombas de calor.",
-   "para_quien": "Para entender máquinas térmicas y Carnot.",
-   "fecha": "2026-10-03",
-   "sin_transcripcion": true
   }
  ],
  "TD-10": [
+  {
+   "id": "IjdaBn-d-KI",
+   "titulo": "Transferencia de calor - ejercicio",
+   "canal": "Roberto Treviño Iturbide",
+   "duracion_min": 9.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.872,
+   "por_que": "Ofrece una explicación teórica fundamental sobre transferencia de calor complementada con la resolución de un ejercicio práctico.",
+   "para_quien": "Para repasar teoría y ver un ejercicio.",
+   "fecha": "2026-10-17",
+   "sin_transcripcion": true
+  },
   {
    "id": "IaiwNtM4AUA",
    "titulo": "CLASE 11 MECANISMOS DE TRANSFERENCIA DE CALOR MÁS UN EJERCICIO DE APLICACIÓN.",
@@ -783,18 +795,6 @@
    "por_que": "Explica las diferentes formas de transferencia de calor como conducción, convección y radiación, utilizando la ley de Stefan-Boltzmann y la conductividad térmica.",
    "para_quien": "Para repasar los tipos de transferencia de calor.",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "X_Ws46vNTfM",
-   "titulo": "Heat Transfer - Chapter 1 - Example Problem 3 - Equating conduction and convection at a surface",
-   "canal": "Kody Powell",
-   "duracion_min": 15.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.778,
-   "por_que": "Demuestra cómo realizar un balance de energía superficial igualando la conducción según la ley de Fourier y la convección de Newton.",
-   "para_quien": "Para aplicar las leyes de Fourier y Newton.",
-   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ],
@@ -1211,6 +1211,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "zX-A1Jzf-Rg",
+   "titulo": "Statically Indeterminate Beam Example with Singularity Functions - Mechanics Of Materials",
+   "canal": "structurefree",
+   "duracion_min": 10.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.8717,
+   "por_que": "Enseña de forma detallada cómo utilizar funciones de singularidad para resolver vigas estáticamente indeterminadas en mecánica de materiales.",
+   "para_quien": "Para aprender a resolver vigas indeterminadas.",
+   "fecha": "2026-10-17",
+   "sin_transcripcion": true
+  },
+  {
    "id": "kRdP7jFLKC0",
    "titulo": "How to determine support reactions in a statically determinate beam",
    "canal": "Dr Joji Thomas",
@@ -1220,18 +1232,6 @@
    "por_que": "Resuelve problemas prácticos para determinar las reacciones en los apoyos de vigas estáticamente determinadas sometidas a carga distribuida.",
    "para_quien": "Para calcular reacciones en vigas.",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "muCrmuI1T-A",
-   "titulo": "CALCULO de VIGAS, reacciones, esfuerzos y diagramas",
-   "canal": "Ingeniosos",
-   "duracion_min": 8.6,
-   "formato": "problemas_resueltos",
-   "nota": 0.8591,
-   "por_que": "Enseña a calcular reacciones en apoyos y leyes de esfuerzos para obtener diagramas en vigas isostáticas.",
-   "para_quien": "Para aprender a calcular vigas isostáticas.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
