@@ -279,27 +279,27 @@
    "sin_transcripcion": true
   },
   {
-   "id": "aG_n4BK_2fI",
-   "titulo": "Common Source Amplifier with RC network | Miller effect capacitance",
-   "canal": "mosgyan",
-   "duracion_min": 6.8,
+   "id": "01CxRSH3r6M",
+   "titulo": "Miller’s Theorem Applied on Amplifiers 💡 Feedback Capacitance & High‑Frequency Cutoff",
+   "canal": "CAN Education",
+   "duracion_min": 24.8,
    "formato": "problemas_resueltos",
-   "nota": 0.92,
-   "por_que": "Permite aprender a derivar la función de transferencia, calcular polos y ceros, y analizar el efecto Miller en un amplificador de fuente común.",
-   "para_quien": "Para practicar cálculos en amplificadores analógicos.",
-   "fecha": "2026-10-16",
+   "nota": 0.954,
+   "por_que": "Aplica el teorema de Miller a un modelo de amplificador no ideal para analizar cómo la capacitancia de realimentación afecta al comportamiento del circuito.",
+   "para_quien": "Para comprender la aplicación del teorema de Miller en circuitos.",
+   "fecha": "2026-10-18",
    "sin_transcripcion": true
   },
   {
-   "id": "N79k4O52a7I",
-   "titulo": "Clase 13 (parte a) EEB: Transistor FET respuesta en frecuencia",
-   "canal": "Elementos de Electronica Básica",
-   "duracion_min": 35.6,
+   "id": "Fr7RsnUdoWg",
+   "titulo": "Miller’s Theorem Explained 💡 Derivation & Examples! 👍 Feedback Capacitor Effect ⚡️",
+   "canal": "CAN Education",
+   "duracion_min": 20.0,
    "formato": "teoria",
-   "nota": 0.9101,
-   "por_que": "Permite estudiar las capacidades internas y de acople en transistores FET mediante ejemplos prácticos de resolución de circuitos.",
-   "para_quien": "Para aprender sobre respuesta en frecuencia en FETs.",
-   "fecha": "2026-09-25",
+   "nota": 0.936,
+   "por_que": "Explica la derivación del teorema de Miller y muestra ejemplos prácticos para simplificar el análisis en alta frecuencia y determinar impedancias.",
+   "para_quien": "Para dominar el análisis de frecuencia en amplificadores.",
+   "fecha": "2026-10-18",
    "sin_transcripcion": true
   }
  ],
@@ -496,6 +496,18 @@
  ],
  "TD-03": [
   {
+   "id": "r-QElaXq7oo",
+   "titulo": "Balance de Entropía | Entropía generada en un proceso de expansión. (Explicación + Ejercicio)",
+   "canal": "Nacho soluciones",
+   "duracion_min": 7.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.883,
+   "por_que": "Explica el balance de entropía para sistemas abiertos mediante la resolución práctica de un proceso de expansión en una válvula.",
+   "para_quien": "Para entender balances de entropía en sistemas abiertos.",
+   "fecha": "2026-10-18",
+   "sin_transcripcion": true
+  },
+  {
    "id": "u5ysyw0mc1g",
    "titulo": "Steady Flow Systems - Nozzles and Diffusers | Thermodynamics | (Solved examples)",
    "canal": "Question Solutions",
@@ -517,18 +529,6 @@
    "por_que": "Explica los conceptos teóricos del balance de entropía en sistemas abiertos y muestra la resolución paso a paso de ejemplos prácticos.",
    "para_quien": "Para aprender a resolver balances de entropía.",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "yqZi8AdnuzY",
-   "titulo": "TURBINA - COMPRESOR. Ejercicio Resuelto (Balance de energía volúmenes de control)",
-   "canal": "Nacho soluciones",
-   "duracion_min": 6.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.8233,
-   "por_que": "Desarrolla un ejercicio práctico de volúmenes de control calculando la potencia en un sistema acoplado de turbina y compresor.",
-   "para_quien": "Para calcular potencia en turbinas.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -698,6 +698,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "1SPVEDeW-OA",
+   "titulo": "19. ATD-U1-Numerical-4: Otto Cycle",
+   "canal": "Anveshana Academy",
+   "duracion_min": 20.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.9285,
+   "por_que": "Resuelve un problema numérico completo sobre el ciclo Otto, aplicando la teoría para calcular temperaturas y trabajo neto.",
+   "para_quien": "Para practicar cálculos del ciclo Otto en exámenes.",
+   "fecha": "2026-10-18",
+   "sin_transcripcion": true
+  },
+  {
    "id": "ytswLxZH9LI",
    "titulo": "Ciclo Diésel | Todo lo que necesitas saber (Explicación + Ejercicio Resuelto)",
    "canal": "Nacho soluciones",
@@ -707,18 +719,6 @@
    "por_que": "Explica el funcionamiento del ciclo Diésel ideal y real, y muestra paso a paso la resolución de un ejercicio práctico.",
    "para_quien": "Para practicar con ejercicios resueltos.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "4HRRm19ctdI",
-   "titulo": "Ciclo Otto Motor 4 tiempos - Termodinámica (Ejercicio resuelto + Explicación completa)",
-   "canal": "Nacho soluciones",
-   "duracion_min": 12.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.896,
-   "por_que": "Explica el ciclo Otto y resuelve un ejercicio práctico abarcando eficiencia térmica, trabajo neto y relación de compresión.",
-   "para_quien": "Para estudiar ciclos termodinámicos.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -762,6 +762,18 @@
  ],
  "TD-10": [
   {
+   "id": "-bbFkzWarIM",
+   "titulo": "Heat Transfer Theory and Problem - Conduction Convection and Radiation - Part 2",
+   "canal": "Eng_girl",
+   "duracion_min": 7.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.8949,
+   "por_que": "Desarrolla la teoría y resuelve paso a paso un problema práctico sobre conducción, convección y radiación.",
+   "para_quien": "Para resolver problemas de transferencia de calor.",
+   "fecha": "2026-10-18",
+   "sin_transcripcion": true
+  },
+  {
    "id": "IjdaBn-d-KI",
    "titulo": "Transferencia de calor - ejercicio",
    "canal": "Roberto Treviño Iturbide",
@@ -783,18 +795,6 @@
    "por_que": "Detalla los mecanismos de transferencia de calor incluyendo conducción, convección y radiación mediante un ejercicio.",
    "para_quien": "Para repasar los mecanismos de transferencia térmica.",
    "fecha": "2026-10-14",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "LR5bYxC4syI",
-   "titulo": "Thermal Conductivity, Stefan Boltzmann Law, Heat Transfer, Conduction, Convecton, Radiation, Physics",
-   "canal": "The Organic Chemistry Tutor",
-   "duracion_min": 29.4,
-   "formato": "problemas_resueltos",
-   "nota": 0.8463,
-   "por_que": "Explica las diferentes formas de transferencia de calor como conducción, convección y radiación, utilizando la ley de Stefan-Boltzmann y la conductividad térmica.",
-   "para_quien": "Para repasar los tipos de transferencia de calor.",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
@@ -876,6 +876,18 @@
  ],
  "ED-01": [
   {
+   "id": "SlwS_twfWYY",
+   "titulo": "CONVERSIÓN de CÓDIGO GRAY a BINARIO - Ejercicio #2",
+   "canal": "Estudia Con Marisol",
+   "duracion_min": 6.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.887,
+   "por_que": "Muestra ejemplos sencillos para comprender cómo realizar la conversión de código Gray a un sistema numérico binario.",
+   "para_quien": "Para aprender conversiones en sistemas digitales.",
+   "fecha": "2026-10-18",
+   "sin_transcripcion": true
+  },
+  {
    "id": "fRfP80D1zuI",
    "titulo": "CONVERSIÓN de BINARIO a CÓDIGO GRAY - Ejercicio #1",
    "canal": "Estudia Con Marisol",
@@ -897,18 +909,6 @@
    "por_que": "Ofrece una explicación teórica acompañada de ejercicios prácticos sobre los códigos binarios Gray, Johnson, BCD ponderados y exceso de 3.",
    "para_quien": "Para estudiar códigos binarios en profundidad",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "RCzpMm_a0k8",
-   "titulo": "Conversión de CUALQUIER Sistema de Numeración - Electrónica Digital",
-   "canal": "EK BD",
-   "duracion_min": 21.6,
-   "formato": "teoria",
-   "nota": 0.86,
-   "por_que": "Explica cómo realizar conversiones entre diferentes sistemas de numeración utilizando polinomios o divisiones sucesivas.",
-   "para_quien": "Para aprender conversiones numéricas básicas.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -1017,6 +1017,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "h2jTMCbu5UM",
+   "titulo": "T04-Biestables",
+   "canal": "Joaquín C",
+   "duracion_min": 11.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.8535,
+   "por_que": "Resuelve un ejercicio completo utilizando biestables para obtener la forma de onda resultante en la salida del circuito.",
+   "para_quien": "Para practicar con circuitos de biestables.",
+   "fecha": "2026-10-18",
+   "sin_transcripcion": true
+  },
+  {
    "id": "XH-0tc5bH1Y",
    "titulo": "FLIP-FLOPS : RS, D, T y JK - EXPLICADOS a FONDO",
    "canal": "Santiago Rodríguez",
@@ -1026,18 +1038,6 @@
    "por_que": "Explica a fondo el funcionamiento de los flip-flops RS, D, T y JK mediante sus circuitos, ecuaciones características y tablas de verdad.",
    "para_quien": "Para estudiar flip-flops a fondo.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "pELOeRDHuEM",
-   "titulo": "Flip-Flops & Latches Full Tutorial (SR, JK, D, T | Timing, Counters & Registers)",
-   "canal": "Engineers Decode",
-   "duracion_min": 7.6,
-   "formato": "teoria",
-   "nota": 0.761,
-   "por_que": "Aborda los fundamentos de biestables y latches, abarcando tipos como SR, JK, D y T, además de cuestiones de temporización y aplicaciones lógicas.",
-   "para_quien": "Para estudiar biestables y latches completamente",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
@@ -1287,27 +1287,27 @@
    "sin_transcripcion": true
   },
   {
-   "id": "nkynrDINPic",
-   "titulo": "How to Draw Shear Force and Moment Diagrams | Mechanics Statics | (Step by step solved examples)",
-   "canal": "Question Solutions",
-   "duracion_min": 16.8,
+   "id": "2J5NenSkJjM",
+   "titulo": "Ejercicio de vigas | método por integración con carga distribuida 2",
+   "canal": "Física Today",
+   "duracion_min": 29.2,
    "formato": "problemas_resueltos",
-   "nota": 0.8653,
-   "por_que": "Enseña paso a paso cómo dibujar diagramas de fuerza cortante y momento flector en vigas utilizando diferentes métodos y ejemplos prácticos.",
-   "para_quien": "Para dominar el cálculo y trazado de diagramas de esfuerzos.",
-   "fecha": "2026-10-03",
+   "nota": 0.8686,
+   "por_que": "Analiza una viga con cargas distribuidas, puntuales y voladizos aplicando el método de integrales para el cálculo estructural.",
+   "para_quien": "Para aplicar el método de integración en vigas.",
+   "fecha": "2026-10-18",
    "sin_transcripcion": true
   },
   {
-   "id": "lvobdQL6yds",
-   "titulo": "Statics: Lesson 61 - Shear Moment Diagram, The Equation Method",
-   "canal": "Jeff Hanson",
-   "duracion_min": 17.1,
+   "id": "k7pb0MjIviw",
+   "titulo": "Cálculo de vigas |  método por integración | ejercicio 1",
+   "canal": "Física Today",
+   "duracion_min": 22.7,
    "formato": "problemas_resueltos",
-   "nota": 0.8607,
-   "por_que": "Explica el uso del método de ecuaciones para resolver diagramas de fuerza cortante y momento flector en vigas con cargas distribuidas triangulares.",
-   "para_quien": "Para resolver diagramas con ecuaciones.",
-   "fecha": "2026-10-01",
+   "nota": 0.8683,
+   "por_que": "Explica el cálculo de reacciones, esfuerzos cortantes y momentos flectores en una viga con carga distribuida triangular usando integrales.",
+   "para_quien": "Para aprender el cálculo de esfuerzos por integración.",
+   "fecha": "2026-10-18",
    "sin_transcripcion": true
   }
  ],
