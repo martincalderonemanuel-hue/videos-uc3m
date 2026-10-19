@@ -876,6 +876,18 @@
  ],
  "ED-01": [
   {
+   "id": "fJbpwcAmuy4",
+   "titulo": "Number Systems Explained | Binary, Octal, Decimal, Hexadecimal | Conversion Tricks Made Easy",
+   "canal": "KnowledgeCatch",
+   "duracion_min": 45.5,
+   "formato": "teoria",
+   "nota": 0.8932,
+   "por_que": "Explica la representación numérica y los métodos de conversión entre sistemas binario, octal, decimal y hexadecimal, fundamentales en electrónica digital.",
+   "para_quien": "Para dominar los sistemas numéricos desde cero.",
+   "fecha": "2026-10-19",
+   "sin_transcripcion": true
+  },
+  {
    "id": "SlwS_twfWYY",
    "titulo": "CONVERSIÓN de CÓDIGO GRAY a BINARIO - Ejercicio #2",
    "canal": "Estudia Con Marisol",
@@ -896,18 +908,6 @@
    "nota": 0.8779,
    "por_que": "Muestra mediante un ejercicio práctico y sencillo cómo realizar la conversión de un sistema numérico binario a código Gray.",
    "para_quien": "Para aprender conversiones numéricas básicas",
-   "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "zva-cOQ49Qg",
-   "titulo": "CÓDIGO GRAY, JOHNSON, BCD NATURAL-AIKEN-5421-7421, EXCESO 3",
-   "canal": "canalfdet",
-   "duracion_min": 21.0,
-   "formato": "teoria",
-   "nota": 0.8762,
-   "por_que": "Ofrece una explicación teórica acompañada de ejercicios prácticos sobre los códigos binarios Gray, Johnson, BCD ponderados y exceso de 3.",
-   "para_quien": "Para estudiar códigos binarios en profundidad",
    "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
@@ -990,15 +990,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "KD5PlM9__K8",
-   "titulo": "Explicación y ejercicios resueltos del multiplexor, Universidad",
-   "canal": "gyvermak : ingeniero",
-   "duracion_min": 10.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.7925,
-   "por_que": "Ofrece una explicación teórica y ejercicios resueltos sobre el funcionamiento del multiplexor en sistemas digitales a nivel universitario.",
-   "para_quien": "Para comprender multiplexores con ejercicios.",
-   "fecha": "2026-09-25",
+   "id": "QKJj25FCH1M",
+   "titulo": "Digital logic #7: Combinational logic including the encoder, decoder, and multiplexer",
+   "canal": "Aaron Dahlen",
+   "duracion_min": 27.6,
+   "formato": "teoria",
+   "nota": 0.8019,
+   "por_que": "Aporta ejemplos prácticos sobre bloques fundamentales como codificadores, decodificadores y multiplexores, esenciales para comprender circuitos combinacionales y mapas de Karnaugh.",
+   "para_quien": "Para aprender circuitos combinacionales y bloques lógicos.",
+   "fecha": "2026-10-19",
    "sin_transcripcion": true
   }
  ],
@@ -1199,6 +1199,30 @@
  ],
  "ME-02": [
   {
+   "id": "AdqNTmeKTUU",
+   "titulo": "Support Reactions of Simply Supported Beam | Numerical Problem Solved | Structural Analysis #tos",
+   "canal": "Unite Coaching (Civil Engineering Channel)",
+   "duracion_min": 11.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.9445,
+   "por_que": "Muestra un problema numérico resuelto paso a paso para calcular las reacciones en los apoyos de una viga simplemente apoyada usando ecuaciones de equilibrio.",
+   "para_quien": "Para calcular reacciones en vigas fácilmente.",
+   "fecha": "2026-10-19",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "xROtto_WLVg",
+   "titulo": "MÉTODO DE LOS 3 MOMENTOS. VIGA CONTINÚA.✍️",
+   "canal": "Civil Hacks",
+   "duracion_min": 10.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.9112,
+   "por_que": "Explica detalladamente la aplicación del método de los tres momentos para resolver vigas continuas y calcular sus reacciones y momentos.",
+   "para_quien": "Para dominar el análisis de vigas continuas.",
+   "fecha": "2026-10-19",
+   "sin_transcripcion": true
+  },
+  {
    "id": "DoCNnRlz_0Y",
    "titulo": "Statically Indeterminate Beam Solved using Superposition - Find Reaction Forces",
    "canal": "Brian Bernard",
@@ -1209,33 +1233,21 @@
    "para_quien": "Para resolver vigas estáticamente indeterminadas.",
    "fecha": "2026-10-02",
    "sin_transcripcion": true
-  },
-  {
-   "id": "zX-A1Jzf-Rg",
-   "titulo": "Statically Indeterminate Beam Example with Singularity Functions - Mechanics Of Materials",
-   "canal": "structurefree",
-   "duracion_min": 10.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.8717,
-   "por_que": "Enseña de forma detallada cómo utilizar funciones de singularidad para resolver vigas estáticamente indeterminadas en mecánica de materiales.",
-   "para_quien": "Para aprender a resolver vigas indeterminadas.",
-   "fecha": "2026-10-17",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "kRdP7jFLKC0",
-   "titulo": "How to determine support reactions in a statically determinate beam",
-   "canal": "Dr Joji Thomas",
-   "duracion_min": 10.7,
-   "formato": "problemas_resueltos",
-   "nota": 0.8675,
-   "por_que": "Resuelve problemas prácticos para determinar las reacciones en los apoyos de vigas estáticamente determinadas sometidas a carga distribuida.",
-   "para_quien": "Para calcular reacciones en vigas.",
-   "fecha": "2026-10-01",
-   "sin_transcripcion": true
   }
  ],
  "ME-03": [
+  {
+   "id": "BJyX1Mehgqg",
+   "titulo": "Teorema de Guldin (2 Ejercicios Resueltos)",
+   "canal": "MrUniversity",
+   "duracion_min": 5.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.9294,
+   "por_que": "Enseña el uso de los teoremas de Guldin mediante dos ejercicios prácticos de examen para calcular áreas, volúmenes y centroides.",
+   "para_quien": "Para aplicar el teorema de Guldin rápidamente.",
+   "fecha": "2026-10-19",
+   "sin_transcripcion": true
+  },
   {
    "id": "ozCCBWn5N08",
    "titulo": "MOMENTOS DE INERCIA |PLANILLA GRATIS| Teorema ejes paralelos | Teorema de Steiner",
@@ -1258,18 +1270,6 @@
    "por_que": "Explica paso a paso cómo calcular el centroide de un área compuesta utilizando el método de área por distancia en un ejercicio resuelto.",
    "para_quien": "Para aprender a calcular centroides paso a paso.",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "rmfDijRlVdE",
-   "titulo": "Problema momento de inercia con agujero-Teorema de Steiner",
-   "canal": "jimmy llontop",
-   "duracion_min": 16.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.8904,
-   "por_que": "Presenta un ejercicio práctico sobre el cálculo del momento de inercia considerando agujeros mediante ejes paralelos.",
-   "para_quien": "Para practicar cálculos con áreas perforadas.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
