@@ -990,15 +990,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "QKJj25FCH1M",
-   "titulo": "Digital logic #7: Combinational logic including the encoder, decoder, and multiplexer",
-   "canal": "Aaron Dahlen",
-   "duracion_min": 27.6,
-   "formato": "teoria",
-   "nota": 0.8019,
-   "por_que": "Aporta ejemplos prácticos sobre bloques fundamentales como codificadores, decodificadores y multiplexores, esenciales para comprender circuitos combinacionales y mapas de Karnaugh.",
-   "para_quien": "Para aprender circuitos combinacionales y bloques lógicos.",
-   "fecha": "2026-10-19",
+   "id": "qP9cVhGPTXo",
+   "titulo": "CIRCUITOS DIGITALES COMBINACIONALES 07",
+   "canal": "canalfdet",
+   "duracion_min": 10.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.8615,
+   "por_que": "Aporta un ejemplo práctico de diseño de circuitos combinacionales mediante tablas de verdad, minterms, mapas de Karnaugh y puertas lógicas.",
+   "para_quien": "Para aprender a diseñar y simplificar circuitos combinacionales.",
+   "fecha": "2026-10-20",
    "sin_transcripcion": true
   }
  ],
@@ -1237,6 +1237,18 @@
  ],
  "ME-03": [
   {
+   "id": "7vhXW8emlKE",
+   "titulo": "TEOREMA DE STEINER o DE LOS EJES PARALELOS",
+   "canal": "Profesor Sergio Llanos",
+   "duracion_min": 16.4,
+   "formato": "teoria",
+   "nota": 0.9325,
+   "por_que": "Explica la demostración del teorema de Steiner o de los ejes paralelos y su aplicación práctica en la resolución de problemas.",
+   "para_quien": "Para comprender el teorema de los ejes paralelos.",
+   "fecha": "2026-10-20",
+   "sin_transcripcion": true
+  },
+  {
    "id": "BJyX1Mehgqg",
    "titulo": "Teorema de Guldin (2 Ejercicios Resueltos)",
    "canal": "MrUniversity",
@@ -1258,18 +1270,6 @@
    "por_que": "Detalla el cálculo de centros de gravedad y momentos de inercia en secciones compuestas usando el teorema de Steiner.",
    "para_quien": "Para dominar el teorema de Steiner.",
    "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "kS7v5reOHNY",
-   "titulo": "Centroid of Composite Area | Solved Example Step by Step",
-   "canal": "Mechanical Engineering Tutor",
-   "duracion_min": 14.5,
-   "formato": "problemas_resueltos",
-   "nota": 0.904,
-   "por_que": "Explica paso a paso cómo calcular el centroide de un área compuesta utilizando el método de área por distancia en un ejercicio resuelto.",
-   "para_quien": "Para aprender a calcular centroides paso a paso.",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
@@ -1567,27 +1567,27 @@
    "sin_transcripcion": true
   },
   {
-   "id": "Ukb-9bgPIys",
-   "titulo": "Mech. of Materials-Bending-Eccentric Loading",
-   "canal": "Understanding Mech. of Materials-Dr A Ghosh",
-   "duracion_min": 36.1,
-   "formato": "teoria",
-   "nota": 0.879,
-   "por_que": "Examina el caso de una carga excéntrica aplicada a una viga, su equivalencia con fuerza y momento, y la distribución de esfuerzos resultante.",
-   "para_quien": "Para estudiar la carga excéntrica y la flexión compuesta.",
-   "fecha": "2026-10-03",
+   "id": "SzXuD0RFG6Q",
+   "titulo": "Unit8 ex 8.1 Combined Stress v1 - Axial and Bending - Statics and Strength of Materials",
+   "canal": "Mark Mattson",
+   "duracion_min": 31.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.8974,
+   "por_que": "Permite integrar conceptos de reacciones en vigas, diagramas y tensiones axiales y de flexión para calcular tensiones combinadas.",
+   "para_quien": "Para dominar el cálculo de tensiones por flexión compuesta.",
+   "fecha": "2026-10-20",
    "sin_transcripcion": true
   },
   {
-   "id": "VzJCXqe2F1M",
-   "titulo": "ESTRUCTURAS 02  FLEXIÓN COMPUESTA",
-   "canal": "Nahuel Caballero Arquitecto",
-   "duracion_min": 36.0,
-   "formato": "teoria",
-   "nota": 0.8777,
-   "por_que": "Aborda la teoría de la flexión compuesta en columnas mediante un ejercicio práctico que incluye el uso de fórmulas y diagramas de características.",
-   "para_quien": "Para repasar ejercicios prácticos de flexión compuesta.",
-   "fecha": "2026-10-03",
+   "id": "AOz1TcNZfq8",
+   "titulo": "Sx, Zx y eje neutro plástico (ENP) | Teoría y ejercicios | ING-CIV322 EP03",
+   "canal": "Emil Guillén De la Cruz",
+   "duracion_min": 19.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.8961,
+   "por_que": "Explica el módulo de sección elástico, el plástico y el eje neutro plástico mediante teoría y la resolución de dos ejercicios.",
+   "para_quien": "Para calcular módulos de sección y ejes neutros.",
+   "fecha": "2026-10-20",
    "sin_transcripcion": true
   }
  ],
@@ -1631,6 +1631,18 @@
  ],
  "ME-12": [
   {
+   "id": "sezEmpAoP94",
+   "titulo": "Hibbeler Statics:Mastering Multi Node Chain Systems & Limiting Loads  (Problem 3-26, 3-28, 3-9)",
+   "canal": "The Engineering Valkyrie【终末の女工程獅】",
+   "duracion_min": 17.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.9705,
+   "por_que": "Muestra cómo resolver problemas clásicos de sistemas de cadenas y cables con múltiples nudos para aislar y transmitir fuerzas.",
+   "para_quien": "Para resolver problemas complejos de estructuras de cables.",
+   "fecha": "2026-10-20",
+   "sin_transcripcion": true
+  },
+  {
    "id": "KCsuF6MOAR4",
    "titulo": "💥 ¿Cómo hallar las cotas y tracción máxima en un cable con cargas puntuales? | 📐 Ejercicio Explicado",
    "canal": "CIVIL CORE",
@@ -1643,27 +1655,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "xqHzd9boUqY",
-   "titulo": "Catenaria (cables sometidos a su propio peso): Desarrollo Teórico (Mecánica de Estructuras)",
-   "canal": "ESTRUCTURAS UC3M",
-   "duracion_min": 17.1,
-   "formato": "teoria",
-   "nota": 0.8919,
-   "por_que": "Ofrece el desarrollo teórico fundamental sobre los cables parabólicos sometidos a su propio peso.",
-   "para_quien": "Para comprender la teoría de catenarias.",
-   "fecha": "2026-10-03",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "8p0usSl-_d0",
-   "titulo": "CONCENTRATED LOADS on Cables Example Problem // How to solve for the unknowns on loaded cables",
-   "canal": "Student Engineering",
-   "duracion_min": 19.6,
+   "id": "BvYyq-D6ga8",
+   "titulo": "Cables II",
+   "canal": "Civil Engineering with Tanya J. Laird",
+   "duracion_min": 53.6,
    "formato": "problemas_resueltos",
-   "nota": 0.856,
-   "por_que": "Explica mediante un problema práctico cómo calcular la masa máxima y la flecha en cables cargados usando ecuaciones de equilibrio.",
-   "para_quien": "Para resolver problemas de cables.",
-   "fecha": "2026-10-03",
+   "nota": 0.9481,
+   "por_que": "Continúa el estudio de cables calculando el empuje horizontal, la tensión máxima y explorando las propiedades de las catenarias.",
+   "para_quien": "Para calcular tensiones y catenarias en cables.",
+   "fecha": "2026-10-20",
    "sin_transcripcion": true
   }
  ]
