@@ -1,9 +1,10 @@
 {
- "fecha": "2026-10-20 07:08",
- "busquedas": 36,
- "evaluados": 184,
- "publicados_nuevos": 6,
+ "fecha": "2026-10-21 07:10",
+ "busquedas": 0,
+ "evaluados": 0,
+ "publicados_nuevos": 0,
  "retirados": 0,
  "errores": [],
- "avisos": []
+ "avisos": [],
+ "pausa": "Todo el temario está buscado. La próxima búsqueda será el 22/10/2026."
 }
