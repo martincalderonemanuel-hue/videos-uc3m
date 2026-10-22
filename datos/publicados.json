@@ -1541,6 +1541,18 @@
  ],
  "EA-01": [
   {
+   "id": "CRi4ecshN8I",
+   "titulo": "Designing And Building A Common Emitter Amplifier In 8 Easy Steps",
+   "canal": "Void Electronics",
+   "duracion_min": 19.7,
+   "formato": "practica",
+   "nota": 0.8775,
+   "por_que": "Permite aprender paso a paso el diseño y construcción real de un amplificador con emisor común mediante explicaciones prácticas.",
+   "para_quien": "Para entender la práctica del diseño de amplificadores.",
+   "fecha": "2026-10-22",
+   "sin_transcripcion": true
+  },
+  {
    "id": "7-V9SvComik",
    "titulo": "Electronics - Lecture 22:  BJT biasing techniques, CMOS digital circuits",
    "canal": "Tim Holman",
@@ -1550,6 +1562,18 @@
    "por_que": "Aborda técnicas de polarización de BJT y circuitos digitales CMOS con explicaciones detalladas y prácticas.",
    "para_quien": "Para comprender el funcionamiento de BJT y CMOS.",
    "fecha": "2026-10-14",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "f_dKYgoK56k",
+   "titulo": "Electronics - Lecture 21:  MOSFET biasing techniques, current mirrors, practical BJT biasing",
+   "canal": "Tim Holman",
+   "duracion_min": 72.6,
+   "formato": "teoria",
+   "nota": 0.7331,
+   "por_que": "Explica técnicas clave de polarización de MOSFET, espejos de corriente y polarización práctica de transistores BJT.",
+   "para_quien": "Para repasar técnicas de polarización y espejos de corriente.",
+   "fecha": "2026-10-22",
    "sin_transcripcion": true
   }
  ],
