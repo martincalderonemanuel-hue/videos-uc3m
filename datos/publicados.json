@@ -101,15 +101,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "lsiBKayOVQw",
-   "titulo": "Ecuación de Movilidad (Grados de Libertad)",
-   "canal": "carlos zamarripa",
-   "duracion_min": 8.7,
+   "id": "4pTj1kctw-0",
+   "titulo": "Simulación ley de Grashof ejemplos en mecanismos de 4 barras y aplicación de formula",
+   "canal": "Doctor Felipe Nerhi",
+   "duracion_min": 8.0,
    "formato": "problemas_resueltos",
-   "nota": 0.9372,
-   "por_que": "Resuelve diversos ejemplos prácticos para calcular la ecuación de movilidad y los grados de libertad en mecanismos.",
-   "para_quien": "Para calcular grados de libertad en mecanismos planos.",
-   "fecha": "2026-10-01",
+   "nota": 0.9542,
+   "por_que": "Permite aprender a resolver ejercicios de mecanismos de cuatro barras aplicando la ley de Grashof para evaluar el movimiento de los eslabones.",
+   "para_quien": "Para practicar ejemplos de mecanismos planos.",
+   "fecha": "2026-10-23",
    "sin_transcripcion": true
   }
  ],
