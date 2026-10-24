@@ -165,6 +165,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "apkStoRtVck",
+   "titulo": "MOMENTO DE INERCIA y ENERGÍA CINÉTICA ROTACIONAL",
+   "canal": "Profesor Sergio Llanos",
+   "duracion_min": 20.9,
+   "formato": "teoria",
+   "nota": 0.908,
+   "por_que": "Explica la energía cinética de rotación y el momento de inercia resolviendo un problema práctico de una pieza compuesta.",
+   "para_quien": "Para calcular la energía rotacional y el momento de inercia.",
+   "fecha": "2026-10-24",
+   "sin_transcripcion": true
+  },
+  {
    "id": "WRkxzh8cAIY",
    "titulo": "Principle of Work and Energy (Learn to solve any problem)",
    "canal": "Question Solutions",
@@ -173,18 +185,6 @@
    "nota": 0.8532,
    "por_que": "Presenta ejemplos animados resueltos paso a paso sobre el principio de trabajo y energía para resolver problemas mecánicos.",
    "para_quien": "Para aplicar el principio de trabajo y energía",
-   "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "cgy3gvadOd8",
-   "titulo": "Teorema de las fuerzas vivas - Ejercicio resuelto",
-   "canal": "Nuria Solorzano",
-   "duracion_min": 8.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.8323,
-   "por_que": "Resuelve un ejercicio práctico aplicando el teorema del trabajo y la energía cinética o teorema de las fuerzas vivas.",
-   "para_quien": "Para ver el teorema de las fuerzas vivas",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
@@ -305,6 +305,18 @@
  ],
  "EA-04": [
   {
+   "id": "CcGb7tCGn1Q",
+   "titulo": "Amplifier Modeling 💡 Open-Loop, Closed-Loop, Frequency Response & Stability Margins (Gain & Phase)",
+   "canal": "CAN Education",
+   "duracion_min": 37.5,
+   "formato": "problemas_resueltos",
+   "nota": 0.978,
+   "por_que": "Detalla el modelado de amplificadores, su función de transferencia, diagramas de Bode y el análisis de estabilidad.",
+   "para_quien": "Para comprender el diseño y la estabilidad de amplificadores.",
+   "fecha": "2026-10-24",
+   "sin_transcripcion": true
+  },
+  {
    "id": "pXhahh7PF28",
    "titulo": "Márgenes en diagramas de Bode.Gm y Pm, relación con ampli realimentado y osciladores.Parte 1.",
    "canal": "MatiTech: ingeniería en español",
@@ -317,27 +329,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "4ZEYcClh2NE",
-   "titulo": "20200905 Solucion PCExt1920 BloqueT3",
-   "canal": "Javier Macías-Guarasa",
-   "duracion_min": 63.4,
-   "formato": "problemas_resueltos",
-   "nota": 0.9063,
-   "por_que": "Facilita la comprensión mediante la resolución completa de un examen práctico sobre circuitos realimentados.",
-   "para_quien": "Para preparar exámenes de circuitos realimentados.",
-   "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "6qX0OmhekRU",
-   "titulo": "Realimentación negativa E9",
-   "canal": "Julian Antonacci",
-   "duracion_min": 15.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.9,
-   "por_que": "Muestra la resolución detallada de un ejercicio práctico de realimentación negativa aplicando divisores de corrientes y ganancia.",
-   "para_quien": "Para resolver ejercicios de realimentación negativa.",
-   "fecha": "2026-10-02",
+   "id": "R71gKGF3zB0",
+   "titulo": "The Op-Amp Differentiator: Stability, Phase Margin, and Practical Design",
+   "canal": "Paul K",
+   "duracion_min": 5.5,
+   "formato": "practica",
+   "nota": 0.9078,
+   "por_que": "Muestra la transición del circuito diferenciador ideal al diseño práctico y estable utilizando simulaciones en LTspice.",
+   "para_quien": "Para diseñar circuitos diferenciadores estables en aplicaciones reales.",
+   "fecha": "2026-10-24",
    "sin_transcripcion": true
   }
  ],
