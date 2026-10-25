@@ -25,15 +25,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "WHV53HxtHIM",
-   "titulo": "⚙ CENTRO Instantáneo De ROTACION ♾️ 1",
-   "canal": "Matcool",
-   "duracion_min": 13.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.9176,
-   "por_que": "Explica el concepto de centro instantáneo de rotación y muestra cómo resolver dos problemas comunes de velocidades en movimiento plano general.",
-   "para_quien": "Para aprender a calcular velocidades con centros instantáneos.",
-   "fecha": "2026-09-25",
+   "id": "SlQmNbMNUOY",
+   "titulo": "ACELERACIÓN ANGULAR: ¡Domina el movimiento giratorio!",
+   "canal": "Profesor Sergio Llanos",
+   "duracion_min": 14.6,
+   "formato": "teoria",
+   "nota": 0.9315,
+   "por_que": "Permite comprender de forma clara los conceptos de velocidad y aceleración angular mediante una explicación guiada y ecuaciones cinemáticas aplicadas.",
+   "para_quien": "Para entender la teoría desde cero.",
+   "fecha": "2026-10-25",
    "sin_transcripcion": true
   }
  ],
@@ -267,6 +267,18 @@
  ],
  "EA-03": [
   {
+   "id": "9Q-mapoCh4s",
+   "titulo": "Respuesta en Frecuencia de Amplificadores tipo FET (Baja y Alta Frecuencia) Parte 1 Análisis en DC",
+   "canal": "Profe Luis",
+   "duracion_min": 33.6,
+   "formato": "teoria",
+   "nota": 0.966,
+   "por_que": "Facilita el estudio de la respuesta en frecuencia en amplificadores FET, detallando el análisis en corriente continua y las frecuencias de corte.",
+   "para_quien": "Para estudiantes de electrónica analógica.",
+   "fecha": "2026-10-25",
+   "sin_transcripcion": true
+  },
+  {
    "id": "YeLu7qK8CTw",
    "titulo": "ECE3400 Lecture 36: Treble Response of Common Emitter Amplifiers via Open-Circuit Time Constants",
    "canal": "Lantertronics",
@@ -287,18 +299,6 @@
    "nota": 0.954,
    "por_que": "Aplica el teorema de Miller a un modelo de amplificador no ideal para analizar cómo la capacitancia de realimentación afecta al comportamiento del circuito.",
    "para_quien": "Para comprender la aplicación del teorema de Miller en circuitos.",
-   "fecha": "2026-10-18",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "Fr7RsnUdoWg",
-   "titulo": "Miller’s Theorem Explained 💡 Derivation & Examples! 👍 Feedback Capacitor Effect ⚡️",
-   "canal": "CAN Education",
-   "duracion_min": 20.0,
-   "formato": "teoria",
-   "nota": 0.936,
-   "por_que": "Explica la derivación del teorema de Miller y muestra ejemplos prácticos para simplificar el análisis en alta frecuencia y determinar impedancias.",
-   "para_quien": "Para dominar el análisis de frecuencia en amplificadores.",
    "fecha": "2026-10-18",
    "sin_transcripcion": true
   }
