@@ -215,15 +215,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "8TYMmDjvrrI",
-   "titulo": "Lecture   Kinetostatic analysis with matrix method",
-   "canal": "Stephen Canfield",
-   "duracion_min": 41.2,
-   "formato": "problemas_resueltos",
-   "nota": 0.8567,
-   "por_que": "Presenta una clase sobre el análisis cinetostático de mecanismos utilizando el método matricial en casos de cuatro barras y manivela.",
-   "para_quien": "Para aplicar el método matricial en mecanismos.",
-   "fecha": "2026-09-25",
+   "id": "45NoLCMpB64",
+   "titulo": "[TMM T03] - Parte 6 - Principio de D'Alembert, equilibrio dinámico. Problema resuelto",
+   "canal": "Jose Luis Blanco",
+   "duracion_min": 41.9,
+   "formato": "teoria",
+   "nota": 0.8605,
+   "por_que": "Permite comprender el principio de D'Alembert y el equilibrio dinámico mediante la explicación teórica y un problema resuelto de un vehículo.",
+   "para_quien": "Para resolver problemas prácticos de dinámica.",
+   "fecha": "2026-10-26",
    "sin_transcripcion": true
   }
  ],
@@ -1439,6 +1439,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "3g53J-1zKWg",
+   "titulo": "Esfuerzo normal, deformación axial y deformación unitaria",
+   "canal": "Gianfranco Rico Cravioto",
+   "duracion_min": 9.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.8741,
+   "por_que": "Introduce los conceptos fundamentales de resistencia de materiales mediante el cálculo paso a paso del esfuerzo normal y la deformación unitaria.",
+   "para_quien": "Para entender la teoría desde cero.",
+   "fecha": "2026-10-26",
+   "sin_transcripcion": true
+  },
+  {
    "id": "3AQHreV5mc4",
    "titulo": "RESISTENCIA DE MATERIALES - Esfuerzo y Deformación - Ejercicio No. 3",
    "canal": "Wolf-Dieter Sorg Angulo",
@@ -1448,18 +1460,6 @@
    "por_que": "Presenta la resolución de un ejercicio práctico sobre esfuerzo normal de tracción y compresión dentro del tema de esfuerzo y deformación.",
    "para_quien": "Para practicar cálculo de esfuerzos.",
    "fecha": "2026-10-16",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "_muJSo9l18A",
-   "titulo": "Mechanics of Materials: Lesson 2 - Normal Stress, Review of Units",
-   "canal": "Jeff Hanson",
-   "duracion_min": 14.9,
-   "formato": "teoria",
-   "nota": 0.8643,
-   "por_que": "Introduce el concepto de esfuerzo normal y realiza una revisión de unidades fundamentales en mecánica de materiales.",
-   "para_quien": "Para entender la teoría desde cero.",
-   "fecha": "2026-10-15",
    "sin_transcripcion": true
   }
  ],
