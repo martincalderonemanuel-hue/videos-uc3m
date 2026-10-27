@@ -25,15 +25,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "SlQmNbMNUOY",
-   "titulo": "ACELERACIÓN ANGULAR: ¡Domina el movimiento giratorio!",
-   "canal": "Profesor Sergio Llanos",
-   "duracion_min": 14.6,
+   "id": "4r_EvmPKOvY",
+   "titulo": "Deriving 3D Rigid Body Physics and implementing it in C/C++ (with intuitions)",
+   "canal": "blackedout01",
+   "duracion_min": 42.7,
    "formato": "teoria",
-   "nota": 0.9315,
-   "por_que": "Permite comprender de forma clara los conceptos de velocidad y aceleración angular mediante una explicación guiada y ecuaciones cinemáticas aplicadas.",
-   "para_quien": "Para entender la teoría desde cero.",
-   "fecha": "2026-10-25",
+   "nota": 0.935,
+   "por_que": "Aporta deducciones intuitivas de la física del sólido rígido en 3D y su implementación práctica desde cero en C y C++.",
+   "para_quien": "Para programar simulaciones físicas 3D.",
+   "fecha": "2026-10-27",
    "sin_transcripcion": true
   }
  ],
@@ -762,6 +762,18 @@
  ],
  "TD-10": [
   {
+   "id": "DeFkwjeiqLY",
+   "titulo": "Heat Transfer Explained: Conduction, Convection & Radiation",
+   "canal": "Academic Engineering",
+   "duracion_min": 21.4,
+   "formato": "teoria",
+   "nota": 0.912,
+   "por_que": "Explica de forma intuitiva los tres mecanismos de transferencia de calor y la ley de conducción de Fourier que todo ingeniero debe conocer.",
+   "para_quien": "Para comprender los fundamentos de la transferencia de calor.",
+   "fecha": "2026-10-27",
+   "sin_transcripcion": true
+  },
+  {
    "id": "-bbFkzWarIM",
    "titulo": "Heat Transfer Theory and Problem - Conduction Convection and Radiation - Part 2",
    "canal": "Eng_girl",
@@ -783,18 +795,6 @@
    "por_que": "Ofrece una explicación teórica fundamental sobre transferencia de calor complementada con la resolución de un ejercicio práctico.",
    "para_quien": "Para repasar teoría y ver un ejercicio.",
    "fecha": "2026-10-17",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "IaiwNtM4AUA",
-   "titulo": "CLASE 11 MECANISMOS DE TRANSFERENCIA DE CALOR MÁS UN EJERCICIO DE APLICACIÓN.",
-   "canal": "Fisica 123",
-   "duracion_min": 45.0,
-   "formato": "teoria",
-   "nota": 0.8676,
-   "por_que": "Detalla los mecanismos de transferencia de calor incluyendo conducción, convección y radiación mediante un ejercicio.",
-   "para_quien": "Para repasar los mecanismos de transferencia térmica.",
-   "fecha": "2026-10-14",
    "sin_transcripcion": true
   }
  ],
@@ -838,6 +838,18 @@
  ],
  "TD-13": [
   {
+   "id": "tAHkP709VXY",
+   "titulo": "Fin Effectiveness and Fin Efficiency | Introduction to Effectiveness and Efficiency of Fins |",
+   "canal": "AVM TECH ANDROID",
+   "duracion_min": 37.5,
+   "formato": "teoria",
+   "nota": 0.9655,
+   "por_que": "Muestra la derivación y el análisis detallado de la eficiencia y efectividad en superficies aleteadas mediante ejemplos prácticos.",
+   "para_quien": "Para analizar el rendimiento térmico en aletas.",
+   "fecha": "2026-10-27",
+   "sin_transcripcion": true
+  },
+  {
    "id": "SQLRTw0Pwts",
    "titulo": "Derive equations when there is negligble heat loss from a fin's tip (adiabatic)",
    "canal": "Mech Union",
@@ -859,18 +871,6 @@
    "por_que": "Resuelve un problema de transferencia de calor en aletas cilíndricas aplicando diferentes condiciones de contorno y diseño.",
    "para_quien": "Para analizar transferencia de calor en aletas.",
    "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "u6Rv_Qj0BD8",
-   "titulo": "How to Solve Fin Efficiency Problems (and Fin Effectiveness)",
-   "canal": "Brian Bernard",
-   "duracion_min": 13.9,
-   "formato": "problemas_resueltos",
-   "nota": 0.9608,
-   "por_que": "Resuelve un problema práctico paso a paso sobre superficies aleteadas rectangulares calculando la eficiencia, la efectividad y la transferencia de calor.",
-   "para_quien": "Para practicar la resolución de problemas",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
