@@ -267,6 +267,18 @@
  ],
  "EA-03": [
   {
+   "id": "4kCkK3uwTHk",
+   "titulo": "057. BJT Differential Amplifier Frequency Response | Miller Effect, Bandwidth & CMR",
+   "canal": "Vasu CL",
+   "duracion_min": 6.4,
+   "formato": "teoria",
+   "nota": 0.9885,
+   "por_que": "Permite analizar la respuesta en alta frecuencia de un amplificador diferencial BJT aplicando el efecto Miller y calculando el ancho de banda.",
+   "para_quien": "Para dominar la respuesta en frecuencia.",
+   "fecha": "2026-10-28",
+   "sin_transcripcion": true
+  },
+  {
    "id": "9Q-mapoCh4s",
    "titulo": "Respuesta en Frecuencia de Amplificadores tipo FET (Baja y Alta Frecuencia) Parte 1 Análisis en DC",
    "canal": "Profe Luis",
@@ -288,18 +300,6 @@
    "por_que": "Explica el cálculo de la respuesta en alta frecuencia de amplificadores emisor común utilizando el método de constantes de tiempo de circuito abierto.",
    "para_quien": "Para dominar el análisis de respuesta en frecuencia.",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "01CxRSH3r6M",
-   "titulo": "Miller’s Theorem Applied on Amplifiers 💡 Feedback Capacitance & High‑Frequency Cutoff",
-   "canal": "CAN Education",
-   "duracion_min": 24.8,
-   "formato": "problemas_resueltos",
-   "nota": 0.954,
-   "por_que": "Aplica el teorema de Miller a un modelo de amplificador no ideal para analizar cómo la capacitancia de realimentación afecta al comportamiento del circuito.",
-   "para_quien": "Para comprender la aplicación del teorema de Miller en circuitos.",
-   "fecha": "2026-10-18",
    "sin_transcripcion": true
   }
  ],
@@ -419,6 +419,18 @@
  ],
  "EA-08": [
   {
+   "id": "2ojscecpbTQ",
+   "titulo": "Convertidor voltaje a frecuencia (VCO) con 555: Selección de componentes",
+   "canal": "Ricardo Cruz",
+   "duracion_min": 11.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.9637,
+   "por_que": "Enseña a calcular los componentes de un VCO con el circuito 555 mediante ecuaciones y simulación.",
+   "para_quien": "Para diseñar circuitos VCO prácticos.",
+   "fecha": "2026-10-28",
+   "sin_transcripcion": true
+  },
+  {
    "id": "Ma4RRYy9xow",
    "titulo": "07 Circuitos Temporizadores | Configuraciones del 555  | VCO",
    "canal": "Jocatronix",
@@ -440,18 +452,6 @@
    "por_que": "Resuelve un ejercicio práctico sobre un lazo de seguimiento de fase (PLL), analizando ganancias, voltajes y ángulos de error.",
    "para_quien": "Para resolver problemas aplicados de PLL.",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "u7hXKFB_OQE",
-   "titulo": "Ejercicio de Osciladores",
-   "canal": "Luis Méndez",
-   "duracion_min": 8.5,
-   "formato": "problemas_resueltos",
-   "nota": 0.7367,
-   "por_que": "Presenta la resolución detallada de un ejercicio práctico de osciladores aplicando el criterio de Barkhausen.",
-   "para_quien": "Para resolver problemas de osciladores.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -1439,6 +1439,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "W1h0oNxNI9E",
+   "titulo": "ESFUERZO AXIAL. TEORÍA Y CONCEPTOS BÁSICOS DE RESISTENCIA DE MATERIALES 👨‍🏫",
+   "canal": "Hugo E. Cabrera Cerna (HK Ingeniería)",
+   "duracion_min": 8.1,
+   "formato": "teoria",
+   "nota": 0.8793,
+   "por_que": "Introduce los conceptos teóricos básicos y la formulación fundamental sobre el esfuerzo axial en resistencia de materiales.",
+   "para_quien": "Para aprender resistencia desde cero.",
+   "fecha": "2026-10-28",
+   "sin_transcripcion": true
+  },
+  {
    "id": "3g53J-1zKWg",
    "titulo": "Esfuerzo normal, deformación axial y deformación unitaria",
    "canal": "Gianfranco Rico Cravioto",
@@ -1448,18 +1460,6 @@
    "por_que": "Introduce los conceptos fundamentales de resistencia de materiales mediante el cálculo paso a paso del esfuerzo normal y la deformación unitaria.",
    "para_quien": "Para entender la teoría desde cero.",
    "fecha": "2026-10-26",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "3AQHreV5mc4",
-   "titulo": "RESISTENCIA DE MATERIALES - Esfuerzo y Deformación - Ejercicio No. 3",
-   "canal": "Wolf-Dieter Sorg Angulo",
-   "duracion_min": 14.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.8717,
-   "por_que": "Presenta la resolución de un ejercicio práctico sobre esfuerzo normal de tracción y compresión dentro del tema de esfuerzo y deformación.",
-   "para_quien": "Para practicar cálculo de esfuerzos.",
-   "fecha": "2026-10-16",
    "sin_transcripcion": true
   }
  ],
@@ -1503,6 +1503,18 @@
  ],
  "TD-11": [
   {
+   "id": "9QDg7h1hYa4",
+   "titulo": "Example 1D SS Conduction with Heat Generation by Dr.  Languri",
+   "canal": "Energy & Heat",
+   "duracion_min": 23.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.846,
+   "por_que": "Muestra la resolución de un ejercicio práctico de conducción unidimensional en estado estacionario con generación de calor.",
+   "para_quien": "Para resolver problemas numéricos de conducción.",
+   "fecha": "2026-10-28",
+   "sin_transcripcion": true
+  },
+  {
    "id": "lLUmhi9BE6A",
    "titulo": "🔥Conducción de Calor en Pared con condiciones de frontera. Ejemplo 2🔥",
    "canal": "Nacho soluciones",
@@ -1515,27 +1527,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "K7DT0BpfITc",
-   "titulo": "🔥Transferencia de calor | Conducción de calor en Pared con condiciones de frontera. 🔥",
-   "canal": "Nacho soluciones",
-   "duracion_min": 6.8,
+   "id": "bLsWC_QgsdM",
+   "titulo": "Transferencia de calor: Conducción de calor con generación en Placa Plana",
+   "canal": "THE CLASS OF TORCHIA",
+   "duracion_min": 17.1,
    "formato": "problemas_resueltos",
-   "nota": 0.8231,
-   "por_que": "Resuelve un problema de conducción de calor en una pared plana aplicando la ecuación general en coordenadas cartesianas.",
-   "para_quien": "Para estudiar conducción térmica unidimensional.",
-   "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "BWckkRjbiyo",
-   "titulo": "PE Exam Problem 2 with Solution - Conduction Heat Transfer with Heat Generation by Dr. Ethan Languri",
-   "canal": "Energy & Heat",
-   "duracion_min": 10.6,
-   "formato": "problemas_resueltos",
-   "nota": 0.8148,
-   "por_que": "Permite ver la resolución paso a paso de un problema de examen sobre transferencia de calor por conducción con generación de calor.",
-   "para_quien": "Para practicar con ejercicios de examen.",
-   "fecha": "2026-10-02",
+   "nota": 0.8346,
+   "por_que": "Explica la resolución detallada de un problema clásico de transferencia de calor por conducción con generación en placa plana.",
+   "para_quien": "Para practicar problemas de placa plana.",
+   "fecha": "2026-10-28",
    "sin_transcripcion": true
   }
  ],
