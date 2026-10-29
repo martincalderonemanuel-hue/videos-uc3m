@@ -455,7 +455,20 @@
    "sin_transcripcion": true
   }
  ],
- "EA-05": [],
+ "EA-05": [
+  {
+   "id": "J8obBcHviaY",
+   "titulo": "Series Voltage Regulator (4 - Regulators)",
+   "canal": "Aaron Danner",
+   "duracion_min": 8.3,
+   "formato": "teoria",
+   "nota": 0.8682,
+   "por_que": "Permite deducir las ecuaciones de diseño para reguladores de tensión en serie con transistor de paso y diodo zener.",
+   "para_quien": "Para aprender el diseño práctico de reguladores.",
+   "fecha": "2026-10-29",
+   "sin_transcripcion": true
+  }
+ ],
  "TD-02": [
   {
    "id": "wWVadaieGQY",
@@ -1146,6 +1159,18 @@
   }
  ],
  "ED-11": [
+  {
+   "id": "XbkOI5G7fZM",
+   "titulo": "EL COMPUTADOR COMPLETO: un programa recorre toda la máquina | Tec. de Computadores 48",
+   "canal": "Gradiente AI",
+   "duracion_min": 7.7,
+   "formato": "practica",
+   "nota": 0.7055,
+   "por_que": "Muestra cómo todas las piezas de un computador trabajan juntas mediante el recorrido ciclo a ciclo de un programa.",
+   "para_quien": "Para ver el funcionamiento global de un computador.",
+   "fecha": "2026-10-29",
+   "sin_transcripcion": true
+  },
   {
    "id": "bVQdeO6JtJ8",
    "titulo": "Electrónica Digital. Tema 10: Microprocesador W65C02S. Parte 1 de 2",
