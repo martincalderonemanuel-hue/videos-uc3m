@@ -127,6 +127,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "PfDBM0Kr5_Y",
+   "titulo": "Análisis de velocidad - Parte 1 - Ecuaciones vectoriales y polígono.",
+   "canal": "Diego Forcael",
+   "duracion_min": 21.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.9003,
+   "por_que": "Permite aprender la resolución práctica de mecanismos mediante el uso de ecuaciones vectoriales y la construcción del polígono de velocidad.",
+   "para_quien": "Para dominar el análisis gráfico y vectorial de velocidades.",
+   "fecha": "2026-10-30",
+   "sin_transcripcion": true
+  },
+  {
    "id": "tJukINWTAYc",
    "titulo": "ANÁLISIS DE VELOCIDADES EN MECANISMOS | MÉTODO VECTORIAL CINEMÁTICA DE CUERPO RÍGIDO HIBBELER 16.68",
    "canal": "dcahue-ingeniería",
@@ -136,18 +148,6 @@
    "por_que": "Desarrolla mediante análisis vectorial y sumatorias la velocidad y velocidad relativa en un mecanismo con bloque deslizante.",
    "para_quien": "Para dominar el análisis vectorial de velocidades",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "BgOcMAfFVmg",
-   "titulo": "Lecture 17 Example on Acceleration Analysis of 4 bar mechanism | KTOM | GTU",
-   "canal": "Hitesh Rana",
-   "duracion_min": 41.2,
-   "formato": "problemas_resueltos",
-   "nota": 0.894,
-   "por_que": "Muestra un ejercicio práctico de análisis de aceleración en un mecanismo de cuatro barras.",
-   "para_quien": "Para ver la resolución práctica de mecanismos planos.",
-   "fecha": "2026-10-14",
    "sin_transcripcion": true
   }
  ],
@@ -1042,15 +1042,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "XH-0tc5bH1Y",
-   "titulo": "FLIP-FLOPS : RS, D, T y JK - EXPLICADOS a FONDO",
-   "canal": "Santiago Rodríguez",
-   "duracion_min": 26.6,
+   "id": "b7UAiK37SQY",
+   "titulo": "Flip-flops: latch R-S, D, T y J-K, tablas de excitación y conversión",
+   "canal": "Pizarrón Binario",
+   "duracion_min": 11.9,
    "formato": "teoria",
-   "nota": 0.7853,
-   "por_que": "Explica a fondo el funcionamiento de los flip-flops RS, D, T y JK mediante sus circuitos, ecuaciones características y tablas de verdad.",
-   "para_quien": "Para estudiar flip-flops a fondo.",
-   "fecha": "2026-09-25",
+   "nota": 0.839,
+   "por_que": "Explica el funcionamiento interno de los biestables y compuertas para comprender cómo los circuitos secuenciales almacenan y procesan bits.",
+   "para_quien": "Para entender los tipos de flip-flops desde cero.",
+   "fecha": "2026-10-30",
    "sin_transcripcion": true
   }
  ],
@@ -1514,15 +1514,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "vz3GyCWxtCg",
-   "titulo": "Resistencia de Materiales 4x02: Flexión. Ley de Navier. Centroide y momento de inercia de sección",
-   "canal": "Jose Luis Blanco",
-   "duracion_min": 37.2,
-   "formato": "teoria",
-   "nota": 0.9006,
-   "por_que": "Repasa los tipos de flexión, la Ley de Navier, el momento de inercia y el teorema de Steiner mediante ejemplos de cálculo.",
-   "para_quien": "Para repasar flexión y ley de Navier.",
-   "fecha": "2026-09-25",
+   "id": "9lwmCi5REZk",
+   "titulo": "How to Find Bending Stress in an I-Beam",
+   "canal": "Brian Bernard",
+   "duracion_min": 8.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.9039,
+   "por_que": "Muestra un ejercicio resuelto paso a paso para calcular el esfuerzo por flexión y las propiedades geométricas de una viga en I.",
+   "para_quien": "Para aplicar la fórmula de flexión en problemas prácticos.",
+   "fecha": "2026-10-30",
    "sin_transcripcion": true
   }
  ],
