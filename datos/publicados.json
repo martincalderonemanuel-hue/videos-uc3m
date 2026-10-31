@@ -317,6 +317,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "gatNNcbtJNc",
+   "titulo": "Cálculo de Impedancias en Circuitos con Transistores y OPAMs aplicando el Teorema de Blackman (P4)",
+   "canal": "Analizando Circuitos con Renato",
+   "duracion_min": 63.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.9725,
+   "por_que": "Permite aprender a calcular resistencias equivalentes en circuitos realimentados utilizando transistores y OPAMs mediante ejemplos prácticos del Teorema de Blackman.",
+   "para_quien": "Para dominar el cálculo avanzado de impedancias.",
+   "fecha": "2026-10-31",
+   "sin_transcripcion": true
+  },
+  {
    "id": "pXhahh7PF28",
    "titulo": "Márgenes en diagramas de Bode.Gm y Pm, relación con ampli realimentado y osciladores.Parte 1.",
    "canal": "MatiTech: ingeniería en español",
@@ -326,18 +338,6 @@
    "por_que": "Ofrece una explicación técnica y práctica sobre los márgenes en diagramas de Bode y su relación con amplificadores realimentados.",
    "para_quien": "Para entender los márgenes de Bode en realimentación.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "R71gKGF3zB0",
-   "titulo": "The Op-Amp Differentiator: Stability, Phase Margin, and Practical Design",
-   "canal": "Paul K",
-   "duracion_min": 5.5,
-   "formato": "practica",
-   "nota": 0.9078,
-   "por_que": "Muestra la transición del circuito diferenciador ideal al diseño práctico y estable utilizando simulaciones en LTspice.",
-   "para_quien": "Para diseñar circuitos diferenciadores estables en aplicaciones reales.",
-   "fecha": "2026-10-24",
    "sin_transcripcion": true
   }
  ],
@@ -699,6 +699,18 @@
  ],
  "TD-08": [
   {
+   "id": "5mSi7BSct1E",
+   "titulo": "Ciclo Diésel Ejercicio Termodinámica Manrique",
+   "canal": "Diego Bolagay",
+   "duracion_min": 18.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.956,
+   "por_que": "Muestra paso a paso la resolución de un ejercicio práctico de un motor de combustión interna basado en el ciclo Diésel.",
+   "para_quien": "Para practicar la resolución de ciclos de potencia.",
+   "fecha": "2026-10-31",
+   "sin_transcripcion": true
+  },
+  {
    "id": "4VaGLlpx7sU",
    "titulo": "Ciclo Otto - Motor de Combustión Interna de 4 Tiempos",
    "canal": "Profesor Sergio Llanos",
@@ -720,18 +732,6 @@
    "por_que": "Resuelve un problema numérico completo sobre el ciclo Otto, aplicando la teoría para calcular temperaturas y trabajo neto.",
    "para_quien": "Para practicar cálculos del ciclo Otto en exámenes.",
    "fecha": "2026-10-18",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "ytswLxZH9LI",
-   "titulo": "Ciclo Diésel | Todo lo que necesitas saber (Explicación + Ejercicio Resuelto)",
-   "canal": "Nacho soluciones",
-   "duracion_min": 14.5,
-   "formato": "problemas_resueltos",
-   "nota": 0.9044,
-   "por_que": "Explica el funcionamiento del ciclo Diésel ideal y real, y muestra paso a paso la resolución de un ejercicio práctico.",
-   "para_quien": "Para practicar con ejercicios resueltos.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
