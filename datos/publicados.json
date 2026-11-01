@@ -471,6 +471,18 @@
  ],
  "TD-02": [
   {
+   "id": "hTCAFD6bRi8",
+   "titulo": "Cambio de entropía en un sistema cerrado ejercicio 7.82 b) Cegel 8va edición  /Tania Cruz",
+   "canal": "Tania Cruz",
+   "duracion_min": 7.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.9135,
+   "por_que": "Permite aprender a calcular el cambio de entropía en un gas ideal dentro de un sistema cerrado aplicando un proceso isobárico con trabajo eléctrico.",
+   "para_quien": "Para practicar cálculos de entropía.",
+   "fecha": "2026-11-01",
+   "sin_transcripcion": true
+  },
+  {
    "id": "wWVadaieGQY",
    "titulo": "Cambio de Entropía en Sustancias Puras | Ejemplo 1 (7-32 Termodinámica Cengel)",
    "canal": "Nacho soluciones",
@@ -492,18 +504,6 @@
    "por_que": "Enseña a resolver un problema práctico de sistema cerrado determinando temperatura final, transferencia de calor y entropía generada.",
    "para_quien": "Para practicar balances en sistemas cerrados.",
    "fecha": "2026-10-16",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "CBG9yxlokJI",
-   "titulo": "Energy Balance problems with solution, Example 3-5",
-   "canal": "Tahereh Jafary",
-   "duracion_min": 51.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.8252,
-   "por_que": "Permite practicar la resolución paso a paso de problemas prácticos sobre balances de energía basados en la bibliografía de Felder.",
-   "para_quien": "Para practicar problemas de balances de energía.",
-   "fecha": "2026-10-17",
    "sin_transcripcion": true
   }
  ],
@@ -1262,6 +1262,18 @@
  ],
  "ME-03": [
   {
+   "id": "7NbvBylRisw",
+   "titulo": "INERCIA,  concepto  de . .  .  .,  ejemplo de cálculo y teorema de Steiner o de los ejes paralelos",
+   "canal": "Ing. Rubén Barranco",
+   "duracion_min": 32.5,
+   "formato": "teoria",
+   "nota": 0.9795,
+   "por_que": "Explica el concepto de inercia y muestra cómo calcularla mediante cálculo integral y el teorema de Steiner.",
+   "para_quien": "Para comprender la geometría de áreas.",
+   "fecha": "2026-11-01",
+   "sin_transcripcion": true
+  },
+  {
    "id": "7vhXW8emlKE",
    "titulo": "TEOREMA DE STEINER o DE LOS EJES PARALELOS",
    "canal": "Profesor Sergio Llanos",
@@ -1283,18 +1295,6 @@
    "por_que": "Enseña el uso de los teoremas de Guldin mediante dos ejercicios prácticos de examen para calcular áreas, volúmenes y centroides.",
    "para_quien": "Para aplicar el teorema de Guldin rápidamente.",
    "fecha": "2026-10-19",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "ozCCBWn5N08",
-   "titulo": "MOMENTOS DE INERCIA |PLANILLA GRATIS| Teorema ejes paralelos | Teorema de Steiner",
-   "canal": "Ingenieria 24-7",
-   "duracion_min": 12.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.9052,
-   "por_que": "Detalla el cálculo de centros de gravedad y momentos de inercia en secciones compuestas usando el teorema de Steiner.",
-   "para_quien": "Para dominar el teorema de Steiner.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -1604,6 +1604,18 @@
  ],
  "ME-10": [
   {
+   "id": "mtaOsB9MIGk",
+   "titulo": "Mech. of Materials-Bending-General Eccentric Loading",
+   "canal": "Understanding Mech. of Materials-Dr A Ghosh",
+   "duracion_min": 26.1,
+   "formato": "teoria",
+   "nota": 0.913,
+   "por_que": "Analiza el caso general de carga excéntrica y la determinación de tensiones cuando la carga no se aplica en un eje de simetría.",
+   "para_quien": "Para estudiar flexión compuesta.",
+   "fecha": "2026-11-01",
+   "sin_transcripcion": true
+  },
+  {
    "id": "MLtOEvCCqwI",
    "titulo": "ESFUERZOS COMBINADOS 😉 Combinacion de CARGAS",
    "canal": "Ingeniosos",
@@ -1624,18 +1636,6 @@
    "nota": 0.8974,
    "por_que": "Permite integrar conceptos de reacciones en vigas, diagramas y tensiones axiales y de flexión para calcular tensiones combinadas.",
    "para_quien": "Para dominar el cálculo de tensiones por flexión compuesta.",
-   "fecha": "2026-10-20",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "AOz1TcNZfq8",
-   "titulo": "Sx, Zx y eje neutro plástico (ENP) | Teoría y ejercicios | ING-CIV322 EP03",
-   "canal": "Emil Guillén De la Cruz",
-   "duracion_min": 19.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.8961,
-   "por_que": "Explica el módulo de sección elástico, el plástico y el eje neutro plástico mediante teoría y la resolución de dos ejercicios.",
-   "para_quien": "Para calcular módulos de sección y ejes neutros.",
    "fecha": "2026-10-20",
    "sin_transcripcion": true
   }
