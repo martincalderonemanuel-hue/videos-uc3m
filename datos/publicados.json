@@ -1094,6 +1094,30 @@
  ],
  "ED-08": [
   {
+   "id": "uYHtp4Vip7A",
+   "titulo": "MÁQUINAS DE ESTADOS FINITOS: Moore, Mealy y un semáforo en seis pasos | Tec. de Computadores 15",
+   "canal": "Gradiente AI",
+   "duracion_min": 7.8,
+   "formato": "teoria",
+   "nota": 0.9755,
+   "por_que": "Explica la estructura y funcionamiento de las máquinas de estados finitos Moore y Mealy aplicadas a circuitos secuenciales síncronos.",
+   "para_quien": "Para comprender máquinas de estados.",
+   "fecha": "2026-11-02",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "NbYJ2gVsoN0",
+   "titulo": "Detector de secuencia con Mealy y Moore: ejercicio resuelto",
+   "canal": "Maldita Electrónica",
+   "duracion_min": 15.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.963,
+   "por_que": "Muestra la resolución paso a paso de un ejercicio de examen sobre detectores de secuencia con máquinas de Mealy y Moore.",
+   "para_quien": "Para preparar exámenes de circuitos secuenciales.",
+   "fecha": "2026-11-02",
+   "sin_transcripcion": true
+  },
+  {
    "id": "3q4nVx97PkU",
    "titulo": "Diseño de sistemas secuenciales. Sistemas digitales. Electrónica y Automática.",
    "canal": "José-María López-Valles",
@@ -1103,30 +1127,6 @@
    "por_que": "Aborda el diseño de sistemas secuenciales y máquinas de estados finitos mediante conceptos previos y ejercicios de aplicación prácticos.",
    "para_quien": "Para diseñar sistemas secuenciales paso a paso.",
    "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "lKrepGNLvgU",
-   "titulo": "Máquinas de Estado y Contadores: El Cerebro de la Electrónica Digital",
-   "canal": "Facil y Rapido",
-   "duracion_min": 8.1,
-   "formato": "teoria",
-   "nota": 0.8635,
-   "por_que": "Explica de forma clara el funcionamiento de las máquinas de estado y los contadores como fundamentos de los circuitos secuenciales.",
-   "para_quien": "Para entender máquinas de estado y contadores.",
-   "fecha": "2026-10-03",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "zuAXgvRmNU8",
-   "titulo": "Guía Completa de Lógica Secuencial y Máquinas de Estado (Mealy vs Moore)",
-   "canal": "Facil y Rapido",
-   "duracion_min": 8.5,
-   "formato": "teoria",
-   "nota": 0.861,
-   "por_que": "Introduce los fundamentos de la lógica secuencial, latches, flip-flops y las diferencias entre máquinas de estado.",
-   "para_quien": "Para entender la teoría desde cero.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -1210,15 +1210,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "_7-D02meh8w",
-   "titulo": "Pares de Fuerzas. Curso de Estática. Clase 21.",
-   "canal": "Profesor Sergio Llanos",
-   "duracion_min": 28.9,
-   "formato": "teoria",
-   "nota": 0.928,
-   "por_que": "Desarrolla el concepto de momento de un par de fuerzas, pares equivalentes y la solución de un problema de estática.",
-   "para_quien": "Para dominar el análisis de pares de fuerzas.",
-   "fecha": "2026-10-14",
+   "id": "B-qd-uDg6co",
+   "titulo": "Mechanics (Lecture 8): Equilibrium of Rigid Bodies",
+   "canal": "Mechanical Engineering-Learn faster",
+   "duracion_min": 35.9,
+   "formato": "problemas_resueltos",
+   "nota": 0.931,
+   "por_que": "Aporta ejemplos resueltos prácticos sobre el equilibrio de cuerpos rígidos en sistemas de fuerzas para afianzar conceptos fundamentales.",
+   "para_quien": "Para repasar el equilibrio de cuerpos.",
+   "fecha": "2026-11-02",
    "sin_transcripcion": true
   }
  ],
@@ -1400,15 +1400,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "GFQ0OOECUaw",
-   "titulo": "Shear Force, Bending Moment & Axial Force Diagrams for Frames",
-   "canal": "Dr Jawed Qureshi",
-   "duracion_min": 23.2,
+   "id": "mhZCDVRqV30",
+   "titulo": "AE1-Análisis de Pórtico Isostático",
+   "canal": "Julián Felipe Herrera Mejía",
+   "duracion_min": 33.1,
    "formato": "problemas_resueltos",
-   "nota": 0.8469,
-   "por_que": "Analiza un pórtico isostático para determinar reacciones en los apoyos y trazar los diagramas de fuerza cortante, flector y axil.",
-   "para_quien": "Para analizar pórticos isostáticos.",
-   "fecha": "2026-10-01",
+   "nota": 0.8685,
+   "por_que": "Muestra el análisis completo de un pórtico isostático con articulaciones, calculando reacciones y determinando fuerzas internas.",
+   "para_quien": "Para aprender a analizar pórticos.",
+   "fecha": "2026-11-02",
    "sin_transcripcion": true
   }
  ],
@@ -1528,6 +1528,18 @@
  ],
  "TD-11": [
   {
+   "id": "2UW_FCY5NJA",
+   "titulo": "Fenómenos de Transporte - Resistencia Térmica - Ejercicio 2 - Geometría cilíndrica + EES",
+   "canal": "Modo Alquimista",
+   "duracion_min": 13.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.925,
+   "por_que": "Permite aprender a resolver problemas de tubos compuestos aplicando resistencias térmicas y software EES para hallar flujo de calor y temperaturas.",
+   "para_quien": "Para practicar cálculos de resistencia térmica.",
+   "fecha": "2026-11-02",
+   "sin_transcripcion": true
+  },
+  {
    "id": "9QDg7h1hYa4",
    "titulo": "Example 1D SS Conduction with Heat Generation by Dr.  Languri",
    "canal": "Energy & Heat",
@@ -1549,18 +1561,6 @@
    "por_que": "Muestra paso a paso cómo resolver un problema de conducción de calor en una pared plana aplicando condiciones de frontera.",
    "para_quien": "Para resolver problemas de pared plana.",
    "fecha": "2026-10-03",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "bLsWC_QgsdM",
-   "titulo": "Transferencia de calor: Conducción de calor con generación en Placa Plana",
-   "canal": "THE CLASS OF TORCHIA",
-   "duracion_min": 17.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.8346,
-   "por_que": "Explica la resolución detallada de un problema clásico de transferencia de calor por conducción con generación en placa plana.",
-   "para_quien": "Para practicar problemas de placa plana.",
-   "fecha": "2026-10-28",
    "sin_transcripcion": true
   }
  ],
