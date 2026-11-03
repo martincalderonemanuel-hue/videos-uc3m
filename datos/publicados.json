@@ -1030,6 +1030,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "93_ZhIxQFUQ",
+   "titulo": "Characteristics Equations of Flip Flops",
+   "canal": "Engg-Course-Made-Easy",
+   "duracion_min": 14.6,
+   "formato": "teoria",
+   "nota": 0.8561,
+   "por_que": "Permite aprender la obtención de las ecuaciones características para los biestables SR, D, JK y T de forma detallada.",
+   "para_quien": "Para comprender el comportamiento matemático de los biestables.",
+   "fecha": "2026-11-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "h2jTMCbu5UM",
    "titulo": "T04-Biestables",
    "canal": "Joaquín C",
@@ -1039,18 +1051,6 @@
    "por_que": "Resuelve un ejercicio completo utilizando biestables para obtener la forma de onda resultante en la salida del circuito.",
    "para_quien": "Para practicar con circuitos de biestables.",
    "fecha": "2026-10-18",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "b7UAiK37SQY",
-   "titulo": "Flip-flops: latch R-S, D, T y J-K, tablas de excitación y conversión",
-   "canal": "Pizarrón Binario",
-   "duracion_min": 11.9,
-   "formato": "teoria",
-   "nota": 0.839,
-   "por_que": "Explica el funcionamiento interno de los biestables y compuertas para comprender cómo los circuitos secuenciales almacenan y procesan bits.",
-   "para_quien": "Para entender los tipos de flip-flops desde cero.",
-   "fecha": "2026-10-30",
    "sin_transcripcion": true
   }
  ],
@@ -1224,6 +1224,18 @@
  ],
  "ME-02": [
   {
+   "id": "4z9o9gmqV-0",
+   "titulo": "1   Viga Isostática con cargas al centro    CURSO ESTRUCTURAS ISOSTÁTICAS 1",
+   "canal": "Cristian Godinez",
+   "duracion_min": 8.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.9705,
+   "por_que": "Explica la obtención de reacciones, ecuaciones de esfuerzos y diagramas en una viga simplemente apoyada con cargas al centro.",
+   "para_quien": "Para aprender a resolver vigas isostáticas desde cero.",
+   "fecha": "2026-11-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "AdqNTmeKTUU",
    "titulo": "Support Reactions of Simply Supported Beam | Numerical Problem Solved | Structural Analysis #tos",
    "canal": "Unite Coaching (Civil Engineering Channel)",
@@ -1245,18 +1257,6 @@
    "por_que": "Explica detalladamente la aplicación del método de los tres momentos para resolver vigas continuas y calcular sus reacciones y momentos.",
    "para_quien": "Para dominar el análisis de vigas continuas.",
    "fecha": "2026-10-19",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "DoCNnRlz_0Y",
-   "titulo": "Statically Indeterminate Beam Solved using Superposition - Find Reaction Forces",
-   "canal": "Brian Bernard",
-   "duracion_min": 13.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.8954,
-   "por_que": "Muestra la resolución de una viga hiperestática aplicando el método de superposición y ecuaciones de compatibilidad.",
-   "para_quien": "Para resolver vigas estáticamente indeterminadas.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -1514,15 +1514,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "9lwmCi5REZk",
-   "titulo": "How to Find Bending Stress in an I-Beam",
-   "canal": "Brian Bernard",
-   "duracion_min": 8.6,
+   "id": "voWBmaqIGWg",
+   "titulo": "Problem 4.3 | Strength of Materials  | Beer & Johnston | Bending Stress | Max Moment in I-Beam",
+   "canal": "Inside Engineering",
+   "duracion_min": 10.3,
    "formato": "problemas_resueltos",
-   "nota": 0.9039,
-   "por_que": "Muestra un ejercicio resuelto paso a paso para calcular el esfuerzo por flexión y las propiedades geométricas de una viga en I.",
-   "para_quien": "Para aplicar la fórmula de flexión en problemas prácticos.",
-   "fecha": "2026-10-30",
+   "nota": 0.9102,
+   "por_que": "Muestra la resolución paso a paso de un problema clásico sobre flexión pura para determinar el momento máximo en una viga.",
+   "para_quien": "Para practicar cálculos de tensión por flexión en vigas.",
+   "fecha": "2026-11-03",
    "sin_transcripcion": true
   }
  ],
@@ -1604,6 +1604,18 @@
  ],
  "ME-10": [
   {
+   "id": "ZeKIm6VyIhY",
+   "titulo": "25. AUX / NÚCLEO CENTRAL - CIV 2203 | FREE BUILDS",
+   "canal": "FREE BUILDS",
+   "duracion_min": 56.8,
+   "formato": "teoria",
+   "nota": 0.9617,
+   "por_que": "Aborda el cálculo del núcleo central en el contexto de la resistencia de materiales y diseño estructural.",
+   "para_quien": "Para dominar el concepto de núcleo central en secciones.",
+   "fecha": "2026-11-03",
+   "sin_transcripcion": true
+  },
+  {
    "id": "mtaOsB9MIGk",
    "titulo": "Mech. of Materials-Bending-General Eccentric Loading",
    "canal": "Understanding Mech. of Materials-Dr A Ghosh",
@@ -1625,18 +1637,6 @@
    "por_que": "Explica cómo se originan las tensiones normales y tangenciales en vigas sometidas a cargas combinadas mediante ejemplos prácticos.",
    "para_quien": "Para dominar los esfuerzos combinados.",
    "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "SzXuD0RFG6Q",
-   "titulo": "Unit8 ex 8.1 Combined Stress v1 - Axial and Bending - Statics and Strength of Materials",
-   "canal": "Mark Mattson",
-   "duracion_min": 31.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.8974,
-   "por_que": "Permite integrar conceptos de reacciones en vigas, diagramas y tensiones axiales y de flexión para calcular tensiones combinadas.",
-   "para_quien": "Para dominar el cálculo de tensiones por flexión compuesta.",
-   "fecha": "2026-10-20",
    "sin_transcripcion": true
   }
  ],
