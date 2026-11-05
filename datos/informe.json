@@ -1,11 +1,9 @@
 {
- "fecha": "2026-11-04 08:51",
- "busquedas": 6,
- "evaluados": 6,
- "publicados_nuevos": 0,
+ "fecha": "2026-11-05 09:18",
+ "busquedas": 90,
+ "evaluados": 131,
+ "publicados_nuevos": 2,
  "retirados": 0,
  "errores": [],
- "avisos": [
-  "YouTube: cuota diaria agotada; se continuará la próxima noche."
- ]
+ "avisos": []
 }

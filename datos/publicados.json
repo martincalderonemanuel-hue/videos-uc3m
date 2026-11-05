@@ -1452,6 +1452,18 @@
  ],
  "ME-08": [
   {
+   "id": "CXL1DQQmdD0",
+   "titulo": "Axial Loads & Deformation: The PL/AE Formula Explained",
+   "canal": "Elementary Engineering",
+   "duracion_min": 9.4,
+   "formato": "teoria",
+   "nota": 0.9195,
+   "por_que": "Explica los principios fundamentales de las cargas axiales y cómo calcular con precisión la deformación en materiales.",
+   "para_quien": "Para entender la deformación axial.",
+   "fecha": "2026-11-05",
+   "sin_transcripcion": true
+  },
+  {
    "id": "cZVyHsw7wyA",
    "titulo": "🔵10 Ejercicios Resueltos de ESFUERZO Normal, Simple en Tensión y Compresión | Mecánica de Materiales",
    "canal": "Cesar Stark",
@@ -1473,18 +1485,6 @@
    "por_que": "Introduce los conceptos teóricos básicos y la formulación fundamental sobre el esfuerzo axial en resistencia de materiales.",
    "para_quien": "Para aprender resistencia desde cero.",
    "fecha": "2026-10-28",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "3g53J-1zKWg",
-   "titulo": "Esfuerzo normal, deformación axial y deformación unitaria",
-   "canal": "Gianfranco Rico Cravioto",
-   "duracion_min": 9.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.8741,
-   "por_que": "Introduce los conceptos fundamentales de resistencia de materiales mediante el cálculo paso a paso del esfuerzo normal y la deformación unitaria.",
-   "para_quien": "Para entender la teoría desde cero.",
-   "fecha": "2026-10-26",
    "sin_transcripcion": true
   }
  ],
@@ -1528,6 +1528,18 @@
  ],
  "TD-11": [
   {
+   "id": "Yop5PeTF8qs",
+   "titulo": "TRANSFERENCIA DE CALOR",
+   "canal": "Tio Tesla ",
+   "duracion_min": 7.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.9425,
+   "por_que": "Permite aprender el proceso básico de transferencia de calor mediante un ejercicio de examen desarrollado paso a paso.",
+   "para_quien": "Para practicar con ejercicios de examen.",
+   "fecha": "2026-11-05",
+   "sin_transcripcion": true
+  },
+  {
    "id": "2UW_FCY5NJA",
    "titulo": "Fenómenos de Transporte - Resistencia Térmica - Ejercicio 2 - Geometría cilíndrica + EES",
    "canal": "Modo Alquimista",
@@ -1549,18 +1561,6 @@
    "por_que": "Muestra la resolución de un ejercicio práctico de conducción unidimensional en estado estacionario con generación de calor.",
    "para_quien": "Para resolver problemas numéricos de conducción.",
    "fecha": "2026-10-28",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "lLUmhi9BE6A",
-   "titulo": "🔥Conducción de Calor en Pared con condiciones de frontera. Ejemplo 2🔥",
-   "canal": "Nacho soluciones",
-   "duracion_min": 8.2,
-   "formato": "problemas_resueltos",
-   "nota": 0.8351,
-   "por_que": "Muestra paso a paso cómo resolver un problema de conducción de calor en una pared plana aplicando condiciones de frontera.",
-   "para_quien": "Para resolver problemas de pared plana.",
-   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ],
