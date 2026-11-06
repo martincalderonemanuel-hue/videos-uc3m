@@ -39,6 +39,18 @@
  ],
  "MM-03": [
   {
+   "id": "oDP3I0aZMj0",
+   "titulo": "¡TRASLACIÓN y ROTACIÓN Combinadas! Dinámica",
+   "canal": "Profesor Sergio Llanos",
+   "duracion_min": 13.3,
+   "formato": "problemas_resueltos",
+   "nota": 0.972,
+   "por_que": "Permite visualizar la aplicación práctica de la dinámica resolviendo un problema de traslación y rotación combinadas en una bola de bolos.",
+   "para_quien": "Para aprender a resolver problemas de dinámica paso a paso.",
+   "fecha": "2026-11-06",
+   "sin_transcripcion": true
+  },
+  {
    "id": "apkStoRtVck",
    "titulo": "MOMENTO DE INERCIA y ENERGÍA CINÉTICA ROTACIONAL",
    "canal": "Profesor Sergio Llanos",
@@ -60,18 +72,6 @@
    "por_que": "Presenta una explicación detallada de un problema dinámico aplicado a una barra homogénea con movimiento pendular.",
    "para_quien": "Para estudiar la dinámica del sólido rígido y cálculo de reacciones.",
    "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "Tp7Nkg5BgKE",
-   "titulo": "EXAMEN FINAL DE FISICA1 , PUCP 24-2 , SOLUC PREGUNTA3 , DINAMICA DEL SOLIDO RIGIDO Y RODADURA PURA",
-   "canal": "ProfeMiky19",
-   "duracion_min": 39.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.945,
-   "por_que": "Permite ver la resolución paso a paso de un ejercicio de examen sobre dinámica del sólido rígido y rodadura pura.",
-   "para_quien": "Para practicar con ejercicios de examen.",
-   "fecha": "2026-10-15",
    "sin_transcripcion": true
   }
  ],
@@ -1414,6 +1414,18 @@
  ],
  "ME-07": [
   {
+   "id": "HLLx3_EdpPM",
+   "titulo": "Resistencia de Materiales - C01 - Introducción, Hipótesis, Tensiones, Deformaciones, Esfuerzo Axil",
+   "canal": "Martin Saravia",
+   "duracion_min": 79.6,
+   "formato": "teoria",
+   "nota": 0.96,
+   "por_que": "Introduce los conceptos fundamentales de la resistencia de materiales, incluyendo hipótesis, tensiones, deformaciones y el esfuerzo axil.",
+   "para_quien": "Para comprender la teoría y conceptos básicos desde cero.",
+   "fecha": "2026-11-06",
+   "sin_transcripcion": true
+  },
+  {
    "id": "a88v3t0rCIc",
    "titulo": "APLICACIÓN DE LA LEY DE HOOKE Y RAZÓN DE POISSON",
    "canal": "TUTORIAL DE ESTRUCTURAS",
@@ -1435,18 +1447,6 @@
    "por_que": "Permite comprender el significado físico del tensor de tensiones y cómo aplicarlo para obtener el vector tensión en un plano.",
    "para_quien": "Para entender el tensor de tensiones.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "ivpQmHuILKo",
-   "titulo": "DIAGRAMA ESFUERZO-DEFORMACIÓN | LEY DE HOOKE | TEORÍA + EJERCICIO EJEMPLO | Mecánica de Materiales",
-   "canal": "IngStark",
-   "duracion_min": 27.4,
-   "formato": "teoria",
-   "nota": 0.8834,
-   "por_que": "Detalla paso a paso el diagrama esfuerzo-deformación y explica cómo obtener propiedades mecánicas como el módulo de elasticidad.",
-   "para_quien": "Para comprender el ensayo de tracción.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -1642,6 +1642,18 @@
  ],
  "ME-11": [
   {
+   "id": "5yqrPH1hAAk",
+   "titulo": "MÉTODO DE LOS NUDOS II",
+   "canal": "TUTORIAL DE ESTRUCTURAS",
+   "duracion_min": 15.5,
+   "formato": "problemas_resueltos",
+   "nota": 0.9445,
+   "por_que": "Muestra la resolución detallada de un ejercicio práctico utilizando el método de los nudos en estructuras articuladas.",
+   "para_quien": "Para practicar la resolución de ejercicios de estructuras.",
+   "fecha": "2026-11-06",
+   "sin_transcripcion": true
+  },
+  {
    "id": "YbggTKAGlkQ",
    "titulo": "Method of Joints – Truss Analysis Step by Step",
    "canal": "Mechanical Engineering Tutor",
@@ -1662,18 +1674,6 @@
    "nota": 0.8981,
    "por_que": "Enseña un método estructurado de cuatro pasos para resolver armaduras mediante el método de los nudos y calcular las fuerzas en cada elemento.",
    "para_quien": "Para dominar el análisis de armaduras en estática.",
-   "fecha": "2026-10-03",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "JU6-eo4W3Qk",
-   "titulo": "Trusses Method of Sections | Mechanics Statics | (Solved examples)",
-   "canal": "Question Solutions",
-   "duracion_min": 11.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.8878,
-   "por_que": "Permite aprender a resolver fuerzas desconocidas en estructuras articuladas mediante el método de secciones con ejemplos prácticos paso a paso.",
-   "para_quien": "Para practicar la resolución de armaduras.",
    "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
