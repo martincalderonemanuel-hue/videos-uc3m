@@ -509,6 +509,18 @@
  ],
  "TD-03": [
   {
+   "id": "OJEYrfj7uZw",
+   "titulo": "Balance de energía en sistemas abiertos",
+   "canal": "Profe Erika Fonseca",
+   "duracion_min": 46.8,
+   "formato": "teoria",
+   "nota": 0.9047,
+   "por_que": "Explica paso a paso la formulación y simplificación del balance de energía en sistemas abiertos mediante un ejercicio práctico.",
+   "para_quien": "Para resolver ejercicios de sistemas abiertos.",
+   "fecha": "2026-11-08",
+   "sin_transcripcion": true
+  },
+  {
    "id": "r-QElaXq7oo",
    "titulo": "Balance de Entropía | Entropía generada en un proceso de expansión. (Explicación + Ejercicio)",
    "canal": "Nacho soluciones",
@@ -530,18 +542,6 @@
    "por_que": "Explica los fundamentos de los sistemas de flujo estacionario enfocados en toberas y difusores, incluyendo balances y ejercicios resueltos.",
    "para_quien": "Para entender sistemas abiertos.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "SUoSfmRtf1c",
-   "titulo": "Entropy Balance | Thermodynamics | (Solved Examples)",
-   "canal": "Question Solutions",
-   "duracion_min": 14.7,
-   "formato": "problemas_resueltos",
-   "nota": 0.8407,
-   "por_que": "Explica los conceptos teóricos del balance de entropía en sistemas abiertos y muestra la resolución paso a paso de ejemplos prácticos.",
-   "para_quien": "Para aprender a resolver balances de entropía.",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
