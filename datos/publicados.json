@@ -127,6 +127,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "bUs6lHjVd8Y",
+   "titulo": "Análisis de movimiento relativo: velocidad ejemplo 3",
+   "canal": "El profe Saw",
+   "duracion_min": 10.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.9225,
+   "por_que": "Aporta un ejemplo práctico resuelto sobre el cálculo de la velocidad en mecanismos de eslabones articulados para afianzar la cinemática plana.",
+   "para_quien": "Para ver ejemplos prácticos de cálculo.",
+   "fecha": "2026-11-10",
+   "sin_transcripcion": true
+  },
+  {
    "id": "PfDBM0Kr5_Y",
    "titulo": "Análisis de velocidad - Parte 1 - Ecuaciones vectoriales y polígono.",
    "canal": "Diego Forcael",
@@ -136,18 +148,6 @@
    "por_que": "Permite aprender la resolución práctica de mecanismos mediante el uso de ecuaciones vectoriales y la construcción del polígono de velocidad.",
    "para_quien": "Para dominar el análisis gráfico y vectorial de velocidades.",
    "fecha": "2026-10-30",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "tJukINWTAYc",
-   "titulo": "ANÁLISIS DE VELOCIDADES EN MECANISMOS | MÉTODO VECTORIAL CINEMÁTICA DE CUERPO RÍGIDO HIBBELER 16.68",
-   "canal": "dcahue-ingeniería",
-   "duracion_min": 24.1,
-   "formato": "problemas_resueltos",
-   "nota": 0.8946,
-   "por_que": "Desarrolla mediante análisis vectorial y sumatorias la velocidad y velocidad relativa en un mecanismo con bloque deslizante.",
-   "para_quien": "Para dominar el análisis vectorial de velocidades",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -647,15 +647,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "iuWcGEQcTqU",
-   "titulo": "Solve Rankine cycle all questions by these 5 easy steps(hindi",
-   "canal": "Manish Mehta - IIT",
-   "duracion_min": 11.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.9448,
-   "por_que": "Presenta un método estructurado en cinco pasos junto al uso de tablas de vapor para resolver ejercicios del ciclo Rankine.",
-   "para_quien": "Para resolver problemas del ciclo Rankine.",
-   "fecha": "2026-09-25",
+   "id": "mqoKaaMaDaA",
+   "titulo": "Thermodynamics: Regenerative Rankine Cycle",
+   "canal": "How To Pass",
+   "duracion_min": 28.1,
+   "formato": "teoria",
+   "nota": 0.9569,
+   "por_que": "Explica detalladamente el ciclo Rankine regenerativo, incluyendo el uso de calentadores abiertos y cerrados y diagramas T-S.",
+   "para_quien": "Para dominar ciclos regenerativos y diagramas T-S.",
+   "fecha": "2026-11-10",
    "sin_transcripcion": true
   }
  ],
