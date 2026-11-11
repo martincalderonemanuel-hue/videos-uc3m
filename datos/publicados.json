@@ -673,6 +673,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "Fe8mGmRGU4U",
+   "titulo": "Brayton Cycle: Regeneration, Intercooling & Thermal Efficiency |  Proof of Max Work Efficiency [ESE]",
+   "canal": "Dr. MDS Academy",
+   "duracion_min": 80.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.9815,
+   "por_que": "Permite resolver un problema complejo sobre el ciclo Brayton y demostrar la eficiencia correspondiente al trabajo máximo en plantas de turbinas de gas.",
+   "para_quien": "Para dominar problemas avanzados de ciclos de potencia.",
+   "fecha": "2026-11-11",
+   "sin_transcripcion": true
+  },
+  {
    "id": "bKClDUZUFl0",
    "titulo": "Gas Turbines & the Brayton Cycle — PE Mechanical TFS Week 5 (Lesson 06 of 12)",
    "canal": "PE Prep Engine",
@@ -682,18 +694,6 @@
    "por_que": "Analiza cómo la relación de presiones impulsa la eficiencia en el ciclo Brayton mediante un ejercicio práctico resuelto de turbinas de gas.",
    "para_quien": "Para comprender el rendimiento en turbinas.",
    "fecha": "2026-10-16",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "TCURu37zZ2w",
-   "titulo": "Thermodynamics 1 Chap6 (Part 3) Brayton cycle with intercooling, reheating n regeneration.",
-   "canal": "PROFESOR MADYA DR HAJI MOHD MAHADZIR MOHAMMUD ",
-   "duracion_min": 35.3,
-   "formato": "teoria",
-   "nota": 0.956,
-   "por_que": "Explica los conceptos y la solución de problemas para el ciclo Brayton con enfriamiento intermedio, rehumidificación y regeneración.",
-   "para_quien": "Para comprender modificaciones del ciclo Brayton.",
-   "fecha": "2026-10-15",
    "sin_transcripcion": true
   }
  ],
@@ -964,6 +964,18 @@
   }
  ],
  "ED-03": [
+  {
+   "id": "HYgWe6lR81E",
+   "titulo": "VHDL desde Cero | Clase 03 – Circuito digital a VHDL paso a paso",
+   "canal": "Raul Doñate | Fabricación y ensamble de PCBs",
+   "duracion_min": 13.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.8225,
+   "por_que": "Muestra paso a paso cómo analizar un circuito lógico combinacional, obtener su ecuación booleana y describirlo en código VHDL.",
+   "para_quien": "Para aprender diseño digital con VHDL.",
+   "fecha": "2026-11-11",
+   "sin_transcripcion": true
+  },
   {
    "id": "AOByEhkVf6Q",
    "titulo": "Aplicación Electrónica Digital: Semaforo [Funciones, Tablas de verdad, Mapas de Karnaugh y Circuito]",
