@@ -1,11 +1,9 @@
 {
- "fecha": "2026-11-11 09:08",
+ "fecha": "2026-11-12 09:43",
  "busquedas": 90,
- "evaluados": 154,
- "publicados_nuevos": 2,
+ "evaluados": 164,
+ "publicados_nuevos": 0,
  "retirados": 0,
  "errores": [],
- "avisos": [
-  "Descartado en la verificación final: Kvt83d5_-dI"
- ]
+ "avisos": []
 }
