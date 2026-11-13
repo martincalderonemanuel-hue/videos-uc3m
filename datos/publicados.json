@@ -761,15 +761,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "55Dthfn5grM",
-   "titulo": "💪 # 4.CICLO de REFRIGERACIÓN REAL (EJERCICIO TIPO EXAMEN) RESUELTO DETALLADAMENTE 👉ENTRA Y APRENDE👍",
-   "canal": "LaMejorAsesoríaEducativa",
-   "duracion_min": 33.9,
-   "formato": "problemas_resueltos",
-   "nota": 0.8567,
-   "por_que": "Explica detalladamente un ejercicio de examen sobre un ciclo de refrigeración real para comprender su resolución paso a paso.",
-   "para_quien": "Para preparar exámenes de refrigeración.",
-   "fecha": "2026-10-03",
+   "id": "ic97bxnJYHI",
+   "titulo": "Refrigeration Cycles Explained: COP, Vapor-Compression, Cascade & Solved R-134a Example | Thermo II",
+   "canal": "Dr. Mahmood Farzaneh-Gord",
+   "duracion_min": 24.6,
+   "formato": "teoria",
+   "nota": 0.869,
+   "por_que": "Explica los fundamentos de los ciclos de refrigeración y el coeficiente de desempeño mediante un ejemplo práctico resuelto paso a paso.",
+   "para_quien": "Para dominar los ciclos de refrigeración y sus problemas.",
+   "fecha": "2026-11-13",
    "sin_transcripcion": true
   }
  ],
@@ -1003,6 +1003,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "hRK4Na6bwyg",
+   "titulo": "Multiplexor, residuos y el 74153: lo que cae del Tema 3 de FSD UNED",
+   "canal": "TE AYUDO CON LOS ESTUDIOS",
+   "duracion_min": 30.4,
+   "formato": "teoria",
+   "nota": 0.9097,
+   "por_que": "Detalla el funcionamiento de los multiplexores y resuelve preguntas reales de examen para afianzar los circuitos combinacionales.",
+   "para_quien": "Para preparar exámenes de sistemas digitales.",
+   "fecha": "2026-11-13",
+   "sin_transcripcion": true
+  },
+  {
    "id": "-twz4E3_R8E",
    "titulo": "CIRCUITOS COMBINACIONALES 06:MULTIPLEXORES Y DECODIFICADORES",
    "canal": "canalfdet",
@@ -1012,18 +1024,6 @@
    "por_que": "Muestra la resolución completa de un problema de circuitos combinacionales utilizando tablas de verdad, mapas de Karnaugh, puertas lógicas, multiplexores y decodificadores.",
    "para_quien": "Para practicar el diseño y simplificación de circuitos lógicos.",
    "fecha": "2026-10-03",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "qP9cVhGPTXo",
-   "titulo": "CIRCUITOS DIGITALES COMBINACIONALES 07",
-   "canal": "canalfdet",
-   "duracion_min": 10.8,
-   "formato": "problemas_resueltos",
-   "nota": 0.8615,
-   "por_que": "Aporta un ejemplo práctico de diseño de circuitos combinacionales mediante tablas de verdad, minterms, mapas de Karnaugh y puertas lógicas.",
-   "para_quien": "Para aprender a diseñar y simplificar circuitos combinacionales.",
-   "fecha": "2026-10-20",
    "sin_transcripcion": true
   }
  ],
