@@ -1248,6 +1248,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "KJb2u1X-ICs",
+   "titulo": "Step-by-Step Analysis of a Beam with Internal Hinges | Shear Force and Bending Moment Diagrams",
+   "canal": "Dariel Verano",
+   "duracion_min": 9.0,
+   "formato": "problemas_resueltos",
+   "nota": 0.9475,
+   "por_que": "Muestra el análisis detallado para calcular reacciones y construir diagramas de esfuerzos en vigas con rótulas internas.",
+   "para_quien": "Para dominar vigas con rótulas",
+   "fecha": "2026-11-15",
+   "sin_transcripcion": true
+  },
+  {
    "id": "AdqNTmeKTUU",
    "titulo": "Support Reactions of Simply Supported Beam | Numerical Problem Solved | Structural Analysis #tos",
    "canal": "Unite Coaching (Civil Engineering Channel)",
@@ -1256,18 +1268,6 @@
    "nota": 0.9445,
    "por_que": "Muestra un problema numérico resuelto paso a paso para calcular las reacciones en los apoyos de una viga simplemente apoyada usando ecuaciones de equilibrio.",
    "para_quien": "Para calcular reacciones en vigas fácilmente.",
-   "fecha": "2026-10-19",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "xROtto_WLVg",
-   "titulo": "MÉTODO DE LOS 3 MOMENTOS. VIGA CONTINÚA.✍️",
-   "canal": "Civil Hacks",
-   "duracion_min": 10.2,
-   "formato": "problemas_resueltos",
-   "nota": 0.9112,
-   "por_que": "Explica detalladamente la aplicación del método de los tres momentos para resolver vigas continuas y calcular sus reacciones y momentos.",
-   "para_quien": "Para dominar el análisis de vigas continuas.",
    "fecha": "2026-10-19",
    "sin_transcripcion": true
   }
@@ -1564,15 +1564,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "9QDg7h1hYa4",
-   "titulo": "Example 1D SS Conduction with Heat Generation by Dr.  Languri",
-   "canal": "Energy & Heat",
-   "duracion_min": 23.1,
+   "id": "w-ru3IXpbcQ",
+   "titulo": "Ejercicio resuelto ✅ de la conducción de calor en un cilindro con generación de calor 🔥",
+   "canal": "Desenmascarando la Termodinámica",
+   "duracion_min": 7.5,
    "formato": "problemas_resueltos",
-   "nota": 0.846,
-   "por_que": "Muestra la resolución de un ejercicio práctico de conducción unidimensional en estado estacionario con generación de calor.",
-   "para_quien": "Para resolver problemas numéricos de conducción.",
-   "fecha": "2026-10-28",
+   "nota": 0.9062,
+   "por_que": "Permite visualizar la resolución paso a paso de un ejercicio práctico de conducción de calor en un cilindro con generación interna.",
+   "para_quien": "Para practicar ejercicios de conducción cilíndrica",
+   "fecha": "2026-11-15",
    "sin_transcripcion": true
   }
  ],
