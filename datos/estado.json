@@ -4,15 +4,15 @@
   "completado": "2026-11-17"
  },
  "MM-03": {
-  "siguiente": 10,
+  "siguiente": 21,
   "completado": "2026-11-10"
  },
  "MM-04": {
-  "siguiente": 10,
+  "siguiente": 21,
   "completado": "2026-11-10"
  },
  "MM-05": {
-  "siguiente": 10,
+  "siguiente": 21,
   "completado": "2026-11-10"
  },
  "MM-06": {
@@ -56,15 +56,15 @@
   "completado": "2026-11-17"
  },
  "TD-02": {
-  "siguiente": 22,
-  "completado": "2026-11-03"
+  "siguiente": 23,
+  "completado": "2026-11-18"
  },
  "TD-03": {
   "siguiente": 19,
   "completado": "2026-11-12"
  },
  "TD-04": {
-  "siguiente": 12,
+  "siguiente": 17,
   "completado": "2026-11-06"
  },
  "TD-05": {
@@ -84,15 +84,15 @@
   "completado": "2026-11-17"
  },
  "TD-09": {
-  "siguiente": 14,
+  "siguiente": 19,
   "completado": "2026-11-05"
  },
  "TD-10": {
-  "siguiente": 14,
-  "completado": "2026-11-05"
+  "siguiente": 19,
+  "completado": "2026-11-18"
  },
  "TD-11": {
-  "siguiente": 11,
+  "siguiente": 15,
   "completado": "2026-11-06"
  },
  "TD-12": {
@@ -100,7 +100,7 @@
   "completado": "2026-11-17"
  },
  "TD-13": {
-  "siguiente": 9,
+  "siguiente": 13,
   "completado": "2026-11-06"
  },
  "ED-01": {
@@ -112,7 +112,7 @@
   "completado": "2026-11-13"
  },
  "ED-03": {
-  "siguiente": 21,
+  "siguiente": 7,
   "completado": "2026-11-11"
  },
  "ED-04": {
@@ -136,11 +136,11 @@
   "completado": "2026-11-16"
  },
  "ED-09": {
-  "siguiente": 19,
+  "siguiente": 6,
   "completado": "2026-11-11"
  },
  "ED-10": {
-  "siguiente": 19,
+  "siguiente": 6,
   "completado": "2026-11-11"
  },
  "ED-11": {
@@ -148,27 +148,27 @@
   "completado": "2026-11-12"
  },
  "ME-01": {
-  "siguiente": 10,
+  "siguiente": 12,
   "completado": "2026-11-06"
  },
  "ME-02": {
-  "siguiente": 9,
+  "siguiente": 11,
   "completado": "2026-11-08"
  },
  "ME-03": {
-  "siguiente": 19,
+  "siguiente": 2,
   "completado": "2026-11-11"
  },
  "ME-04": {
-  "siguiente": 5,
+  "siguiente": 7,
   "completado": "2026-11-09"
  },
  "ME-05": {
-  "siguiente": 3,
+  "siguiente": 5,
   "completado": "2026-11-10"
  },
  "ME-06": {
-  "siguiente": 17,
+  "siguiente": 2,
   "completado": "2026-11-11"
  },
  "ME-07": {
@@ -176,7 +176,7 @@
   "completado": "2026-11-12"
  },
  "ME-08": {
-  "siguiente": 7,
+  "siguiente": 8,
   "completado": "2026-11-08"
  },
  "ME-09": {
@@ -192,7 +192,7 @@
   "completado": "2026-11-16"
  },
  "ME-12": {
-  "siguiente": 19,
+  "siguiente": 20,
   "completado": "2026-10-20"
  }
 }

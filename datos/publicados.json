@@ -39,6 +39,18 @@
  ],
  "MM-03": [
   {
+   "id": "yR-ebzZVM4Q",
+   "titulo": "ME274 Rigid Body Dynamics",
+   "canal": "James Gibert",
+   "duracion_min": 25.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.986,
+   "por_que": "Enseña a resolver problemas de dinámica de sólidos rígidos mediante cuatro ejemplos prácticos y métodos sistemáticos de impulso, energía y restricciones de movimiento.",
+   "para_quien": "Para dominar la resolución práctica de problemas de dinámica.",
+   "fecha": "2026-11-18",
+   "sin_transcripcion": true
+  },
+  {
    "id": "oDP3I0aZMj0",
    "titulo": "¡TRASLACIÓN y ROTACIÓN Combinadas! Dinámica",
    "canal": "Profesor Sergio Llanos",
@@ -59,18 +71,6 @@
    "nota": 0.9675,
    "por_que": "Explica los conceptos de momento de inercia y energía cinética rotacional resolviendo un caso práctico con una pieza compuesta.",
    "para_quien": "Para comprender la energía rotacional y el momento de inercia.",
-   "fecha": "2026-10-01",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "fNOhMehWwSg",
-   "titulo": "Problema de dinámica del sólido rígido (barra con movimiento pendular)*",
-   "canal": "Juan Riveira Tecnología",
-   "duracion_min": 33.5,
-   "formato": "problemas_resueltos",
-   "nota": 0.9538,
-   "por_que": "Presenta una explicación detallada de un problema dinámico aplicado a una barra homogénea con movimiento pendular.",
-   "para_quien": "Para estudiar la dinámica del sólido rígido y cálculo de reacciones.",
    "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
@@ -1336,15 +1336,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "k7pb0MjIviw",
-   "titulo": "Cálculo de vigas |  método por integración | ejercicio 1",
-   "canal": "Física Today",
-   "duracion_min": 22.7,
+   "id": "gT2sDwUJ1qs",
+   "titulo": "Diagrama de Fuerza Cortante y Momento Flector - Prob. 4-30 Hibbeler",
+   "canal": "Math Oroz!",
+   "duracion_min": 22.3,
    "formato": "problemas_resueltos",
-   "nota": 0.8683,
-   "por_que": "Explica el cálculo de reacciones, esfuerzos cortantes y momentos flectores en una viga con carga distribuida triangular usando integrales.",
-   "para_quien": "Para aprender el cálculo de esfuerzos por integración.",
-   "fecha": "2026-10-18",
+   "nota": 0.8684,
+   "por_que": "Explica paso a paso el desarrollo de diagramas de fuerza cortante y momento flector en una viga aplicando el método de corte en un ejercicio clásico.",
+   "para_quien": "Para entender cómo trazar diagramas de esfuerzos.",
+   "fecha": "2026-11-18",
    "sin_transcripcion": true
   }
  ],
@@ -1362,6 +1362,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "Irzkj3jsdd8",
+   "titulo": "Analysing an Arch",
+   "canal": "Yfilios Solution",
+   "duracion_min": 8.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.926,
+   "por_que": "Muestra el cálculo de reacciones y leyes de esfuerzos internos en un arco triarticulado usando ecuaciones de equilibrio basadas en un libro de análisis estructural.",
+   "para_quien": "Para aprender a analizar estructuras con piezas curvas.",
+   "fecha": "2026-11-18",
+   "sin_transcripcion": true
+  },
+  {
    "id": "k7pb0MjIviw",
    "titulo": "Cálculo de vigas |  método por integración | ejercicio 1",
    "canal": "Física Today",
@@ -1370,18 +1382,6 @@
    "nota": 0.8487,
    "por_que": "Enseña el cálculo de reacciones y diagramas en vigas con carga triangular utilizando el método de integración.",
    "para_quien": "Para calcular vigas por integrales.",
-   "fecha": "2026-10-03",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "MBwimvj7Yf8",
-   "titulo": "Diagramas de fuerza CORTANTE y MOMENTO, viga carga PUNTUAL, viga isostática",
-   "canal": "Axel Contreras",
-   "duracion_min": 13.2,
-   "formato": "problemas_resueltos",
-   "nota": 0.8355,
-   "por_que": "Detalla el cálculo de reacciones y la obtención de diagramas de fuerza cortante y momento flector en vigas isostáticas.",
-   "para_quien": "Para trazar diagramas en vigas.",
    "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
