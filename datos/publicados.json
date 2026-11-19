@@ -115,6 +115,18 @@
  ],
  "MM-05": [
   {
+   "id": "6QN6xUsiw7o",
+   "titulo": "#Video On Demand  -  Analizar y simular un mecanismo articulado de cuatro barras.",
+   "canal": "videojars",
+   "duracion_min": 48.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.95,
+   "por_que": "Permite visualizar el análisis y cálculo de aceleraciones mediante la resolución a mano y la simulación práctica en Working Model 2D.",
+   "para_quien": "Para simular mecanismos articulados.",
+   "fecha": "2026-11-19",
+   "sin_transcripcion": true
+  },
+  {
    "id": "4eSp54LFCus",
    "titulo": "🔝ANÁLISIS Del Movimiento RELATIVO Por Medio De Ejes Rotatorios🔛[ACELERACIÓN DE CORIOLIS] FÁCIL",
    "canal": "Matcool",
@@ -136,18 +148,6 @@
    "por_que": "Aporta un ejemplo práctico resuelto sobre el cálculo de la velocidad en mecanismos de eslabones articulados para afianzar la cinemática plana.",
    "para_quien": "Para ver ejemplos prácticos de cálculo.",
    "fecha": "2026-11-10",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "PfDBM0Kr5_Y",
-   "titulo": "Análisis de velocidad - Parte 1 - Ecuaciones vectoriales y polígono.",
-   "canal": "Diego Forcael",
-   "duracion_min": 21.0,
-   "formato": "problemas_resueltos",
-   "nota": 0.9003,
-   "por_que": "Permite aprender la resolución práctica de mecanismos mediante el uso de ecuaciones vectoriales y la construcción del polígono de velocidad.",
-   "para_quien": "Para dominar el análisis gráfico y vectorial de velocidades.",
-   "fecha": "2026-10-30",
    "sin_transcripcion": true
   }
  ],
@@ -1144,6 +1144,18 @@
  ],
  "ED-09": [
   {
+   "id": "jiwHYyludRg",
+   "titulo": "LA MEMORIA CACHÉ: localidad, bloques, correspondencia directa y aciertos | Tec. de Computadores 43",
+   "canal": "Gradiente AI",
+   "duracion_min": 7.1,
+   "formato": "teoria",
+   "nota": 0.9285,
+   "por_que": "Explica de forma clara el funcionamiento de la memoria caché, abarcando conceptos clave como localidad, bloques y correspondencia directa.",
+   "para_quien": "Para comprender la memoria caché.",
+   "fecha": "2026-11-19",
+   "sin_transcripcion": true
+  },
+  {
    "id": "OxaYvJquPe0",
    "titulo": "Direct Memory Mapping – Solved Examples",
    "canal": "Neso Academy",
@@ -1312,6 +1324,18 @@
  ],
  "ME-04": [
   {
+   "id": "2M6lVkxcfxc",
+   "titulo": "Introducción a las vigas | Diagramas de fuerza cortante y momento flector (Clase presencial)",
+   "canal": "Axel Contreras",
+   "duracion_min": 55.7,
+   "formato": "problemas_resueltos",
+   "nota": 0.969,
+   "por_que": "Muestra una clase paso a paso sobre el análisis estructural de vigas y la obtención de diagramas de cortante y flector.",
+   "para_quien": "Para aprender diagramas de esfuerzos.",
+   "fecha": "2026-11-19",
+   "sin_transcripcion": true
+  },
+  {
    "id": "D7RT1QgEEEc",
    "titulo": "RELACION ENTRE CARGA, FUERZA CORTANTE y MOMENTO FLECTOR ejemplo de grafica de VyM Método abreviado",
    "canal": "Anthony Dueñas Ramirez",
@@ -1333,18 +1357,6 @@
    "por_que": "Analiza una viga con cargas distribuidas, puntuales y voladizos aplicando el método de integrales para el cálculo estructural.",
    "para_quien": "Para aplicar el método de integración en vigas.",
    "fecha": "2026-10-18",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "gT2sDwUJ1qs",
-   "titulo": "Diagrama de Fuerza Cortante y Momento Flector - Prob. 4-30 Hibbeler",
-   "canal": "Math Oroz!",
-   "duracion_min": 22.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.8684,
-   "por_que": "Explica paso a paso el desarrollo de diagramas de fuerza cortante y momento flector en una viga aplicando el método de corte en un ejercicio clásico.",
-   "para_quien": "Para entender cómo trazar diagramas de esfuerzos.",
-   "fecha": "2026-11-18",
    "sin_transcripcion": true
   }
  ],
