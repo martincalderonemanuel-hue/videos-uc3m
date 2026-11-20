@@ -1184,6 +1184,18 @@
  ],
  "ED-11": [
   {
+   "id": "QRnbjwBUW6c",
+   "titulo": "PROM, PLA y PAL sin rodeos: Domina el Tema 4 de Sistemas Digitales en 25 min (UNED 2026) 🚀",
+   "canal": "TE AYUDO CON LOS ESTUDIOS",
+   "duracion_min": 25.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.7581,
+   "por_que": "Explica la lógica programable de forma práctica y resuelve ejercicios de exámenes reales de la UNED para dominar el tema sin rodeos.",
+   "para_quien": "Para preparar exámenes y entender PROM, PLA y PAL.",
+   "fecha": "2026-11-20",
+   "sin_transcripcion": true
+  },
+  {
    "id": "XbkOI5G7fZM",
    "titulo": "EL COMPUTADOR COMPLETO: un programa recorre toda la máquina | Tec. de Computadores 48",
    "canal": "Gradiente AI",
