@@ -1027,7 +1027,20 @@
    "sin_transcripcion": true
   }
  ],
- "ED-05": [],
+ "ED-05": [
+  {
+   "id": "SUzfMyHZQnI",
+   "titulo": "EXAMEN 4 de ARITMÉTICA ENTERA: C2, acarreo anticipado, producto y overflow | Tec. de Computadores",
+   "canal": "Gradiente AI",
+   "duracion_min": 11.1,
+   "formato": "problemas_resueltos",
+   "nota": 0.928,
+   "por_que": "Permite practicar con ejercicios de examen sobre aritmética entera, complemento a 2, acarreo anticipado y desbordamiento a un nivel real.",
+   "para_quien": "Para preparar exámenes prácticos de circuitos aritméticos.",
+   "fecha": "2026-11-21",
+   "sin_transcripcion": true
+  }
+ ],
  "ED-06": [
   {
    "id": "nfqN-mc4y7U",
