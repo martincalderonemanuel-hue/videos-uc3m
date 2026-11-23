@@ -267,6 +267,18 @@
  ],
  "EA-03": [
   {
+   "id": "TRNX6LNI8JE",
+   "titulo": "Frequency Response of Amplifiers: Miller Effect, Bandwidth | GATE RA",
+   "canal": "LockedIn Labs",
+   "duracion_min": 22.3,
+   "formato": "teoria",
+   "nota": 0.992,
+   "por_que": "Explica la respuesta en frecuencia de amplificadores con efecto Miller y diagramas de Bode, incluyendo problemas prácticos.",
+   "para_quien": "Para dominar el análisis frecuencial de amplificadores.",
+   "fecha": "2026-11-23",
+   "sin_transcripcion": true
+  },
+  {
    "id": "4kCkK3uwTHk",
    "titulo": "057. BJT Differential Amplifier Frequency Response | Miller Effect, Bandwidth & CMR",
    "canal": "Vasu CL",
@@ -288,18 +300,6 @@
    "por_que": "Facilita el estudio de la respuesta en frecuencia en amplificadores FET, detallando el análisis en corriente continua y las frecuencias de corte.",
    "para_quien": "Para estudiantes de electrónica analógica.",
    "fecha": "2026-10-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "YeLu7qK8CTw",
-   "titulo": "ECE3400 Lecture 36: Treble Response of Common Emitter Amplifiers via Open-Circuit Time Constants",
-   "canal": "Lantertronics",
-   "duracion_min": 25.4,
-   "formato": "teoria",
-   "nota": 0.961,
-   "por_que": "Explica el cálculo de la respuesta en alta frecuencia de amplificadores emisor común utilizando el método de constantes de tiempo de circuito abierto.",
-   "para_quien": "Para dominar el análisis de respuesta en frecuencia.",
-   "fecha": "2026-10-01",
    "sin_transcripcion": true
   }
  ],
@@ -1487,15 +1487,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "v9RHuowbU8E",
-   "titulo": "TENSOR de TENSIONES y vector Tension - RESISTENCIA de MATERIALES",
-   "canal": "Ingeniosos",
-   "duracion_min": 6.5,
-   "formato": "teoria",
-   "nota": 0.8888,
-   "por_que": "Permite comprender el significado físico del tensor de tensiones y cómo aplicarlo para obtener el vector tensión en un plano.",
-   "para_quien": "Para entender el tensor de tensiones.",
-   "fecha": "2026-09-25",
+   "id": "ARd3hRpygvM",
+   "titulo": "Deformación Normal Unitaria || Clase 4: 5 Ejemplos || Problemas 2–3/2–4/2–7/2–8/2–9 Hibbeler 9th ed",
+   "canal": "Ing. Bryan CH",
+   "duracion_min": 27.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.8905,
+   "por_que": "Resuelve cinco ejemplos prácticos del libro de Hibbeler sobre el cálculo de la deformación normal unitaria en elementos.",
+   "para_quien": "Para practicar problemas de deformación normal.",
+   "fecha": "2026-11-23",
    "sin_transcripcion": true
   }
  ],
