@@ -25,15 +25,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "4r_EvmPKOvY",
-   "titulo": "Deriving 3D Rigid Body Physics and implementing it in C/C++ (with intuitions)",
-   "canal": "blackedout01",
-   "duracion_min": 42.7,
-   "formato": "teoria",
-   "nota": 0.935,
-   "por_que": "Aporta deducciones intuitivas de la física del sólido rígido en 3D y su implementación práctica desde cero en C y C++.",
-   "para_quien": "Para programar simulaciones físicas 3D.",
-   "fecha": "2026-10-27",
+   "id": "l3JZuh44cfg",
+   "titulo": "Rigid Body Kinematics: Acceleration Analysis Example (Dynamics Tutorial)",
+   "canal": "Masoud Olia, Ph.D., PE",
+   "duracion_min": 18.8,
+   "formato": "problemas_resueltos",
+   "nota": 0.9473,
+   "por_que": "",
+   "para_quien": "",
+   "fecha": "2026-11-24",
    "sin_transcripcion": true
   }
  ],
@@ -699,6 +699,18 @@
  ],
  "TD-08": [
   {
+   "id": "PoLNN0PmVNs",
+   "titulo": "Otto Cycle Best Explanation Ever",
+   "canal": "Brain Station Advanced",
+   "duracion_min": 10.8,
+   "formato": "teoria",
+   "nota": 0.9625,
+   "por_que": "",
+   "para_quien": "",
+   "fecha": "2026-11-24",
+   "sin_transcripcion": true
+  },
+  {
    "id": "5mSi7BSct1E",
    "titulo": "Ciclo Diésel Ejercicio Termodinámica Manrique",
    "canal": "Diego Bolagay",
@@ -720,18 +732,6 @@
    "por_que": "Permite visualizar y comprender cada etapa del ciclo termodinámico de Otto en los motores de combustión interna de cuatro tiempos.",
    "para_quien": "Para entender la teoría desde cero.",
    "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "1SPVEDeW-OA",
-   "titulo": "19. ATD-U1-Numerical-4: Otto Cycle",
-   "canal": "Anveshana Academy",
-   "duracion_min": 20.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.9285,
-   "por_que": "Resuelve un problema numérico completo sobre el ciclo Otto, aplicando la teoría para calcular temperaturas y trabajo neto.",
-   "para_quien": "Para practicar cálculos del ciclo Otto en exámenes.",
-   "fecha": "2026-10-18",
    "sin_transcripcion": true
   }
  ],
@@ -1055,6 +1055,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "I1eo6xbn0FU",
+   "titulo": "Derivation for Setup and Hold time equations | in Flip Flop | With Numerical example | Part -1",
+   "canal": "Team VLSI",
+   "duracion_min": 35.3,
+   "formato": "teoria",
+   "nota": 0.8771,
+   "por_que": "",
+   "para_quien": "",
+   "fecha": "2026-11-24",
+   "sin_transcripcion": true
+  },
+  {
    "id": "93_ZhIxQFUQ",
    "titulo": "Characteristics Equations of Flip Flops",
    "canal": "Engg-Course-Made-Easy",
@@ -1064,18 +1076,6 @@
    "por_que": "Permite aprender la obtención de las ecuaciones características para los biestables SR, D, JK y T de forma detallada.",
    "para_quien": "Para comprender el comportamiento matemático de los biestables.",
    "fecha": "2026-11-03",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "h2jTMCbu5UM",
-   "titulo": "T04-Biestables",
-   "canal": "Joaquín C",
-   "duracion_min": 11.4,
-   "formato": "problemas_resueltos",
-   "nota": 0.8535,
-   "por_que": "Resuelve un ejercicio completo utilizando biestables para obtener la forma de onda resultante en la salida del circuito.",
-   "para_quien": "Para practicar con circuitos de biestables.",
-   "fecha": "2026-10-18",
    "sin_transcripcion": true
   }
  ],

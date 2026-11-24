@@ -1,9 +1,11 @@
 {
- "fecha": "2026-11-23 10:34",
+ "fecha": "2026-11-24 12:28",
  "busquedas": 90,
- "evaluados": 79,
- "publicados_nuevos": 2,
+ "evaluados": 88,
+ "publicados_nuevos": 3,
  "retirados": 0,
  "errores": [],
- "avisos": []
+ "avisos": [
+  "Gemini no explicó 3 vídeos; se publican sin explicación."
+ ]
 }
