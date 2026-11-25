@@ -471,6 +471,18 @@
  ],
  "TD-02": [
   {
+   "id": "vJcOocUKkzQ",
+   "titulo": "Entropy - Closed System",
+   "canal": "Engineering Corner",
+   "duracion_min": 13.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.9375,
+   "por_que": "",
+   "para_quien": "",
+   "fecha": "2026-11-25",
+   "sin_transcripcion": true
+  },
+  {
    "id": "hTCAFD6bRi8",
    "titulo": "Cambio de entropía en un sistema cerrado ejercicio 7.82 b) Cegel 8va edición  /Tania Cruz",
    "canal": "Tania Cruz",
@@ -492,18 +504,6 @@
    "por_que": "Explica el cálculo del cambio de entropía en sustancias puras resolviendo un ejercicio mediante el uso de tablas termodinámicas.",
    "para_quien": "Para calcular entropía con tablas.",
    "fecha": "2026-10-02",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "CfiJEAW7gf8",
-   "titulo": "Generación de entropía (sistema cerrado, análisis estacionario) -  Termodinámica",
-   "canal": "E. P. Miranda",
-   "duracion_min": 23.7,
-   "formato": "problemas_resueltos",
-   "nota": 0.8692,
-   "por_que": "Enseña a resolver un problema práctico de sistema cerrado determinando temperatura final, transferencia de calor y entropía generada.",
-   "para_quien": "Para practicar balances en sistemas cerrados.",
-   "fecha": "2026-10-16",
    "sin_transcripcion": true
   }
  ],
@@ -913,15 +913,15 @@
    "sin_transcripcion": true
   },
   {
-   "id": "fRfP80D1zuI",
-   "titulo": "CONVERSIÓN de BINARIO a CÓDIGO GRAY - Ejercicio #1",
-   "canal": "Estudia Con Marisol",
-   "duracion_min": 5.3,
-   "formato": "problemas_resueltos",
-   "nota": 0.8779,
-   "por_que": "Muestra mediante un ejercicio práctico y sencillo cómo realizar la conversión de un sistema numérico binario a código Gray.",
-   "para_quien": "Para aprender conversiones numéricas básicas",
-   "fecha": "2026-10-01",
+   "id": "S-WeuctwA-M",
+   "titulo": "CUET PG 2026 Computer Codes Complete Lecture | BCD, ASCII, EBCDIC, Unicode, Gray Code",
+   "canal": "NIMCET Toppers Factory - Aspire Study",
+   "duracion_min": 73.9,
+   "formato": "teoria",
+   "nota": 0.881,
+   "por_que": "",
+   "para_quien": "",
+   "fecha": "2026-11-25",
    "sin_transcripcion": true
   }
  ],
