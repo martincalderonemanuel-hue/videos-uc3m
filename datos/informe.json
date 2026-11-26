@@ -1,12 +1,9 @@
 {
- "fecha": "2026-11-25 11:14",
- "busquedas": 81,
- "evaluados": 71,
+ "fecha": "2026-11-26 10:55",
+ "busquedas": 90,
+ "evaluados": 93,
  "publicados_nuevos": 2,
  "retirados": 0,
  "errores": [],
- "avisos": [
-  "YouTube: cuota diaria agotada; se continuará la próxima noche.",
-  "Gemini no explicó 2 vídeos; se publican sin explicación."
- ]
+ "avisos": []
 }
