@@ -305,6 +305,18 @@
  ],
  "EA-04": [
   {
+   "id": "tB1IsNVzSyU",
+   "titulo": "Feedback Amplifiers: 4 Topologies, Gain & Stability | GATE RA",
+   "canal": "LockedIn Labs",
+   "duracion_min": 22.5,
+   "formato": "teoria",
+   "nota": 0.997,
+   "por_que": "Permite estudiar la realimentación negativa analizando sus cuatro topologías, el impacto en la ganancia y la estabilidad mediante problemas prácticos.",
+   "para_quien": "Para dominar las topologías y estabilidad de amplificadores.",
+   "fecha": "2026-11-27",
+   "sin_transcripcion": true
+  },
+  {
    "id": "CcGb7tCGn1Q",
    "titulo": "Amplifier Modeling 💡 Open-Loop, Closed-Loop, Frequency Response & Stability Margins (Gain & Phase)",
    "canal": "CAN Education",
@@ -326,18 +338,6 @@
    "por_que": "Permite aprender a calcular resistencias equivalentes en circuitos realimentados utilizando transistores y OPAMs mediante ejemplos prácticos del Teorema de Blackman.",
    "para_quien": "Para dominar el cálculo avanzado de impedancias.",
    "fecha": "2026-10-31",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "pXhahh7PF28",
-   "titulo": "Márgenes en diagramas de Bode.Gm y Pm, relación con ampli realimentado y osciladores.Parte 1.",
-   "canal": "MatiTech: ingeniería en español",
-   "duracion_min": 13.7,
-   "formato": "teoria",
-   "nota": 0.964,
-   "por_que": "Ofrece una explicación técnica y práctica sobre los márgenes en diagramas de Bode y su relación con amplificadores realimentados.",
-   "para_quien": "Para entender los márgenes de Bode en realimentación.",
-   "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
  ],
@@ -737,6 +737,18 @@
  ],
  "TD-09": [
   {
+   "id": "Le3vz3ypWUQ",
+   "titulo": "Ejercicio de máquina frigorífica ideal (Carnot)",
+   "canal": "Juan Riveira Tecnología",
+   "duracion_min": 8.2,
+   "formato": "problemas_resueltos",
+   "nota": 0.8939,
+   "por_que": "Muestra el cálculo paso a paso de la potencia mínima de una máquina frigorífica aplicando el ciclo inverso de Carnot.",
+   "para_quien": "Para resolver ejercicios prácticos de refrigeración.",
+   "fecha": "2026-11-27",
+   "sin_transcripcion": true
+  },
+  {
    "id": "gTY9_pbmKx8",
    "titulo": "Carnot Refrigerators and Heat Pumps | Thermodynamics | (Solved Examples)",
    "canal": "Question Solutions",
@@ -758,18 +770,6 @@
    "por_que": "Explica el funcionamiento de refrigeradores y bombas de calor aplicando conceptos de entalpía y resolviendo ejemplos prácticos paso a paso.",
    "para_quien": "Para comprender ciclos de refrigeración mediante ejemplos.",
    "fecha": "2026-10-17",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "ic97bxnJYHI",
-   "titulo": "Refrigeration Cycles Explained: COP, Vapor-Compression, Cascade & Solved R-134a Example | Thermo II",
-   "canal": "Dr. Mahmood Farzaneh-Gord",
-   "duracion_min": 24.6,
-   "formato": "teoria",
-   "nota": 0.869,
-   "por_que": "Explica los fundamentos de los ciclos de refrigeración y el coeficiente de desempeño mediante un ejemplo práctico resuelto paso a paso.",
-   "para_quien": "Para dominar los ciclos de refrigeración y sus problemas.",
-   "fecha": "2026-11-13",
    "sin_transcripcion": true
   }
  ],
@@ -939,6 +939,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "ink03vU3z4A",
+   "titulo": "Practice Questions I: Boolean Algebra Simplification | Logic Gates Series | 10th Video",
+   "canal": "PPB",
+   "duracion_min": 14.6,
+   "formato": "problemas_resueltos",
+   "nota": 0.9579,
+   "por_que": "Ofrece ejercicios prácticos resueltos paso a paso para dominar las leyes del álgebra de Boole y la simplificación de expresiones lógicas.",
+   "para_quien": "Para practicar la simplificación booleana.",
+   "fecha": "2026-11-27",
+   "sin_transcripcion": true
+  },
+  {
    "id": "fLGhzvmcu-Y",
    "titulo": "SIMPLIFICACIÓN DE FUNCIONES BOOLEANAS - Ejercicio #4",
    "canal": "Estudia Con Marisol",
@@ -947,18 +959,6 @@
    "nota": 0.9305,
    "por_que": "Explica paso a paso la simplificación de una función booleana utilizando las leyes, reglas y teoremas del álgebra de Boole.",
    "para_quien": "Para practicar la simplificación booleana.",
-   "fecha": "2026-09-25",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "ZJfVoQXGp4M",
-   "titulo": "SIMPLIFICACIÓN DE FUNCIONES BOOLEANAS - Ejercicio #9",
-   "canal": "Estudia Con Marisol",
-   "duracion_min": 6.7,
-   "formato": "problemas_resueltos",
-   "nota": 0.9304,
-   "por_que": "Muestra la resolución detallada de otro ejercicio de reducción de funciones booleanas aplicando propiedades algebraicas.",
-   "para_quien": "Para ver más ejemplos de simplificación.",
    "fecha": "2026-09-25",
    "sin_transcripcion": true
   }
@@ -1003,6 +1003,18 @@
    "sin_transcripcion": true
   },
   {
+   "id": "4BbGRtaqU3k",
+   "titulo": "FUNCIONES CON MUX Y DECODIFICADORES: mayoría y sumador completo | Tec. de Computadores 11",
+   "canal": "Gradiente AI",
+   "duracion_min": 6.4,
+   "formato": "problemas_resueltos",
+   "nota": 0.9505,
+   "por_que": "Enseña a implementar funciones lógicas mediante bloques combinacionales como multiplexores y decodificadores con ejercicios prácticos.",
+   "para_quien": "Para aprender diseño con multiplexores y decodificadores.",
+   "fecha": "2026-11-27",
+   "sin_transcripcion": true
+  },
+  {
    "id": "hRK4Na6bwyg",
    "titulo": "Multiplexor, residuos y el 74153: lo que cae del Tema 3 de FSD UNED",
    "canal": "TE AYUDO CON LOS ESTUDIOS",
@@ -1012,18 +1024,6 @@
    "por_que": "Detalla el funcionamiento de los multiplexores y resuelve preguntas reales de examen para afianzar los circuitos combinacionales.",
    "para_quien": "Para preparar exámenes de sistemas digitales.",
    "fecha": "2026-11-13",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "-twz4E3_R8E",
-   "titulo": "CIRCUITOS COMBINACIONALES 06:MULTIPLEXORES Y DECODIFICADORES",
-   "canal": "canalfdet",
-   "duracion_min": 22.8,
-   "formato": "problemas_resueltos",
-   "nota": 0.8775,
-   "por_que": "Muestra la resolución completa de un problema de circuitos combinacionales utilizando tablas de verdad, mapas de Karnaugh, puertas lógicas, multiplexores y decodificadores.",
-   "para_quien": "Para practicar el diseño y simplificación de circuitos lógicos.",
-   "fecha": "2026-10-03",
    "sin_transcripcion": true
   }
  ],

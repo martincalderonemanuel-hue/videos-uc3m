@@ -4,15 +4,15 @@
   "completado": "2026-11-25"
  },
  "MM-03": {
-  "siguiente": 10,
+  "siguiente": 20,
   "completado": "2026-11-19"
  },
  "MM-04": {
-  "siguiente": 9,
+  "siguiente": 18,
   "completado": "2026-11-19"
  },
  "MM-05": {
-  "siguiente": 9,
+  "siguiente": 18,
   "completado": "2026-11-19"
  },
  "MM-06": {
@@ -24,19 +24,19 @@
   "completado": "2026-11-23"
  },
  "EA-01": {
-  "siguiente": 17,
+  "siguiente": 21,
   "completado": "2026-11-15"
  },
  "EA-02": {
-  "siguiente": 15,
+  "siguiente": 18,
   "completado": "2026-11-16"
  },
  "EA-03": {
-  "siguiente": 15,
+  "siguiente": 18,
   "completado": "2026-11-16"
  },
  "EA-04": {
-  "siguiente": 15,
+  "siguiente": 18,
   "completado": "2026-11-15"
  },
  "EA-05": {
@@ -44,19 +44,19 @@
   "completado": "2026-11-23"
  },
  "EA-06": {
-  "siguiente": 14,
+  "siguiente": 17,
   "completado": "2026-11-16"
  },
  "EA-07": {
-  "siguiente": 14,
+  "siguiente": 17,
   "completado": "2026-11-16"
  },
  "EA-08": {
-  "siguiente": 9,
+  "siguiente": 12,
   "completado": "2026-11-17"
  },
  "TD-02": {
-  "siguiente": 10,
+  "siguiente": 15,
   "completado": "2026-11-18"
  },
  "TD-03": {
@@ -84,11 +84,11 @@
   "completado": "2026-11-26"
  },
  "TD-09": {
-  "siguiente": 4,
+  "siguiente": 9,
   "completado": "2026-11-19"
  },
  "TD-10": {
-  "siguiente": 8,
+  "siguiente": 12,
   "completado": "2026-11-18"
  },
  "TD-11": {
@@ -100,15 +100,15 @@
   "completado": "2026-11-26"
  },
  "TD-13": {
-  "siguiente": 21,
+  "siguiente": 4,
   "completado": "2026-11-20"
  },
  "ED-01": {
-  "siguiente": 15,
+  "siguiente": 17,
   "completado": "2026-11-12"
  },
  "ED-02": {
-  "siguiente": 14,
+  "siguiente": 16,
   "completado": "2026-11-13"
  },
  "ED-03": {
@@ -116,7 +116,7 @@
   "completado": "2026-11-21"
  },
  "ED-04": {
-  "siguiente": 10,
+  "siguiente": 12,
   "completado": "2026-11-16"
  },
  "ED-05": {
@@ -124,15 +124,15 @@
   "completado": "2026-11-21"
  },
  "ED-06": {
-  "siguiente": 9,
+  "siguiente": 11,
   "completado": "2026-11-16"
  },
  "ED-07": {
-  "siguiente": 12,
+  "siguiente": 14,
   "completado": "2026-11-15"
  },
  "ED-08": {
-  "siguiente": 9,
+  "siguiente": 11,
   "completado": "2026-11-16"
  },
  "ED-09": {
@@ -144,11 +144,11 @@
   "completado": "2026-11-21"
  },
  "ED-11": {
-  "siguiente": 20,
+  "siguiente": 21,
   "completado": "2026-11-12"
  },
  "ME-01": {
-  "siguiente": 17,
+  "siguiente": 2,
   "completado": "2026-11-20"
  },
  "ME-02": {
@@ -168,11 +168,11 @@
   "completado": "2026-11-24"
  },
  "ME-06": {
-  "siguiente": 15,
-  "completado": "2026-11-11"
+  "siguiente": 17,
+  "completado": "2026-11-27"
  },
  "ME-07": {
-  "siguiente": 13,
+  "siguiente": 14,
   "completado": "2026-11-12"
  },
  "ME-08": {
@@ -180,19 +180,19 @@
   "completado": "2026-11-21"
  },
  "ME-09": {
-  "siguiente": 12,
+  "siguiente": 13,
   "completado": "2026-11-12"
  },
  "ME-10": {
-  "siguiente": 10,
+  "siguiente": 11,
   "completado": "2026-11-13"
  },
  "ME-11": {
-  "siguiente": 4,
+  "siguiente": 5,
   "completado": "2026-11-16"
  },
  "ME-12": {
-  "siguiente": 1,
+  "siguiente": 2,
   "completado": "2026-11-19"
  }
 }
