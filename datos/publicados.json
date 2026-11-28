@@ -381,6 +381,18 @@
  ],
  "EA-07": [
   {
+   "id": "1ZOa1WemNTs",
+   "titulo": "6.2 | Timer IC 555 | Astable MV | V H Mankar |",
+   "canal": "Vijay Mankar",
+   "duracion_min": 32.9,
+   "formato": "teoria",
+   "nota": 0.9695,
+   "por_que": "Explica el funcionamiento del circuito astable con el temporizador 555, incluyendo la deducción de su frecuencia de oscilación y ejemplos prácticos de diseño.",
+   "para_quien": "Para aprender el diseño del temporizador 555.",
+   "fecha": "2026-11-28",
+   "sin_transcripcion": true
+  },
+  {
    "id": "QF6Ph0KHeqc",
    "titulo": "Amplificador como comparador: Disparador Schmitt no inversor",
    "canal": "Ricardo Cruz",
@@ -402,18 +414,6 @@
    "por_que": "Muestra cómo se deducen las fórmulas de temporización y cómo utilizarlas con valores reales para calcular la frecuencia de salida.",
    "para_quien": "Para entender fórmulas y cálculos del temporizador 555.",
    "fecha": "2026-10-16",
-   "sin_transcripcion": true
-  },
-  {
-   "id": "9hC3O4X-WLc",
-   "titulo": "Electrónica Analógica: Dominando el C.I 555 y su configuración real",
-   "canal": "Mate Electrónica",
-   "duracion_min": 21.3,
-   "formato": "practica",
-   "nota": 0.9021,
-   "por_que": "Aporta una guía práctica paso a paso para configurar el circuito integrado 555 en modo monoestable y calcular su tiempo de retardo.",
-   "para_quien": "Para aprender la configuración práctica del C.I. 555.",
-   "fecha": "2026-10-02",
    "sin_transcripcion": true
   }
  ],
@@ -1038,6 +1038,18 @@
    "por_que": "Permite practicar con ejercicios de examen sobre aritmética entera, complemento a 2, acarreo anticipado y desbordamiento a un nivel real.",
    "para_quien": "Para preparar exámenes prácticos de circuitos aritméticos.",
    "fecha": "2026-11-21",
+   "sin_transcripcion": true
+  },
+  {
+   "id": "S4u2oK6Zr8k",
+   "titulo": "¿CÓMO SUMA UN COMPUTADOR? Semisumador, sumador completo, resta y overflow | Tec. de Computadores 26",
+   "canal": "Gradiente AI",
+   "duracion_min": 6.8,
+   "formato": "teoria",
+   "nota": 0.8771,
+   "por_que": "Muestra la construcción paso a paso de sumadores binarios, desde el semisumador y el sumador completo hasta circuitos más complejos con puertas lógicas.",
+   "para_quien": "Para entender sumadores lógicos.",
+   "fecha": "2026-11-28",
    "sin_transcripcion": true
   }
  ],
